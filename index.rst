@@ -1,7 +1,7 @@
-Applications, Compilers, and MPIs on Purdue RCAC Bell Cluster
+Scientific Applications on Purdue RCAC Clusters
 ==============================================
 
-This is the list of Applications, Compilers, and MPIs deployed on Purdue Bell cluster. More information about our center is avaiable here (https://www.rcac.purdue.edu/knowledge/bell).  
+This is the list of Applications, Compilers, and MPIs deployed on Purdue RCAC Clusters. More information about our center is avaiable here (https://www.rcac.purdue.edu).  
 
 .. toctree::
    :caption: Applications
