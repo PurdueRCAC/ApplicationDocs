@@ -7,10 +7,6 @@ This is the list of Applications, Compilers, and MPIs deployed on Purdue Bell cl
    :caption: Applications
    :titlesonly:
    
-   rule :
-     global :
-        case : 'upper'
-   
    Applications/abaqus
    Applications/all
    Applications/anaconda
