@@ -6,7 +6,7 @@ version: 2
 #
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
-   configuration: configs/conf.py
+   configuration: conf.py
 
 build:
    os: ubuntu-22.04
@@ -19,7 +19,7 @@ build:
 # Optionally set the version of Python and requirements required to build your docs
 python:
    install:
-   - requirements: configs/requirements.txt
+   - requirements: requirements.txt
 
 # Avoid cloning submodules
 submodules:
