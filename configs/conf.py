@@ -1,299 +1,212 @@
-# Configuration file for the Sphinx documentation builder.
-#
-# This file only contains a selection of the most common options. For a full
-# list see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
+"""
+Shared Sphinx configuration using sphinx-multiproject.
+To build each project, the ``PROJECT`` environment variable is used.
+.. code:: console
+   $ make html  # build default project
+   $ PROJECT=dev make html  # build the dev project
+for more information read https://sphinx-multiproject.readthedocs.io/.
+"""
 
-# -- Path setup --------------------------------------------------------------
-
-# If extensions (or modules to document with autodoc) are in another directory,
-# add these directories to sys.path here. If the directory is relative to the
-# documentation root, use os.path.abspath to make it absolute, like shown here.
-#
 import os
 import sys
 
-# -- Path setup --------------------------------------------------------------
+import sphinx_rtd_theme
+from multiproject.utils import get_project
 
-# sys.path.insert(0, os.path.abspath('.'))
-# Our extension
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "_ext")))
-# Weblate code
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+sys.path.insert(0, os.path.abspath(".."))
+sys.path.append(os.path.dirname(__file__))
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "readthedocs.settings.dev")
 
+# Load Django after sys.path and configuration setup
+# isort: split
+import django
 
-def setup(app):
-    app.add_css_file("https://s.weblate.org/cdn/font-source/source-sans-3.css")
-    app.add_css_file("https://s.weblate.org/cdn/font-source/source-code-pro.css")
-    app.add_css_file("docs.css")
-    # Used in Sphinx docs, needed for intersphinx links to it
-    app.add_object_type(
-        "confval",
-        "confval",
-        objname="configuration value",
-        indextemplate="pair: %s; configuration value",
-    )
+django.setup()
 
-
-# -- Project information -----------------------------------------------------
-
-project = "RCAC"
-copyright = "2022–2032 Yucheng Zhang"
-author = "Yucheng Zhang"
-
-# The full version, including alpha/beta/rc tags
-release = "1.0"
-
-
-# -- General configuration ---------------------------------------------------
-
-# Add any Sphinx extension module names here, as strings. They can be
-# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
-# ones.
+sys.path.append(os.path.abspath("_ext"))
 extensions = [
-    "djangodocs",
-    "sphinxcontrib.httpdomain",
+    "multiproject",
+    "sphinx.ext.autosectionlabel",
     "sphinx.ext.autodoc",
-    "sphinx.ext.graphviz",
     "sphinx.ext.intersphinx",
-    "sphinx-jsonschema",
-    "sphinx_rtd_theme",
+    "sphinxcontrib.httpdomain",
+    "sphinxcontrib.video",
+    "djangodocs",
+    "doc_extensions",
+    "sphinx_tabs.tabs",
+    "sphinx-prompt",
+    "notfound.extension",
+    "hoverxref.extension",
+    "sphinx_search.extension",
+    "sphinxemoji.sphinxemoji",
+    "sphinx_design",
+    "myst_parser",
 ]
 
-# Add any paths that contain templates here, relative to this directory.
+multiproject_projects = {
+    "user": {
+        "use_config_file": False,
+        "config": {
+            "project": "Read the Docs user documentation",
+        },
+    },
+    "dev": {
+        "use_config_file": False,
+        "config": {
+            "project": "Read the Docs developer documentation",
+        },
+    },
+}
+
+docset = get_project(multiproject_projects)
+
+
 templates_path = ["_templates"]
 
-# List of patterns, relative to source directory, that match files and
-# directories to ignore when looking for source files.
-
-
-# -- Options for HTML output -------------------------------------------------
-
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-#
-html_theme = "sphinx_rtd_theme"
-
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ["configs/"]
-
-
-html_logo = "configs/rcac.jpeg"
-
-
-# -- Options for HTMLHelp output ---------------------------------------------
-
-# Output file base name for HTML help builder.
-htmlhelp_basename = "rcacdoc"
-
-
-# -- Options for LaTeX output ------------------------------------------------
-
-PREAMBLE = r"""
-\pagestyle{fancy}
-\setcounter{tocdepth}{1}
-\usepackage{hyperref}
-"""
-
-latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    "papersize": "a4paper",
-    # The font size ('10pt', '11pt' or '12pt').
-    # 'pointsize': '10pt',
-    # Additional stuff for the LaTeX preamble.
-    "preamble": PREAMBLE,
-    # Avoid opening chapter only on even pages
-    "extraclassoptions": "openany",
-    # Latex figure (float) alignment
-    # 'figure_align': 'htbp',
+master_doc = "index"
+copyright = "Read the Docs, Inc & contributors"
+version = "9.2.0"
+release = version
+exclude_patterns = ["_build", "shared"]
+default_role = "obj"
+intersphinx_timeout = 3  # 3 seconds timeout
+intersphinx_mapping = {
+    "python": ("https://docs.python.org/3.10/", None),
+    "django": (
+        "https://docs.djangoproject.com/en/stable/",
+        "https://docs.djangoproject.com/en/stable/_objects/",
+    ),
+    "sphinx": ("https://www.sphinx-doc.org/en/master/", None),
+    "pip": ("https://pip.pypa.io/en/stable/", None),
+    "nbsphinx": ("https://nbsphinx.readthedocs.io/en/latest/", None),
+    "myst-nb": ("https://myst-nb.readthedocs.io/en/stable/", None),
+    "ipywidgets": ("https://ipywidgets.readthedocs.io/en/stable/", None),
+    "jupytext": ("https://jupytext.readthedocs.io/en/stable/", None),
+    "ipyleaflet": ("https://ipyleaflet.readthedocs.io/en/latest/", None),
+    "poliastro": ("https://docs.poliastro.space/en/stable/", None),
+    "qiskit": ("https://qiskit.org/documentation/", None),
+    "myst-parser": ("https://myst-parser.readthedocs.io/en/stable/", None),
+    "writethedocs": ("https://www.writethedocs.org/", None),
+    "jupyterbook": ("https://jupyterbook.org/en/stable/", None),
+    "executablebook": ("https://executablebooks.org/en/latest/", None),
+    "rst-to-myst": ("https://rst-to-myst.readthedocs.io/en/stable/", None),
+    "rtd": ("https://docs.readthedocs.io/en/stable/", None),
+    "rtd-dev": ("https://dev.readthedocs.io/en/latest/", None),
+    "jupyter": ("https://docs.jupyter.org/en/latest/", None),
 }
-
-# Grouping the document tree into LaTeX files. List of tuples
-# (source start file, target name, title,
-#  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-    ("latexindex", "Weblate.tex", "The Weblate Manual", author, "manual")
+# Redundant in Sphinx 5.0
+# https://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html#confval-intersphinx_disabled_reftypes
+intersphinx_disabled_reftypes = ["std:doc"]
+myst_enable_extensions = [
+    "deflist",
 ]
-
-# Include logo on title page
-latex_logo = "configs/rcac.jpeg"
-# Use xelatex engine for better unicode support
-latex_engine = "xelatex"
-# Disable using xindy as it does not work on readthedocs.org
-latex_use_xindy = False
-
-# -- Options for manual page output ------------------------------------------
-
-
-
-# -- Options for Texinfo output ----------------------------------------------
-
-# Grouping the document tree into Texinfo files. List of tuples
-# (source start file, target name, title, author,
-#  dir menu entry, description, category)
-texinfo_documents = [
+hoverxref_intersphinx = [
+    "sphinx",
+    "pip",
+    "nbsphinx",
+    "myst-nb",
+    "ipywidgets",
+    "jupytext",
+]
+htmlhelp_basename = "ReadTheDocsdoc"
+latex_documents = [
     (
         "index",
-        "Weblate",
-        project,
-        author,
-        "Weblate",
-        "One line description of project.",
-        "Miscellaneous",
+        "ReadTheDocs.tex",
+        "Read the Docs Documentation",
+        "Eric Holscher, Charlie Leifer, Bobby Grace",
+        "manual",
+    ),
+]
+man_pages = [
+    (
+        "index",
+        "read-the-docs",
+        "Read the Docs Documentation",
+        ["Eric Holscher, Charlie Leifer, Bobby Grace"],
+        1,
     )
 ]
 
+language = "en"
 
-# -- Options for Epub output -------------------------------------------------
+locale_dirs = [
+    f"{docset}/locale/",
+]
+gettext_compact = False
 
-# Bibliographic Dublin Core info.
-epub_title = project
-epub_author = author
-epub_publisher = author
-epub_copyright = copyright
-
-# The unique identifier of the text. This can be a ISBN number
-# or the project homepage.
-#
-# epub_identifier = ''
-
-# A unique identification for the text.
-#
-# epub_uid = ''
-
-# A list of files that should not be packed into the epub file.
-epub_exclude_files = ["search.html"]
-
-
-graphviz_output_format = "svg"
-
-# Use localized Python docs on Read the Docs build
-rtd_lang = os.environ.get("READTHEDOCS_LANGUAGE")
-
-python_doc_url = "https://docs.python.org/3/"
-if rtd_lang == "pt_BR":
-    python_doc_url = "https://docs.python.org/pt-br/3/"
-elif rtd_lang in ("es", "fr", "ja", "ko"):
-    python_doc_url = f"https://docs.python.org/{rtd_lang}/3/"
-elif rtd_lang == "zh_CN":
-    python_doc_url = "https://docs.python.org/zh-cn/3/"
-elif rtd_lang == "zh_TW":
-    python_doc_url = "https://docs.python.org/zh-tw/3/"
-
-django_doc_url = "https://docs.djangoproject.com/en/stable/"
-if rtd_lang in ("el", "es", "fr", "id", "ja", "ko", "pl"):
-    django_doc_url = f"https://docs.djangoproject.com/{rtd_lang}/stable/"
-elif rtd_lang == "pt_BR":
-    django_doc_url = "https://docs.djangoproject.com/pt-br/stable/"
-elif rtd_lang == "zh_CN":
-    django_doc_url = "https://docs.djangoproject.com/zh-hans/stable/"
-
-sphinx_doc_url = "https://www.sphinx-doc.org/en/stable/"
-if rtd_lang in (
-    "ar",
-    "ca",
-    "de",
-    "ru",
-    "es",
-    "fr",
-    "it",
-    "ja",
-    "ko",
-    "pl",
-    "pt_BR",
-    "sr",
-    "zh_CN",
-):
-    sphinx_doc_url = f"https://www.sphinx-doc.org/{rtd_lang}/stable/"
-
-# Configuration for intersphinx
-intersphinx_mapping = {
-    "python": (python_doc_url, None),
-    "django": (django_doc_url, f"{django_doc_url}_objects/"),
-    "psa": ("https://python-social-auth.readthedocs.io/en/latest/", None),
-    "tt": (
-        "http://docs.translatehouse.org/projects/translate-toolkit/en/latest/",
-        None,
-    ),
-    "amagama": ("https://docs.translatehouse.org/projects/amagama/en/latest/", None),
-    "virtaal": ("http://docs.translatehouse.org/projects/virtaal/en/latest/", None),
-    "ldap": ("https://django-auth-ldap.readthedocs.io/en/latest/", None),
-    "celery": ("https://docs.celeryq.dev/en/stable/", None),
-    "sphinx": (sphinx_doc_url, None),
-    "rtd": ("https://docs.readthedocs.io/en/latest/", None),
-    "venv": ("https://virtualenv.pypa.io/en/stable/", None),
-    "borg": ("https://borgbackup.readthedocs.io/en/stable/", None),
-    "pip": ("https://pip.pypa.io/en/stable/", None),
-    "compressor": ("https://django-compressor.readthedocs.io/en/stable/", None),
+html_theme = "sphinx_rtd_theme"
+html_static_path = ["_static", f"{docset}/_static"]
+html_css_files = ["css/custom.css", "css/sphinx_prompt_css.css"]
+html_js_files = ["js/expand_tabs.js"]
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_logo = "configs/rcac.jpeg"
+html_theme_options = {
+    "logo_only": True,
+    "display_version": False,
 }
-intersphinx_disabled_reftypes = ["*"]
+html_context = {
+    # Fix the "edit on" links.
+    # TODO: remove once we support different rtd config
+    # files per project.
+    "conf_py_path": f"/docs/{docset}/",
+}
 
-# Ignore missing targets for the http:obj <type>, it's how we declare the types
-# for input/output fields in the API docs.
-nitpick_ignore = [
-    ("http:obj", "array"),
-    ("http:obj", "boolean"),
-    ("http:obj", "int"),
-    ("http:obj", "float"),
-    ("http:obj", "object"),
-    ("http:obj", "string"),
-    ("http:obj", "timestamp"),
-    ("http:obj", "file"),
+hoverxref_auto_ref = True
+hoverxref_domains = ["py"]
+hoverxref_roles = [
+    "option",
+    "doc",  # Documentation pages
+    "term",  # Glossary terms
 ]
+hoverxref_role_types = {
+    "mod": "modal",  # for Python Sphinx Domain
+    "doc": "modal",  # for whole docs
+    "class": "tooltip",  # for Python Sphinx Domain
+    "ref": "tooltip",  # for hoverxref_auto_ref config
+    "confval": "tooltip",  # for custom object
+    "term": "tooltip",  # for glossaries
+}
 
-# Number of retries and timeout for linkcheck
-linkcheck_retries = 10
-linkcheck_timeout = 10
+# See dev/style_guide.rst for documentation
+rst_epilog = """
+.. |org_brand| replace:: Read the Docs Community
+.. |com_brand| replace:: Read the Docs for Business
+.. |git_providers_and| replace:: GitHub, Bitbucket, and GitLab
+.. |git_providers_or| replace:: GitHub, Bitbucket, or GitLab
+"""
+
+# Activate autosectionlabel plugin
+autosectionlabel_prefix_document = True
+
+# sphinx-notfound-page
+# https://github.com/readthedocs/sphinx-notfound-page
+notfound_context = {
+    "title": "Page Not Found",
+    "body": """
+<h1>Page Not Found</h1>
+<p>Sorry, we couldn't find that page.</p>
+<p>Try using the search box or go to the homepage.</p>
+""",
+}
+linkcheck_retries = 2
+linkcheck_timeout = 1
+linkcheck_workers = 10
 linkcheck_ignore = [
-    # Local URL to Weblate
-    "http://127.0.0.1:8080/",
-    # Requires a valid token
-    "https://api.deepl.com/v2/translate",
-    # Anchors are used to specify channel name here
-    "https://web.libera.chat/#",
-    # Site is unreliable
-    "https://docwiki.embarcadero.com/",
-    # 403 for linkcheck
-    "https://docs.github.com/",
-    "https://translate.yandex.com/",
-    # These are PDF and fails with Unicode decode error
-    "http://ftp.pwg.org/",
+    r"http://127\.0\.0\.1",
+    r"http://localhost",
+    r"http://community\.dev\.readthedocs\.io",
+    r"https://yourproject\.readthedocs\.io",
+    r"https?://docs\.example\.com",
+    r"https://foo\.readthedocs\.io/projects",
+    r"https://github\.com.+?#L\d+",
+    r"https://github\.com/readthedocs/readthedocs\.org/issues",
+    r"https://github\.com/readthedocs/readthedocs\.org/pull",
+    r"https://docs\.readthedocs\.io/\?rtd_search",
+    r"https://readthedocs\.org/search",
+    # This page is under login
+    r"https://readthedocs\.org/accounts/gold",
 ]
 
-# HTTP docs
-http_index_ignore_prefixes = ["/api/"]
-http_strict_mode = True
-
-# Autodocs
-autodoc_mock_imports = [
-    "django",
-    "celery",
-    "sentry_sdk",
-    "crispy_forms",
-    "weblate.utils.errors",
-    "weblate.trans.discovery",
-    "weblate.checks.models",
-    "weblate.trans.forms",
-    "weblate.addons.forms",
-    "weblate.trans.tasks",
-    "dateutil",
-    "filelock",
-    "redis_lock",
-    "django_redis",
-    "lxml",
-    "translate",
-    "siphashc",
-    "git",
-    "PIL",
-    "weblate.addons.models",
-    "weblate.trans.models",
-    "weblate.lang.models",
-    "weblate.vcs.git",
-    "weblate.utils.files",
-]
-
-# Create single gettext PO file for while documentation,
-# instead of having one file per chapter.
-gettext_compact = "docs"
+# Disable epub mimetype warnings
+suppress_warnings = ["epub.unknown_project_files"]
