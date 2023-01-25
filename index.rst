@@ -8,7 +8,7 @@ This is the list of Applications, Compilers, and MPIs deployed on Purdue RCAC Cl
    :titlesonly:
    
    Applications/abaqus
-   Applications/all
+   Applications/amber
    Applications/anaconda
    Applications/ansysem
    Applications/ansys
@@ -45,14 +45,17 @@ This is the list of Applications, Compilers, and MPIs deployed on Purdue RCAC Cl
    Applications/hdf
    Applications/hspice
    Applications/hyper-shell
+   Applications/hypre
    Applications/idl
    Applications/intel-mkl
    Applications/julia
    Applications/jupyterhub
    Applications/keras
+   Applications/lammps
    Applications/learning
    Applications/libszip
    Applications/libtiff
+   Applications/libv8
    Applications/mathematica
    Applications/matlab
    Applications/modtree
@@ -68,8 +71,10 @@ This is the list of Applications, Compilers, and MPIs deployed on Purdue RCAC Cl
    Applications/octave
    Applications/openblas
    Applications/opencv
+   Applications/openfoam
    Applications/panoply
    Applications/parallel-netcdf
+   Applications/paraview
    Applications/proj
    Applications/protobuf
    Applications/pytorch
@@ -90,8 +95,10 @@ This is the list of Applications, Compilers, and MPIs deployed on Purdue RCAC Cl
    Applications/tecplot
    Applications/tensorflow
    Applications/texinfo
+   Applications/texlive
    Applications/theano
    Applications/thermocalc
+   Applications/tk
    Applications/totalview
    Applications/udunits2
    Applications/valgrind

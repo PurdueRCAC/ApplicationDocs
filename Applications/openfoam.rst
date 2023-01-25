@@ -1,15 +1,15 @@
 .. _backbone-label:
 
-All
+Openfoam
 ==============================
 
 Versions
 ~~~~~~~~
-- all
+- 5.x
 
 Module
 ~~~~~~~~
 You can load the modules by::
 
-    module load all
+    module load openfoam
 
