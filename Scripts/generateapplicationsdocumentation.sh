@@ -10,10 +10,13 @@ cd $current_dir # cd back to current directory
 function generateLuaFiles() {
     for filename in ${listofmissingfiles[@]}; do 
         echo ""
+        if [ "$filename" == "all" ]; then
+            continue
+        fi
         echo $filename
 
         inputfolder="$luasource/$filename/"
-        echo "input folder: "$inputfolder
+        # echo "input folder: "$inputfolder
 
         filenamesarray=`ls $inputfolder*.lua`
         for eachfile in $filenamesarray
@@ -80,16 +83,36 @@ generateListOfMissingFiles
 generateLuaFiles
 
 # Generate Lua files from gcc
+luasource="/opt/spack/modulefiles/gcc/4.8.5"
+generateListOfMissingFiles
+generateLuaFiles
+
+luasource="/opt/spack/modulefiles/gcc/6.3.0"
+generateListOfMissingFiles
+generateLuaFiles
+
+luasource="/opt/spack/modulefiles/gcc/9.3.0"
+generateListOfMissingFiles
+generateLuaFiles
+
 luasource="/opt/spack/modulefiles/gcc/10.2.0"
 generateListOfMissingFiles
 generateLuaFiles
 
 # Generate Lua files from intel
+luasource="/opt/spack/modulefiles/intel/17.0.1"
+generateListOfMissingFiles
+generateLuaFiles
+
 luasource="/opt/spack/modulefiles/intel/19.0.5"
 generateListOfMissingFiles
 generateLuaFiles
 
 # Generate Lua files from intel-mpi
+luasource="/opt/spack/modulefiles/intel-mpi/2017.1.132-4o27yog/intel/17.0.1"
+generateListOfMissingFiles
+generateLuaFiles
+
 luasource="/opt/spack/modulefiles/intel-mpi/2019.5.281-3fyzsi3/intel/19.0.5"
 generateListOfMissingFiles
 generateLuaFiles
@@ -100,9 +123,22 @@ generateListOfMissingFiles
 generateLuaFiles
 
 # Generate Lua files from openmpi
-luasource="/opt/spack/modulefiles/openmpi/4.1.3-xy4bdtp/intel/19.0.5"
-generateListOfMissingFiles
-generateLuaFiles
+ls "/opt/spack/modulefiles/openmpi/" > openmpifolders.txt
+readarray -t openmpifolders < openmpifolders.txt
+rm openmpifolders.txt
+
+for foldername in ${openmpifolders[@]}; do
+    workingdirectory=$PWD
+    cd /opt/spack/modulefiles/openmpi/$foldername
+    innerfoldername=`ls`
+    cd $innerfoldername
+    innermostfoldername=`ls`
+    corefiles=$PWD
+    cd "$workingdirectory"
+    luasource="/opt/spack/modulefiles/openmpi/$foldername/$innerfoldername/$innermostfoldername"
+    generateListOfMissingFiles
+    generateLuaFiles
+done
 
 # Generate Lua files from utilities
 luasource="/opt/spack/modulefiles/utilities"
@@ -154,7 +190,7 @@ SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
 for eachfolder in $subfoldersarray
 do
-    if [ "$eachfolder" != "Scripts/" ]; then
+    if [ "$eachfolder" != "Scripts/" ] && [ "$eachfolder" != "images/" ]; then
         echo "each folder : $eachfolder"
         echo ".. toctree::" >> $indexfile
         eachfolderwithspaces="${eachfolder//_/ }"

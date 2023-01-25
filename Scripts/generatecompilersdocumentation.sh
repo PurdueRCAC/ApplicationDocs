@@ -18,7 +18,7 @@ for filename in ${listofmissingfiles[@]}; do
     echo $filename
 
     inputfolder="/opt/spack/modulefiles/Core/$filename/"
-    echo "input folder: "$inputfolder
+    # echo "input folder: "$inputfolder
 
     filenamesarray=`ls $inputfolder*.lua`
     for eachfile in $filenamesarray
@@ -85,7 +85,7 @@ SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
 for eachfolder in $subfoldersarray
 do
-    if [ "$eachfolder" != "Scripts/" ]; then
+    if [ "$eachfolder" != "Scripts/" ] && [ "$eachfolder" != "images/" ]; then
         echo "each folder : $eachfolder"
         echo ".. toctree::" >> $indexfile
         eachfolderwithspaces="${eachfolder//_/ }"
