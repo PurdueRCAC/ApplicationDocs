@@ -9,8 +9,7 @@ RogueWave Totalview software
 
 Versions
 ~~~~~~~~
-- 2020.2.6
-- 2021.4.10
+- Bell: 2020.2.6, 2021.4.10
 
 Module
 ~~~~~~~~

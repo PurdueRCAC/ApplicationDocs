@@ -5,8 +5,7 @@ Modtree
 
 Versions
 ~~~~~~~~
-- deprecated
-- new
+- Bell: deprecated, new
 
 Module
 ~~~~~~~~

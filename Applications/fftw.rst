@@ -9,7 +9,7 @@ FFTW is a C subroutine library for computing the discrete Fourier transform DFT 
 
 Versions
 ~~~~~~~~
-- 3.3.8
+- Bell: 3.3.8
 
 Module
 ~~~~~~~~

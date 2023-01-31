@@ -5,7 +5,7 @@ Pytorch
 
 Versions
 ~~~~~~~~
-- 1.6.0
+- Bell: 1.6.0
 
 Module
 ~~~~~~~~

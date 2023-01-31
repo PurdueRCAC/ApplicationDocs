@@ -9,7 +9,7 @@ Hypre is a library of high performance preconditioners that features parallel mu
 
 Versions
 ~~~~~~~~
-- 2.18.1
+- Bell: 2.18.1
 
 Module
 ~~~~~~~~

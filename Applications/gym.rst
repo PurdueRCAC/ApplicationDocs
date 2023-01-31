@@ -5,7 +5,7 @@ Gym
 
 Versions
 ~~~~~~~~
-- 0.17.3
+- Bell: 0.17.3
 
 Module
 ~~~~~~~~

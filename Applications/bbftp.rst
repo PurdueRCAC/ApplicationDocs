@@ -5,7 +5,7 @@ Bbftp
 
 Versions
 ~~~~~~~~
-- 3.2.1
+- Bell: 3.2.1
 
 Module
 ~~~~~~~~

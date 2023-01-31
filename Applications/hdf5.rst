@@ -9,8 +9,7 @@ HDF5 is a data model, library, and file format for storing and managing data. It
 
 Versions
 ~~~~~~~~
-- 1.10.6
-- 1.8.21
+- Bell: 1.10.6, 1.8.21
 
 Module
 ~~~~~~~~

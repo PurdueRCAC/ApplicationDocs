@@ -9,8 +9,7 @@ GROMACS GROningen MAchine for Chemical Simulations is a molecular dynamics packa
 
 Versions
 ~~~~~~~~
-- 2018.4
-- 2019.2
+- Bell: 2018.4, 2019.2
 
 Module
 ~~~~~~~~

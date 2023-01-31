@@ -9,8 +9,7 @@ A cross-platform, open-source build system. CMake is a family of tools designed 
 
 Versions
 ~~~~~~~~
-- 3.18.2
-- 3.20.6
+- Bell: 3.18.2, 3.20.6
 
 Module
 ~~~~~~~~

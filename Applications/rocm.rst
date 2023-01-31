@@ -5,7 +5,7 @@ Rocm
 
 Versions
 ~~~~~~~~
-- 5.2.0
+- Bell: 5.2.0
 
 Module
 ~~~~~~~~

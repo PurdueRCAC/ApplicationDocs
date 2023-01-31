@@ -5,7 +5,7 @@ Caffe
 
 Versions
 ~~~~~~~~
-- 1.0
+- Bell: 1.0
 
 Module
 ~~~~~~~~

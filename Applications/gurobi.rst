@@ -9,8 +9,7 @@ The Gurobi Optimizer was designed from the ground up to be the fastest, most pow
 
 Versions
 ~~~~~~~~
-- 9.0.1
-- 9.5.1
+- Bell: 9.0.1, 9.5.1
 
 Module
 ~~~~~~~~

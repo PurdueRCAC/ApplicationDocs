@@ -5,7 +5,7 @@ Learning
 
 Versions
 ~~~~~~~~
-- conda-2020.11-py38-cpu
+- Bell: conda-2020.11-py38-cpu
 
 Module
 ~~~~~~~~

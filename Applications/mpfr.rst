@@ -9,7 +9,7 @@ The MPFR library is a C library for multiple-precision floating-point computatio
 
 Versions
 ~~~~~~~~
-- 3.1.6
+- Bell: 3.1.6
 
 Module
 ~~~~~~~~

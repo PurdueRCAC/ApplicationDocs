@@ -9,7 +9,7 @@ Qt is a comprehensive cross-platform C++ application framework.
 
 Versions
 ~~~~~~~~
-- 5.12.5
+- Bell: 5.12.5
 
 Module
 ~~~~~~~~

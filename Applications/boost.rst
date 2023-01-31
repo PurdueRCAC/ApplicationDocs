@@ -9,8 +9,7 @@ Boost provides free peer-reviewed portable C++ source libraries, emphasizing lib
 
 Versions
 ~~~~~~~~
-- 1.68.0
-- 1.70.0
+- Bell: 1.68.0, 1.70.0
 
 Module
 ~~~~~~~~

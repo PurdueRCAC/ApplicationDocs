@@ -9,7 +9,7 @@ The NCO toolkit manipulates and analyzes data stored in netCDF-accessible format
 
 Versions
 ~~~~~~~~
-- 4.6.7
+- Bell: 4.6.7
 
 Module
 ~~~~~~~~

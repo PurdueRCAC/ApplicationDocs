@@ -9,7 +9,7 @@ Automated units conversion
 
 Versions
 ~~~~~~~~
-- 2.2.24
+- Bell: 2.2.24
 
 Module
 ~~~~~~~~

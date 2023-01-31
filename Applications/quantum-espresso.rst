@@ -9,7 +9,7 @@ Quantum ESPRESSO is an integrated suite of Open-Source computer codes for electr
 
 Versions
 ~~~~~~~~
-- 6.6
+- Bell: 6.6
 
 Module
 ~~~~~~~~

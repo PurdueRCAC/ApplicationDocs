@@ -5,7 +5,7 @@ Gaussian16
 
 Versions
 ~~~~~~~~
-- B.01
+- Bell: B.01
 
 Module
 ~~~~~~~~

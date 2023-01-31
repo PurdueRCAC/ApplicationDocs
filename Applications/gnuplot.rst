@@ -9,7 +9,7 @@ Gnuplot is a portable command-line driven graphing utility for Linux, OS/2, MS W
 
 Versions
 ~~~~~~~~
-- 5.2.8
+- Bell: 5.2.8
 
 Module
 ~~~~~~~~

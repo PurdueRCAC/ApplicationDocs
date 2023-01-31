@@ -9,7 +9,7 @@ Simple viewer for NetCDF files.
 
 Versions
 ~~~~~~~~
-- 2.1.7
+- Bell: 2.1.7
 
 Module
 ~~~~~~~~

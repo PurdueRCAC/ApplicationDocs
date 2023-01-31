@@ -9,7 +9,7 @@ GDB, the GNU Project debugger, allows you to see what is going on inside another
 
 Versions
 ~~~~~~~~
-- 11.1
+- Bell: 11.1
 
 Module
 ~~~~~~~~

@@ -9,8 +9,7 @@ cURL is an open source command line tool and library for transferring data with 
 
 Versions
 ~~~~~~~~
-- 7.63.0
-- 7.79.0
+- Bell: 7.63.0, 7.79.0
 
 Module
 ~~~~~~~~

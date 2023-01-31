@@ -9,7 +9,7 @@ Gnu Mpc is a C library for the arithmetic of complex numbers with arbitrarily hi
 
 Versions
 ~~~~~~~~
-- 1.1.0
+- Bell: 1.1.0
 
 Module
 ~~~~~~~~

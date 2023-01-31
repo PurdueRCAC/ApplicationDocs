@@ -9,7 +9,7 @@ envi @5.5.2
 
 Versions
 ~~~~~~~~
-- 8.7
+- Bell: 8.7
 
 Module
 ~~~~~~~~

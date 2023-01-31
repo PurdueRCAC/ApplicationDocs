@@ -5,7 +5,7 @@ Theano
 
 Versions
 ~~~~~~~~
-- 1.0.5
+- Bell: 1.0.5
 
 Module
 ~~~~~~~~

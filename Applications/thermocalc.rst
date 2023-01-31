@@ -5,9 +5,7 @@ Thermocalc
 
 Versions
 ~~~~~~~~
-- 2019b
-- 2020a
-- 2021b
+- Bell: 2019b, 2020a, 2021b
 
 Module
 ~~~~~~~~

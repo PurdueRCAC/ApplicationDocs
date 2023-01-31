@@ -5,7 +5,7 @@ Xalt
 
 Versions
 ~~~~~~~~
-- 1.1.2
+- Bell: 1.1.2
 
 Module
 ~~~~~~~~

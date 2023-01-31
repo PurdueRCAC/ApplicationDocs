@@ -9,8 +9,7 @@ NetCDF network Common Data Form is a set of software libraries and machine-indep
 
 Versions
 ~~~~~~~~
-- 4.5.0
-- 4.7.4
+- Bell: 4.5.0, 4.7.4
 
 Module
 ~~~~~~~~

@@ -5,7 +5,7 @@ Cplex
 
 Versions
 ~~~~~~~~
-- 12.8.0
+- Bell: 12.8.0
 
 Module
 ~~~~~~~~

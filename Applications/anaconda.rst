@@ -9,9 +9,7 @@ Python distribution, virtual environments, and package manager.
 
 Versions
 ~~~~~~~~
-- 2019.10-py27
-- 2020.02-py37
-- 2020.11-py38
+- Bell: 2019.10-py27, 2020.02-py37, 2020.11-py38
 
 Module
 ~~~~~~~~

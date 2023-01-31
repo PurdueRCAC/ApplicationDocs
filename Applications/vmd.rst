@@ -9,7 +9,7 @@ VMD is a molecular visualization program for displaying, animating, and analyzin
 
 Versions
 ~~~~~~~~
-- 1.9.3
+- Bell: 1.9.3
 
 Module
 ~~~~~~~~

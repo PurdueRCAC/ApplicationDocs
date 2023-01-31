@@ -9,8 +9,7 @@ An optimized BLAS library
 
 Versions
 ~~~~~~~~
-- 0.3.21
-- 0.3.8
+- Bell: 0.3.21, 0.3.8
 
 Module
 ~~~~~~~~

@@ -9,9 +9,7 @@ GDAL Geospatial Data Abstraction Library is a translator library for raster and 
 
 Versions
 ~~~~~~~~
-- 2.4.2
-- 3.4.2
-- 3.5.3
+- Bell: 2.4.2, 3.4.2, 3.5.3
 
 Module
 ~~~~~~~~

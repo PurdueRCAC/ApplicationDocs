@@ -9,7 +9,7 @@ GMT Generic Mapping Tools is an open source collection of about 80 command-line 
 
 Versions
 ~~~~~~~~
-- 5.4.4
+- Bell: 5.4.4
 
 Module
 ~~~~~~~~

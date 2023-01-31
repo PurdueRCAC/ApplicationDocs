@@ -9,7 +9,7 @@ Statistical Analysis Software
 
 Versions
 ~~~~~~~~
-- 9.4
+- Bell: 9.4
 
 Module
 ~~~~~~~~

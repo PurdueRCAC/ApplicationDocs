@@ -9,7 +9,7 @@ AOCL are a set of numerical libraries tuned specifically for AMD EPYCTM processo
 
 Versions
 ~~~~~~~~
-- 2.1
+- Bell: 2.1
 
 Module
 ~~~~~~~~

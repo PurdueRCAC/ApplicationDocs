@@ -9,8 +9,7 @@ Intel Math Kernel Library.
 
 Versions
 ~~~~~~~~
-- 2017.1.132
-- 2019.5.281
+- Bell: 2017.1.132, 2019.5.281
 
 Module
 ~~~~~~~~

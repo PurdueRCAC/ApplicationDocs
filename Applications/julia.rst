@@ -9,8 +9,7 @@ A fresh approach to technical computing
 
 Versions
 ~~~~~~~~
-- 1.7.1
-- 1.8.1
+- Bell: 1.7.1, 1.8.1
 
 Module
 ~~~~~~~~

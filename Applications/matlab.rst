@@ -9,11 +9,7 @@ MATLAB MATrix LABoratory is a multi-paradigm numerical computing environment and
 
 Versions
 ~~~~~~~~
-- R2019a
-- R2020a
-- R2020b
-- R2021b
-- R2022a
+- Bell: R2019a, R2020a, R2020b, R2021b, R2022a
 
 Module
 ~~~~~~~~

@@ -9,8 +9,7 @@ Process shell commands over a distributed, asynchronous queue.
 
 Versions
 ~~~~~~~~
-- 1.8.3
-- 2.0.2
+- Bell: 1.8.3, 2.0.2
 
 Module
 ~~~~~~~~

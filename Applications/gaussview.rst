@@ -5,8 +5,7 @@ Gaussview
 
 Versions
 ~~~~~~~~
-- 5.0.8
-- 6.0.16
+- Bell: 5.0.8, 6.0.16
 
 Module
 ~~~~~~~~

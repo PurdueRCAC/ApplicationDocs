@@ -9,7 +9,7 @@ CDO is a collection of command line Operators to manipulate and analyse Climate 
 
 Versions
 ~~~~~~~~
-- 1.9.5
+- Bell: 1.9.5
 
 Module
 ~~~~~~~~

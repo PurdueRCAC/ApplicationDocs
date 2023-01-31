@@ -9,10 +9,7 @@ This module loads the ANSYS software suite.
 
 Versions
 ~~~~~~~~
-- 2019R3
-- 2020R1
-- 2021R2
-- 2022R1
+- Bell: 2019R3, 2020R1, 2021R2, 2022R1
 
 Module
 ~~~~~~~~

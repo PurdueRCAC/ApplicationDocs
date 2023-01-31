@@ -9,7 +9,7 @@ ParaView is an open-source, multi-platform data analysis and visualization appli
 
 Versions
 ~~~~~~~~
-- 5.6.2
+- Bell: 5.6.2
 
 Module
 ~~~~~~~~

@@ -9,7 +9,7 @@ The AWS Command Line Interface CLI is a unified tool to manage your AWS services
 
 Versions
 ~~~~~~~~
-- 2.4.15
+- Bell: 2.4.15
 
 Module
 ~~~~~~~~

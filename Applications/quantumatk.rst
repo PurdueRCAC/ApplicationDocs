@@ -5,7 +5,7 @@ Quantumatk
 
 Versions
 ~~~~~~~~
-- 2020.09
+- Bell: 2020.09
 
 Module
 ~~~~~~~~
