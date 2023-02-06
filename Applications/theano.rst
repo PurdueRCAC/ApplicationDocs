@@ -6,6 +6,7 @@ Theano
 Versions
 ~~~~~~~~
 - Bell: 1.0.5
+- Gilbreth: 1.0.5
 
 Module
 ~~~~~~~~

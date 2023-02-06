@@ -10,6 +10,9 @@ Vim is a highly configurable text editor built to enable efficient text editing.
 Versions
 ~~~~~~~~
 - Bell: 8.1.2141
+- Brown: 7.4.2367
+- Gilbreth: 7.4.2367
+- Workbench: 7.4.2367
 
 Module
 ~~~~~~~~

@@ -10,6 +10,11 @@ Tk is a graphical user interface toolkit that takes developing desktop applicati
 Versions
 ~~~~~~~~
 - Bell: 8.6.8
+- Brown: 8.6.8
+- Gilbreth: 8.6.8
+- Negishi: 8.6.11
+- Anvil: 8.6.11
+- Workbench: 8.6.8
 
 Module
 ~~~~~~~~

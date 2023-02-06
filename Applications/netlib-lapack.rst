@@ -10,6 +10,11 @@ LAPACK version 3.X is a comprehensive FORTRAN library that does linear algebra o
 Versions
 ~~~~~~~~
 - Bell: 3.8.0
+- Brown: 3.6.0
+- Gilbreth: 3.6.0
+- Negishi: 3.8.0
+- Anvil: 3.8.0
+- Workbench: 3.6.0
 
 Module
 ~~~~~~~~

@@ -10,6 +10,12 @@ Description
 Versions
 ~~~~~~~~
 - Bell: 16
+- Brown: 16
+- Scholar: 14, 16
+- Gilbreth: 16
+- Negishi: 20
+- Anvil: 20
+- Workbench: 16
 
 Module
 ~~~~~~~~

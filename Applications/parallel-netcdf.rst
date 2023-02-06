@@ -10,6 +10,10 @@ PnetCDF Parallel netCDF is a high-performance parallel I/O library for accessing
 Versions
 ~~~~~~~~
 - Bell: 1.11.2
+- Brown: 1.10.0
+- Negishi: 1.11.2
+- Anvil: 1.11.2
+- Workbench: 1.10.0
 
 Module
 ~~~~~~~~

@@ -10,6 +10,12 @@ FFTW is a C subroutine library for computing the discrete Fourier transform DFT 
 Versions
 ~~~~~~~~
 - Bell: 3.3.8
+- Brown: 3.3.4, 3.3.7
+- Scholar: 3.3.4, 3.3.7
+- Gilbreth: 3.3.7
+- Negishi: 2.1.5, 3.3.10
+- Anvil: 2.1.5, 3.3.8
+- Workbench: 3.3.4, 3.3.7
 
 Module
 ~~~~~~~~

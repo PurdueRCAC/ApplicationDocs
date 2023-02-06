@@ -10,6 +10,10 @@ NetCDF network Common Data Form is a set of software libraries and machine-indep
 Versions
 ~~~~~~~~
 - Bell: 4.5.0, 4.7.4
+- Brown: 4.5.0, 4.7.0
+- Scholar: 4.5.0
+- Gilbreth: 4.5.0, 4.7.0
+- Workbench: 4.5.0, 4.7.0
 
 Module
 ~~~~~~~~

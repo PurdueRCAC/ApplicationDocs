@@ -9,23 +9,53 @@ This is the list of Applications, Compilers, and MPIs deployed on Purdue RCAC Cl
    
    Applications/abaqus
    Applications/amber
+   Applications/amdblis
+   Applications/amdfftw
+   Applications/amdlibflame
+   Applications/amdlibm
+   Applications/amdscalapack
    Applications/anaconda
    Applications/ansysem
    Applications/ansys
    Applications/aocl
+   Applications/arpack-ng
+   Applications/autodock
    Applications/aws-cli
+   Applications/bamtools
    Applications/bbftp
+   Applications/beagle
+   Applications/beast2
+   Applications/bismark
+   Applications/blast-plus
+   Applications/blis
    Applications/boost
+   Applications/bowtie2
+   Applications/bwa
    Applications/caffe
    Applications/cdo
+   Applications/chroma
    Applications/cmake
+   Applications/cntk
    Applications/comsol
+   Applications/cp2k
    Applications/cplex
+   Applications/cuda
+   Applications/cudnn
+   Applications/cue-login-env
+   Applications/cufflinks
    Applications/curl
+   Applications/cutadapt
+   Applications/eigen
+   Applications/emacs
    Applications/envi
+   Applications/fastqc
+   Applications/fasttree
+   Applications/fastx-toolkit
    Applications/ffmpeg
    Applications/fftw
    Applications/gamess
+   Applications/gams
+   Applications/gatk
    Applications/gaussian09
    Applications/gaussian16
    Applications/gaussview
@@ -35,6 +65,7 @@ This is the list of Applications, Compilers, and MPIs deployed on Purdue RCAC Cl
    Applications/gmp
    Applications/gmt
    Applications/gnuplot
+   Applications/gpaw
    Applications/grads
    Applications/gromacs
    Applications/gsl
@@ -43,71 +74,126 @@ This is the list of Applications, Compilers, and MPIs deployed on Purdue RCAC Cl
    Applications/hadoop
    Applications/hdf5
    Applications/hdf
+   Applications/hpctoolkit
    Applications/hspice
+   Applications/htseq
+   Applications/hwloc
    Applications/hyper-shell
    Applications/hypre
    Applications/idl
    Applications/intel-mkl
+   Applications/intel-oneapi-compilers
+   Applications/intel-oneapi-mkl
+   Applications/intel-oneapi-mpi
+   Applications/intel-oneapi-tbb
    Applications/julia
    Applications/jupyterhub
+   Applications/jupyter
    Applications/keras
    Applications/lammps
    Applications/learning
+   Applications/libfabric
+   Applications/libflame
+   Applications/libmesh
    Applications/libszip
    Applications/libtiff
    Applications/libv8
+   Applications/libx11
    Applications/mathematica
    Applications/matlab
+   Applications/meep
+   Applications/milc
    Applications/modtree
+   Applications/monitor
    Applications/mpc
    Applications/mpfr
+   Applications/mrbayes
+   Applications/mvapich2
+   Applications/mxnet
+   Applications/namd
+   Applications/nccl
    Applications/ncl
    Applications/nco
    Applications/ncview
+   Applications/netcdf4
+   Applications/netcdf-c
    Applications/netcdf-cxx4
    Applications/netcdf-fortran
    Applications/netcdf
    Applications/netlib-lapack
+   Applications/numactl
+   Applications/nvhpc
+   Applications/nwchem
    Applications/octave
    Applications/openblas
    Applications/opencv
    Applications/openfoam
+   Applications/openjdk
    Applications/panoply
+   Applications/papi
+   Applications/parabricks
    Applications/parallel-netcdf
+   Applications/parallel
    Applications/paraview
+   Applications/perl-bioperl
+   Applications/petsc
+   Applications/picard
+   Applications/pnetcdf
    Applications/proj
    Applications/protobuf
+   Applications/py-mpi4py
+   Applications/python
    Applications/pytorch
    Applications/qemu
+   Applications/qmcpack
    Applications/qt
    Applications/quantumatk
+   Applications/quantum_espresso
    Applications/quantum-espresso
+   Applications/rapidsai
+   Applications/relion
    Applications/rocm
    Applications/r
    Applications/rstudio
+   Applications/samtools
    Applications/sas
    Applications/sentaurus
    Applications/spark
+   Applications/spss
+   Applications/sratoolkit
    Applications/stata-mp
    Applications/stata
    Applications/subversion
+   Applications/swig
    Applications/tcl
    Applications/tecplot
    Applications/tensorflow
    Applications/texinfo
    Applications/texlive
+   Applications/tflearn
    Applications/theano
    Applications/thermocalc
    Applications/tk
+   Applications/tophat
+   Applications/torchani
    Applications/totalview
+   Applications/trimmomatic
+   Applications/ucx
    Applications/udunits2
+   Applications/udunits
    Applications/valgrind
+   Applications/vasp
+   Applications/vcftools
    Applications/vim
+   Applications/visit
    Applications/vlc
    Applications/vmd
    Applications/vscode
+   Applications/vtk
+   Applications/wannier90
    Applications/xalt
    Applications/zlib
+   Applications/zstd
 
 .. toctree::
    :caption: Compilers

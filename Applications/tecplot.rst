@@ -6,6 +6,9 @@ Tecplot
 Versions
 ~~~~~~~~
 - Bell: 360-2017-R3, 360-2021-R1
+- Brown: 360-2017-R3
+- Gilbreth: 360-2017-R3
+- Workbench: 360-2017-R3
 
 Module
 ~~~~~~~~

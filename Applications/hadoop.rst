@@ -10,6 +10,11 @@ The Apache Hadoop software library is a framework that allows for the distribute
 Versions
 ~~~~~~~~
 - Bell: 2.7.7
+- Brown: 2.7.7
+- Gilbreth: 2.7.7
+- Negishi: 3.3.2
+- Anvil: 3.3.0
+- Workbench: 2.7.7
 
 Module
 ~~~~~~~~

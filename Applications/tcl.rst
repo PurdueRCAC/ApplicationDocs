@@ -10,6 +10,11 @@ Tcl Tool Command Language is a very powerful but easy to learn dynamic programmi
 Versions
 ~~~~~~~~
 - Bell: 8.6.8
+- Brown: 8.6.8
+- Gilbreth: 8.6.8
+- Negishi: 8.6.11, 8.6.12
+- Anvil: 8.6.11
+- Workbench: 8.6.8
 
 Module
 ~~~~~~~~

@@ -6,6 +6,8 @@ Sentaurus
 Versions
 ~~~~~~~~
 - Bell: 2017.09, 2019.03
+- Brown: 2017.09, 2019.03
+- Workbench: 2017.09, 2019.03
 
 Module
 ~~~~~~~~

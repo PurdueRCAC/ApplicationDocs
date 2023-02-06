@@ -10,6 +10,10 @@ VMD is a molecular visualization program for displaying, animating, and analyzin
 Versions
 ~~~~~~~~
 - Bell: 1.9.3
+- Brown: 1.9.3
+- Gilbreth: 1.9.3
+- Anvil: 1.9.3
+- Workbench: 1.9.3
 
 Module
 ~~~~~~~~

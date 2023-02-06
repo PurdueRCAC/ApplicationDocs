@@ -10,6 +10,10 @@ The AWS Command Line Interface CLI is a unified tool to manage your AWS services
 Versions
 ~~~~~~~~
 - Bell: 2.4.15
+- Brown: 2.4.15
+- Gilbreth: 2.4.15
+- Anvil: 2.4.15
+- Workbench: 2.4.15
 
 Module
 ~~~~~~~~

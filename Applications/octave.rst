@@ -10,6 +10,10 @@ GNU Octave is a high-level language, primarily intended for numerical computatio
 Versions
 ~~~~~~~~
 - Bell: 4.4.1
+- Brown: 4.4.0
+- Negishi: 7.3.0
+- Anvil: 6.3.0
+- Workbench: 4.4.0
 
 Module
 ~~~~~~~~

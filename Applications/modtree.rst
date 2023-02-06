@@ -6,6 +6,11 @@ Modtree
 Versions
 ~~~~~~~~
 - Bell: deprecated, new
+- Brown: deprecated, new
+- Gilbreth: deprecated, new
+- Negishi: cpu
+- Anvil: cpu, gpu
+- Workbench: deprecated, new
 
 Module
 ~~~~~~~~

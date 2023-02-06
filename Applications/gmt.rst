@@ -10,6 +10,10 @@ GMT Generic Mapping Tools is an open source collection of about 80 command-line 
 Versions
 ~~~~~~~~
 - Bell: 5.4.4
+- Brown: 5.4.4
+- Gilbreth: 5.4.4
+- Anvil: 6.1.0
+- Workbench: 5.4.4
 
 Module
 ~~~~~~~~

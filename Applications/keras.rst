@@ -6,6 +6,7 @@ Keras
 Versions
 ~~~~~~~~
 - Bell: 2.4.3
+- Gilbreth: 2.4.3
 
 Module
 ~~~~~~~~

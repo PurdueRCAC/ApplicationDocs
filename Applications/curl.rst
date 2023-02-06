@@ -10,6 +10,10 @@ cURL is an open source command line tool and library for transferring data with 
 Versions
 ~~~~~~~~
 - Bell: 7.63.0, 7.79.0
+- Brown: 7.63.0, 7.79.0
+- Negishi: 7.78.0, 7.85.0
+- Anvil: 7.76.1
+- Workbench: 7.63.0, 7.79.0
 
 Module
 ~~~~~~~~

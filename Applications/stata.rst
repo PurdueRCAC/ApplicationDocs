@@ -6,6 +6,9 @@ Stata
 Versions
 ~~~~~~~~
 - Bell: 17
+- Brown: 17
+- Gilbreth: 17
+- Workbench: 16, 17
 
 Module
 ~~~~~~~~

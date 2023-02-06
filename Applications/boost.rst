@@ -10,6 +10,12 @@ Boost provides free peer-reviewed portable C++ source libraries, emphasizing lib
 Versions
 ~~~~~~~~
 - Bell: 1.68.0, 1.70.0
+- Brown: 1.64.0, 1.66.0, 1.70.0
+- Scholar: 1.66.0
+- Gilbreth: 1.66.0, 1.70.0
+- Negishi: 1.80.0
+- Anvil: 1.74.0
+- Workbench: 1.64.0, 1.66.0, 1.70.0
 
 Module
 ~~~~~~~~

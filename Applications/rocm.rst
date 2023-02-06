@@ -6,6 +6,7 @@ Rocm
 Versions
 ~~~~~~~~
 - Bell: 5.2.0
+- Negishi: 5.2.0
 
 Module
 ~~~~~~~~
