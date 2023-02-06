@@ -9,7 +9,8 @@ The AOCC compiler system is a high performance, production quality code generati
 
 Versions
 ~~~~~~~~
-- 2.1.0
+- Bell: 2.1.0
+- Anvil: 3.1.0
 
 Module
 ~~~~~~~~
