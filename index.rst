@@ -1,7 +1,7 @@
 Scientific Applications on Purdue RCAC Clusters
 ==============================================
 
-This is the list of Applications, Compilers, and MPIs deployed on Purdue RCAC Clusters. More information about our center is avaiable here (https://www.rcac.purdue.edu).  
+This is the list of Applications, Compilers, and MPIs deployed on Rosen Center for Advanced Computing (`RCAC`_) clusters. If you want to know bioinformatics applications deployed on clusters, please check our `Biocontainers`_ documentation. 
 
 .. toctree::
    :caption: Applications
@@ -210,3 +210,6 @@ This is the list of Applications, Compilers, and MPIs deployed on Purdue RCAC Cl
    MPIs/impi
    MPIs/openmpi
 
+
+.. _RCAC: https://www.rcac.purdue.edu
+.. _Biocontainers: https://biocontainer-doc.readthedocs.io/en/latest/
