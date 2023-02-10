@@ -12,10 +12,10 @@ For your convenience, a sample `.Rprofile`_ example file is provided that can be
         curl -#LO https://www.rcac.purdue.edu/files/knowledge/run/examples/apps/r/Rprofile_example
         mv -ib Rprofile_example ~/.Rprofile
 
-The above installation step needs to be done only once on Bell. Now load the R module and run R::
+The above installation step needs to be done only once on each of the clusters you have access to. Now load the R module and run R to confirm the unique libPaths::
+        
         module load r/4.2.2
         R
-
         R> .libPaths()                  
         [1] "/home/zhan4429/R/bell/4.2.2-gcc-9.3.0-xxbnk6s"                 
         [2] "/apps/spack/bell/apps/r/4.2.2-gcc-9.3.0-xxbnk6s/rlib/R/library"
