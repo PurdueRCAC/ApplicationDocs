@@ -6,6 +6,10 @@ Scientific Applications on Purdue RCAC Clusters and ACCESS Anvil
 
 This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AMD ROCm containers deployed on Rosen Center for Advanced Computing (`RCAC`_) clusters and ACCESS `Anvil`_. If you want to know bioinformatics applications deployed on clusters, please check our `Biocontainers`_ documentation. 
 
+.. _Anvil: https://www.rcac.purdue.edu/anvil
+.. _RCAC: https://www.rcac.purdue.edu
+.. _Biocontainers: https://biocontainer-doc.readthedocs.io/en/latest/
+
 .. toctree::
    :caption: Applications
    :titlesonly:
@@ -85,23 +89,24 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    Applications/hypre
    Applications/idl
    Applications/intel-mkl
-   Applications/intel-oneapi-compilers
    Applications/intel-oneapi-mkl
-   Applications/intel-oneapi-mpi
    Applications/intel-oneapi-tbb
    Applications/julia
    Applications/jupyterhub
    Applications/jupyter
    Applications/keras
    Applications/lammps
+   Applications/launcher
    Applications/learning
    Applications/libfabric
    Applications/libflame
+   Applications/libiconv
    Applications/libmesh
    Applications/libszip
    Applications/libtiff
    Applications/libv8
    Applications/libx11
+   Applications/libxml2
    Applications/mathematica
    Applications/matlab
    Applications/meep
@@ -111,7 +116,6 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    Applications/mpc
    Applications/mpfr
    Applications/mrbayes
-   Applications/mvapich2
    Applications/mxnet
    Applications/namd
    Applications/nccl
@@ -135,6 +139,7 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    Applications/panoply
    Applications/papi
    Applications/parabricks
+   Applications/parafly
    Applications/parallel-netcdf
    Applications/parallel
    Applications/paraview
@@ -204,15 +209,34 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    
    Compilers/aocc
    Compilers/gcc
+   Compilers/intel-oneapi-compilers
    Compilers/intel
+
+.. toctree::
+   :caption: FAQs
+   :titlesonly:
+   
+   FAQs/R
 
 .. toctree::
    :caption: MPIs
    :titlesonly:
    
    MPIs/impi
+   MPIs/intel-oneapi-mpi
+   MPIs/mvapich2
    MPIs/openmpi
 
-.. _Anvil: https://www.rcac.purdue.edu/anvil
-.. _RCAC: https://www.rcac.purdue.edu
-.. _Biocontainers: https://biocontainer-doc.readthedocs.io/en/latest/
+.. toctree::
+   :caption: usages
+   :titlesonly:
+   
+   usages/gromacs
+   usages/lammps
+
+.. toctree::
+   :caption: UserGuides
+   :titlesonly:
+   
+   UserGuides/lammps
+

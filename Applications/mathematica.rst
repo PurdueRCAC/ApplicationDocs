@@ -13,6 +13,7 @@ Versions
 - Brown: 11.3, 12.1, 12.3, 13.1, 9.0
 - Gilbreth: 11.3, 12.1, 12.3, 13.1
 - Workbench: 11.3, 12.1, 12.3, 13.1
+- Negishi: 13.1
 
 Module
 ~~~~~~~~

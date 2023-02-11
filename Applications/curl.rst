@@ -14,6 +14,7 @@ Versions
 - Negishi: 7.78.0, 7.85.0
 - Anvil: 7.76.1
 - Workbench: 7.63.0, 7.79.0
+- Gilbreth: 7.79.0
 
 Module
 ~~~~~~~~

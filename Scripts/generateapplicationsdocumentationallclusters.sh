@@ -820,13 +820,16 @@ done
 
 
 
-# Remove aoc, gcc, intel, openmpi, and intel-mpi since they come under Compilers and MPIs
+# Remove aoc, gcc, intel, openmpi, intel-mpi, intel-oneapi-compilers, intel-oneapi-mpi, and mvapich2 since they come under Compilers and MPIs
 declare -a filestoberemoved=(
 [0]=aocc
 [1]=gcc
 [2]=intel
 [3]=openmpi
 [4]=impi
+[5]=intel-oneapi-compilers
+[6]=intel-oneapi-mpi
+[7]=mvapich2
 )
 for filename in ${filestoberemoved[@]}; do
     rm -f "$applicationsfolder/$filename.rst"

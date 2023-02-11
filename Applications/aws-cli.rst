@@ -14,6 +14,7 @@ Versions
 - Gilbreth: 2.4.15
 - Anvil: 2.4.15
 - Workbench: 2.4.15
+- Negishi: 2.9.7
 
 Module
 ~~~~~~~~

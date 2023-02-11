@@ -1,10 +1,12 @@
 #! /bin/bash
-# This script generates documentation files for impi, and openmpi from the latest version from intel from all the clusters under the MPIs folder and then updates index.rst
+# This script generates documentation files for impi, openmpi, intel-oneapi-mpi, and mvapich2 from the latest version from intel from all the clusters under the MPIs folder and then updates index.rst
 # Example Usage: ./generatempisdocumentationallclusters.sh
 
 declare -a listofmissingfiles=(
 [0]=impi
 [1]=openmpi
+[2]=intel-oneapi-mpi
+[3]=mvapich2
 )
 
 current_dir="$PWD" # save current directory 
@@ -119,7 +121,7 @@ function generateLuaFilesIfNew() {
 
             echo "Versions" >> $outputfile
             echo "~~~~~~~~" >> $outputfile
-            echo -n "$clustername: " >> $outputfile
+            echo -n "- $clustername: " >> $outputfile
             for eachfile in $filenamesarray 
             do
                 # echo -n "- " >> $outputfile
@@ -161,6 +163,8 @@ generateLuaFilesIfNew
 
 clustername=Negishi
 luasource=$negishi/intel/19.1.3
+generateLuaFilesIfNew
+luasource=$negishi/oneapi/2023.0.0
 generateLuaFilesIfNew
 
 clustername=Anvil

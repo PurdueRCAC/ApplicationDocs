@@ -1,11 +1,12 @@
 #! /bin/bash
-# This script generates documentation files for aocc, gcc, and intel from Core of all the clusters under the Compilers folder and then updates index.rst
+# This script generates documentation files for aocc, gcc, intel, and intel-oneapi-compilers from Core of all the clusters under the Compilers folder and then updates index.rst
 # Example Usage: ./generatecompilersdocumentationallclusters.sh
 
 declare -a listofmissingfiles=(
 [0]=aocc
 [1]=gcc
 [2]=intel
+[3]=intel-oneapi-compilers
 )
 
 current_dir="$PWD" # save current directory 
@@ -120,7 +121,7 @@ function generateLuaFilesIfNew() {
 
             echo "Versions" >> $outputfile
             echo "~~~~~~~~" >> $outputfile
-            echo -n "$clustername: " >> $outputfile
+            echo -n "- $clustername: " >> $outputfile
             for eachfile in $filenamesarray 
             do
                 # echo -n "- " >> $outputfile
