@@ -9,7 +9,7 @@ PAPI provides the tool designer and application engineer with a consistent inter
 
 Versions
 ~~~~~~~~
-- Negishi: 6.0.0.1
+Negishi: 6.0.0.1
 - Anvil: 6.0.0.1
 
 Module

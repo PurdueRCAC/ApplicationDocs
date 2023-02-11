@@ -9,7 +9,7 @@ The RAPIDS suite of software libraries gives you the freedom to execute end-to-e
 
 Versions
 ~~~~~~~~
-- Gilbreth: 0.12, 0.13, 0.14, 0.15, 0.16, 0.17, 21.06, 21.10
+Gilbreth: 0.12, 0.13, 0.14, 0.15, 0.16, 0.17, 21.06, 21.10
 
 Module
 ~~~~~~~~

@@ -9,7 +9,7 @@ Automated units conversion
 
 Versions
 ~~~~~~~~
-- Negishi: 2.2.28
+Negishi: 2.2.28
 
 Module
 ~~~~~~~~

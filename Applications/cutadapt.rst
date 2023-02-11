@@ -9,7 +9,7 @@ Cutadapt finds and removes adapter sequences, primers, poly-A tails and other ty
 
 Versions
 ~~~~~~~~
-- Anvil: 2.10
+Anvil: 2.10
 
 Module
 ~~~~~~~~

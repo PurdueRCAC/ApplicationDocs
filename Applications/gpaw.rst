@@ -9,7 +9,7 @@ GPAW is a density-functional theory DFT Python code based on the projector-augme
 
 Versions
 ~~~~~~~~
-- Anvil: 21.1.0
+Anvil: 21.1.0
 
 Module
 ~~~~~~~~

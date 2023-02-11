@@ -9,7 +9,7 @@ MrBayes is a program for Bayesian inference and model choice across a wide range
 
 Versions
 ~~~~~~~~
-- Anvil: 3.2.7a
+Anvil: 3.2.7a
 
 Module
 ~~~~~~~~

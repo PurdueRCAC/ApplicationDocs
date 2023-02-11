@@ -9,7 +9,7 @@ Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads
 
 Versions
 ~~~~~~~~
-- Anvil: 2.4.2
+Anvil: 2.4.2
 
 Module
 ~~~~~~~~

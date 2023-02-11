@@ -9,7 +9,7 @@ A flexible read trimming tool for Illumina NGS data.
 
 Versions
 ~~~~~~~~
-- Anvil: 0.39
+Anvil: 0.39
 
 Module
 ~~~~~~~~

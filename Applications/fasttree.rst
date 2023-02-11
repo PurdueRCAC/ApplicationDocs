@@ -9,7 +9,7 @@ FastTree infers approximately-maximum-likelihood phylogenetic trees from alignme
 
 Versions
 ~~~~~~~~
-- Anvil: 2.1.10
+Anvil: 2.1.10
 
 Module
 ~~~~~~~~

@@ -9,7 +9,7 @@ C++ API & command-line toolkit for working with BAM data.
 
 Versions
 ~~~~~~~~
-- Anvil: 2.5.2
+Anvil: 2.5.2
 
 Module
 ~~~~~~~~

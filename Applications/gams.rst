@@ -5,7 +5,7 @@ Gams
 
 Versions
 ~~~~~~~~
-- Workbench: 25.1.1
+Workbench: 25.1.1
 
 Module
 ~~~~~~~~

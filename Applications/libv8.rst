@@ -9,7 +9,7 @@ Put a proper description of your package here.
 
 Versions
 ~~~~~~~~
-- Bell: 3.14
+Bell: 3.14
 - Brown: 3.14
 - Anvil: 6.7.17
 - Workbench: 3.14

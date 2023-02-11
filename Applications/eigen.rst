@@ -9,7 +9,7 @@ Eigen is a C++ template library for linear algebra matrices, vectors, numerical 
 
 Versions
 ~~~~~~~~
-- Negishi: 3.3.9
+Negishi: 3.3.9
 - Anvil: 3.3.9
 
 Module

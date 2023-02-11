@@ -9,7 +9,7 @@ VCFtools is a program package designed for working with VCF files, such as those
 
 Versions
 ~~~~~~~~
-- Anvil: 0.1.14
+Anvil: 0.1.14
 
 Module
 ~~~~~~~~

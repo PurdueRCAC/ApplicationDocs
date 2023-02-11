@@ -10,7 +10,7 @@ Description
 
 Versions
 ~~~~~~~~
-- Anvil: 3.1.4
+Anvil: 3.1.4
 
 Module
 ~~~~~~~~

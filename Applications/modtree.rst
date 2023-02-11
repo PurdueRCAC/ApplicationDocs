@@ -5,7 +5,7 @@ Modtree
 
 Versions
 ~~~~~~~~
-- Bell: deprecated, new
+Bell: deprecated, new
 - Brown: deprecated, new
 - Gilbreth: deprecated, new
 - Negishi: cpu

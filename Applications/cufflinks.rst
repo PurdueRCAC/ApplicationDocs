@@ -9,7 +9,7 @@ Cufflinks assembles transcripts, estimates their abundances, and tests for diffe
 
 Versions
 ~~~~~~~~
-- Anvil: 2.2.1
+Anvil: 2.2.1
 
 Module
 ~~~~~~~~

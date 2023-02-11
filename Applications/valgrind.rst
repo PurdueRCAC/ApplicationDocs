@@ -9,7 +9,7 @@ An instrumentation framework for building dynamic analysis.
 
 Versions
 ~~~~~~~~
-- Bell: 3.15.0
+Bell: 3.15.0
 - Brown: 3.13.0
 - Gilbreth: 3.13.0
 - Negishi: 3.19.0

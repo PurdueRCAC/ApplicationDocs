@@ -9,7 +9,7 @@ QMCPACK is an open-source, high-performance electronic structure code that imple
 
 Versions
 ~~~~~~~~
-- Gilbreth: v3.5.0
+Gilbreth: v3.5.0
 
 Module
 ~~~~~~~~

@@ -9,7 +9,7 @@ Burrow-Wheeler Aligner for pairwise alignment between DNA sequences.
 
 Versions
 ~~~~~~~~
-- Anvil: 0.7.17
+Anvil: 0.7.17
 
 Module
 ~~~~~~~~

@@ -9,7 +9,7 @@ NCL is an interpreted language designed specifically for scientific data analysi
 
 Versions
 ~~~~~~~~
-- Bell: 6.4.0
+Bell: 6.4.0
 - Brown: 6.4.0
 - Gilbreth: 6.4.0
 - Anvil: 6.4.0

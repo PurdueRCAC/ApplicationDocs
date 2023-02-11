@@ -9,7 +9,7 @@ AMD Optimized BLIS.
 
 Versions
 ~~~~~~~~
-- Anvil: 3.0
+Anvil: 3.0
 
 Module
 ~~~~~~~~

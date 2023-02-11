@@ -5,7 +5,7 @@ Gaussian16
 
 Versions
 ~~~~~~~~
-- Bell: B.01
+Bell: B.01
 - Brown: A.03, B.01
 - Gilbreth: A.03, B.01-gpu
 - Negishi: B.01

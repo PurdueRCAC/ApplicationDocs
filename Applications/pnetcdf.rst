@@ -5,7 +5,7 @@ Pnetcdf
 
 Versions
 ~~~~~~~~
-- Scholar: 1.9.0
+Scholar: 1.9.0
 
 Module
 ~~~~~~~~

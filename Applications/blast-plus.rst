@@ -9,7 +9,7 @@ Basic Local Alignment Search Tool.
 
 Versions
 ~~~~~~~~
-- Anvil: 2.12.0
+Anvil: 2.12.0
 
 Module
 ~~~~~~~~

@@ -9,7 +9,7 @@ Beagle is a software package for phasing genotypes and for imputing ungenotyped 
 
 Versions
 ~~~~~~~~
-- Anvil: 5.1
+Anvil: 5.1
 
 Module
 ~~~~~~~~

@@ -9,7 +9,7 @@ The Chroma package provides a toolbox and executables to carry out calculation o
 
 Versions
 ~~~~~~~~
-- Gilbreth: 2018-cuda9.0-ubuntu16.04-volta-openmpi, 2020.06, 2021.04
+Gilbreth: 2018-cuda9.0-ubuntu16.04-volta-openmpi, 2020.06, 2021.04
 
 Module
 ~~~~~~~~

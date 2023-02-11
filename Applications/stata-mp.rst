@@ -5,7 +5,7 @@ Stata-mp
 
 Versions
 ~~~~~~~~
-- Bell: 17
+Bell: 17
 
 Module
 ~~~~~~~~

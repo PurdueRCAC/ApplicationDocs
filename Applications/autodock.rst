@@ -9,7 +9,7 @@ The AutoDock Suite is a growing collection of methods for computational docking 
 
 Versions
 ~~~~~~~~
-- Gilbreth: 2020.06
+Gilbreth: 2020.06
 
 Module
 ~~~~~~~~

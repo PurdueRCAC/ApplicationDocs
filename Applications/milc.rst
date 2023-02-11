@@ -9,7 +9,7 @@ MILC represents part of a set of codes written by the MIMD Lattice Computation M
 
 Versions
 ~~~~~~~~
-- Gilbreth: quda0.8-patch4Oct2017
+Gilbreth: quda0.8-patch4Oct2017
 
 Module
 ~~~~~~~~

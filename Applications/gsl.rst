@@ -9,7 +9,7 @@ The GNU Scientific Library GSL is a numerical library for C and C++ programmers.
 
 Versions
 ~~~~~~~~
-- Bell: 2.4
+Bell: 2.4
 - Brown: 2.4
 - Gilbreth: 2.4
 - Negishi: 2.4

@@ -9,7 +9,7 @@ Quantum ESPRESSO is an integrated suite of Open-Source computer codes for electr
 
 Versions
 ~~~~~~~~
-- Gilbreth: v6.6a1, v6.7
+Gilbreth: v6.6a1, v6.7
 
 Module
 ~~~~~~~~

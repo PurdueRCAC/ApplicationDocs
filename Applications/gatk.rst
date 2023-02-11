@@ -9,7 +9,7 @@ Genome Analysis Toolkit Variant Discovery in High-Throughput Sequencing Data
 
 Versions
 ~~~~~~~~
-- Anvil: 4.1.8.1
+Anvil: 4.1.8.1
 
 Module
 ~~~~~~~~

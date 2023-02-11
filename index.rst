@@ -234,9 +234,3 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    usages/gromacs
    usages/lammps
 
-.. toctree::
-   :caption: UserGuides
-   :titlesonly:
-   
-   UserGuides/lammps
-

@@ -9,7 +9,7 @@ FFmpeg is a complete, cross-platform solution to record, convert and stream audi
 
 Versions
 ~~~~~~~~
-- Bell: 4.2.2
+Bell: 4.2.2
 - Brown: 4.2.1
 - Gilbreth: 4.2.1
 - Negishi: 4.4.1

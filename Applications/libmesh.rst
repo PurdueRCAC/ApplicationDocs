@@ -9,7 +9,7 @@ The libMesh library provides a framework for the numerical simulation of partial
 
 Versions
 ~~~~~~~~
-- Negishi: 1.7.1
+Negishi: 1.7.1
 - Anvil: 1.6.2
 
 Module

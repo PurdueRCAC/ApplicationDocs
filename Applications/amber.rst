@@ -9,7 +9,7 @@ Description
 
 Versions
 ~~~~~~~~
-- Bell: 16
+Bell: 16
 - Brown: 16
 - Scholar: 14, 16
 - Gilbreth: 16

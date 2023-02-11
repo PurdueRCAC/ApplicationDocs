@@ -9,7 +9,7 @@ Intel oneAPI Math Kernel Library Intel oneMKL; formerly Intel Math Kernel Librar
 
 Versions
 ~~~~~~~~
-- Negishi: 2023.0.0
+Negishi: 2023.0.0
 
 Module
 ~~~~~~~~
