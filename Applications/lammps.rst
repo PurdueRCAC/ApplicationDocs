@@ -5,7 +5,9 @@ Lammps
 
 Description
 ~~~~~~~~
-//github.com/spack/spack/pull/5342 for a detailed discussion.
+LAMMPS is a classical molecular dynamics code with a focus on materials modelling. It’s an acronym for Large-scale Atomic/Molecular Massively Parallel Simulator.
+
+LAMMPS has potentials for solid-state materials (metals, semiconductors) and soft matter (biomolecules, polymers) and coarse-grained or mesoscopic systems. It can be used to model atoms or, more generically, as a parallel particle simulator at the atomic, meso, or continuum scale.
 
 Versions
 ~~~~~~~~
