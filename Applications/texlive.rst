@@ -9,7 +9,7 @@ TeX Live is a free software distribution for the TeX typesetting system. Heads u
 
 Versions
 ~~~~~~~~
-Bell: 20200406
+- Bell: 20200406
 - Brown: 20200406
 - Gilbreth: 20200406
 - Negishi: 20220321

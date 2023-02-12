@@ -9,7 +9,7 @@ The NCBI SRA Toolkit enables reading dumping of sequencing files from the SRA da
 
 Versions
 ~~~~~~~~
-Anvil: 2.10.9
+- Anvil: 2.10.9
 
 Module
 ~~~~~~~~

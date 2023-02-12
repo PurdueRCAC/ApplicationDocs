@@ -9,7 +9,7 @@ BioPerl is the product of a community effort to produce Perl code which is usefu
 
 Versions
 ~~~~~~~~
-Anvil: 1.7.6
+- Anvil: 1.7.6
 
 Module
 ~~~~~~~~

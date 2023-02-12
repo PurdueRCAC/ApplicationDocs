@@ -9,7 +9,7 @@ A tool to map bisulfite converted sequence reads and determine cytosine methylat
 
 Versions
 ~~~~~~~~
-Anvil: 0.23.0
+- Anvil: 0.23.0
 
 Module
 ~~~~~~~~

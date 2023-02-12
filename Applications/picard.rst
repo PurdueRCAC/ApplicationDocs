@@ -9,7 +9,7 @@ Picard is a set of command line tools for manipulating high-throughput sequencin
 
 Versions
 ~~~~~~~~
-Anvil: 2.25.7
+- Anvil: 2.25.7
 
 Module
 ~~~~~~~~

@@ -9,7 +9,7 @@ RELION for REgularized LIkelihood OptimizatioN implements an empirical Bayesian 
 
 Versions
 ~~~~~~~~
-Gilbreth: 2.1.b1, 3.0.8, 3.1.0, 3.1.2, 3.1.3
+- Gilbreth: 2.1.b1, 3.0.8, 3.1.0, 3.1.2, 3.1.3
 
 Module
 ~~~~~~~~

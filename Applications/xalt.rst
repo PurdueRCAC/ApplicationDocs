@@ -5,7 +5,7 @@ Xalt
 
 Versions
 ~~~~~~~~
-Bell: 1.1.2
+- Bell: 1.1.2
 - Brown: 1.1.2
 - Gilbreth: 1.1.2
 

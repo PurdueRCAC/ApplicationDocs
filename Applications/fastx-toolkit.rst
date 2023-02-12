@@ -9,7 +9,7 @@ The FASTX-Toolkit is a collection of command line tools for Short-Reads FASTA/FA
 
 Versions
 ~~~~~~~~
-Anvil: 0.0.14
+- Anvil: 0.0.14
 
 Module
 ~~~~~~~~

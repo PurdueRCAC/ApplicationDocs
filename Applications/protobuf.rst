@@ -9,7 +9,7 @@ Googles data interchange format.
 
 Versions
 ~~~~~~~~
-Bell: 3.11.4
+- Bell: 3.11.4
 - Brown: 3.0.2
 - Gilbreth: 3.0.2
 - Negishi: 3.11.4, 3.18.0

@@ -5,7 +5,7 @@ Caffe
 
 Versions
 ~~~~~~~~
-Bell: 1.0
+- Bell: 1.0
 - Gilbreth: 1.0.0
 
 Module

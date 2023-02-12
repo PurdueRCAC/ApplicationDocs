@@ -9,7 +9,7 @@ AMD LibM is a software library containing a collection of basic math functions o
 
 Versions
 ~~~~~~~~
-Anvil: 3.0
+- Anvil: 3.0
 
 Module
 ~~~~~~~~

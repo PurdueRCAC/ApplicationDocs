@@ -9,7 +9,7 @@ Simple viewer for NetCDF files.
 
 Versions
 ~~~~~~~~
-Bell: 2.1.7
+- Bell: 2.1.7
 - Brown: 2.1.7
 - Gilbreth: 2.1.7
 - Anvil: 2.1.8

@@ -9,7 +9,7 @@ GEOS Geometry Engine - Open Source is a C++ port of the Java Topology Suite JTS.
 
 Versions
 ~~~~~~~~
-Bell: 3.8.1, 3.9.4
+- Bell: 3.8.1, 3.9.4
 - Brown: 3.7.2, 3.9.4
 - Gilbreth: 3.7.2, 3.9.4
 - Negishi: 3.9.1

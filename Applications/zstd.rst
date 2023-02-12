@@ -5,7 +5,7 @@ Zstd
 
 Versions
 ~~~~~~~~
-Brown: 1.4.3
+- Brown: 1.4.3
 
 Module
 ~~~~~~~~

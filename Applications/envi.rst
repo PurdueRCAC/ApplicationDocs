@@ -9,7 +9,7 @@ envi @5.5.2
 
 Versions
 ~~~~~~~~
-Bell: 5.5.2
+- Bell: 5.5.2
 - Brown: 5.5.2
 - Gilbreth: 5.5.2
 - Workbench: 5.5.2

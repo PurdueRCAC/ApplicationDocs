@@ -9,7 +9,7 @@ GMP is a free library for arbitrary precision arithmetic, operating on signed in
 
 Versions
 ~~~~~~~~
-Bell: 6.1.2
+- Bell: 6.1.2
 - Brown: 6.1.2
 - Gilbreth: 6.1.2
 - Negishi: 6.2.1

@@ -9,7 +9,7 @@ SWIG is an interface compiler that connects programs written in C and C++ with s
 
 Versions
 ~~~~~~~~
-Negishi: 4.0.2
+- Negishi: 4.0.2
 - Anvil: 4.0.2
 
 Module

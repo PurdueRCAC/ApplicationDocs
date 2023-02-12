@@ -9,7 +9,7 @@ PETSc is a suite of data structures and routines for the scalable parallel solut
 
 Versions
 ~~~~~~~~
-Negishi: 3.17.5, 3.18.3
+- Negishi: 3.17.5, 3.18.3
 - Anvil: 3.15.3
 
 Module

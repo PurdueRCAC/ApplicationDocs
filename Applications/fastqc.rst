@@ -9,7 +9,7 @@ A quality control tool for high throughput sequence data.
 
 Versions
 ~~~~~~~~
-Anvil: 0.11.9
+- Anvil: 0.11.9
 
 Module
 ~~~~~~~~

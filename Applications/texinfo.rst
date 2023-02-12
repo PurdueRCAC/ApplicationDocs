@@ -9,7 +9,7 @@ Texinfo is the official documentation format of the GNU project. It was invented
 
 Versions
 ~~~~~~~~
-Bell: 6.7
+- Bell: 6.7
 
 Module
 ~~~~~~~~

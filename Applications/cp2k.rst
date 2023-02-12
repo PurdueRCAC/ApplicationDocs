@@ -9,7 +9,7 @@ CP2K is a quantum chemistry and solid state physics software package that can pe
 
 Versions
 ~~~~~~~~
-Negishi: 2022.1
+- Negishi: 2022.1
 - Anvil: 8.2
 
 Module

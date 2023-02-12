@@ -9,7 +9,7 @@ The Open Fabrics Interfaces OFI is a framework focused on exporting fabric commu
 
 Versions
 ~~~~~~~~
-Negishi: 1.12.0
+- Negishi: 1.12.0
 - Anvil: 1.12.0
 
 Module

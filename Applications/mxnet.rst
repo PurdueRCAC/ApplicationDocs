@@ -5,7 +5,7 @@ Mxnet
 
 Versions
 ~~~~~~~~
-Gilbreth: 1.7.0
+- Gilbreth: 1.7.0
 
 Module
 ~~~~~~~~

@@ -5,7 +5,7 @@ Gaussian09
 
 Versions
 ~~~~~~~~
-Bell: E.01
+- Bell: E.01
 - Brown: E.01
 - Workbench: E.01
 

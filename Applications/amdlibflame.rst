@@ -9,7 +9,7 @@ libFLAME AMD Optimized version is a portable library for dense matrix computatio
 
 Versions
 ~~~~~~~~
-Anvil: 3.0
+- Anvil: 3.0
 
 Module
 ~~~~~~~~

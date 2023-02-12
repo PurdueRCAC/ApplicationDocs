@@ -9,7 +9,7 @@ grads @2.2.1
 
 Versions
 ~~~~~~~~
-Bell: 2.2.1
+- Bell: 2.2.1
 - Brown: 2.2.1
 - Gilbreth: 2.2.1
 - Negishi: 2.2.1

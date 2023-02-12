@@ -9,7 +9,7 @@ BEAST is a cross-platform program for Bayesian inference using MCMC of molecular
 
 Versions
 ~~~~~~~~
-Anvil: 2.6.4
+- Anvil: 2.6.4
 
 Module
 ~~~~~~~~

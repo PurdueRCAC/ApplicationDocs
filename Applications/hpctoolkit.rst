@@ -9,7 +9,7 @@ HPCToolkit is an integrated suite of tools for measurement and analysis of progr
 
 Versions
 ~~~~~~~~
-Negishi: 2022.05.15
+- Negishi: 2022.05.15
 - Anvil: 2021.03.01
 
 Module

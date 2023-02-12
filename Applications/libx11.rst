@@ -9,7 +9,7 @@ libX11 - Core X11 protocol client library.
 
 Versions
 ~~~~~~~~
-Anvil: 1.7.0
+- Anvil: 1.7.0
 
 Module
 ~~~~~~~~

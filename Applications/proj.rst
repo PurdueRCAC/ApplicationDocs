@@ -9,7 +9,7 @@ PROJ is a generic coordinate transformation software, that transforms geospatial
 
 Versions
 ~~~~~~~~
-Bell: 5.2.0, 8.1.0, 8.2.1
+- Bell: 5.2.0, 8.1.0, 8.2.1
 - Brown: 5.2.0, 8.1.0, 8.2.1
 - Gilbreth: 5.2.0, 8.2.1
 - Negishi: 5.2.0, 6.2.0

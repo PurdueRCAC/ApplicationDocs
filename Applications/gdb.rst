@@ -9,7 +9,7 @@ GDB, the GNU Project debugger, allows you to see what is going on inside another
 
 Versions
 ~~~~~~~~
-Bell: 11.1
+- Bell: 11.1
 - Negishi: 11.1, 12.1
 - Anvil: 11.1
 

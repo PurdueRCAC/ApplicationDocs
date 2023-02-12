@@ -9,7 +9,7 @@ HTSeq is a Python package that provides infrastructure to process data from high
 
 Versions
 ~~~~~~~~
-Anvil: 0.11.2
+- Anvil: 0.11.2
 
 Module
 ~~~~~~~~

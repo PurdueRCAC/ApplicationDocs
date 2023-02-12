@@ -9,7 +9,7 @@ Spliced read mapper for RNA-Seq.
 
 Versions
 ~~~~~~~~
-Anvil: 2.1.2
+- Anvil: 2.1.2
 
 Module
 ~~~~~~~~

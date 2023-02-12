@@ -9,7 +9,7 @@ NVIDIAs Clara Parabricks brings next generation sequencing to GPUs, accelerating
 
 Versions
 ~~~~~~~~
-Gilbreth: 4.0.0-1
+- Gilbreth: 4.0.0-1
 
 Module
 ~~~~~~~~

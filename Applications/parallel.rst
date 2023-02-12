@@ -9,7 +9,7 @@ GNU parallel is a shell tool for executing jobs in parallel using one or more co
 
 Versions
 ~~~~~~~~
-Negishi: 20220522
+- Negishi: 20220522
 - Anvil: 20200822
 
 Module

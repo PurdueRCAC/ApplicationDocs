@@ -9,7 +9,7 @@ SAM Tools provide various utilities for manipulating alignments in the SAM forma
 
 Versions
 ~~~~~~~~
-Anvil: 1.12
+- Anvil: 1.12
 
 Module
 ~~~~~~~~
