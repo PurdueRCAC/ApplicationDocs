@@ -13,6 +13,7 @@ Versions
 - Brown: 6.2.1, 6.3
 - Negishi: 7.1
 - Anvil: 6.7
+- Scholar: 6.2.1, 6.3
 
 Module
 ~~~~~~~~

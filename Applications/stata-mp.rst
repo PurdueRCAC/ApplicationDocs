@@ -6,6 +6,7 @@ Stata-mp
 Versions
 ~~~~~~~~
 - Bell: 17
+- Scholar: 17
 
 Module
 ~~~~~~~~

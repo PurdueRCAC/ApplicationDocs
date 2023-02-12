@@ -14,6 +14,7 @@ Versions
 - Gilbreth: 2.1.7
 - Anvil: 2.1.8
 - Workbench: 2.1.7
+- Scholar: 2.1.7
 
 Module
 ~~~~~~~~

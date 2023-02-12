@@ -15,6 +15,7 @@ Versions
 - Negishi: 2.4
 - Anvil: 2.4
 - Workbench: 2.4
+- Scholar: 2.4
 
 Module
 ~~~~~~~~

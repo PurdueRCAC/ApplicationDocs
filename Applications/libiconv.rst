@@ -14,6 +14,7 @@ Versions
 - Gilbreth: 1.16
 - Negishi: 1.16
 - Anvil: 1.16
+- Scholar: 1.16
 
 Module
 ~~~~~~~~

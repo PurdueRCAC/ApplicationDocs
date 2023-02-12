@@ -9,6 +9,7 @@ Versions
 - Brown: 17
 - Gilbreth: 17
 - Workbench: 16, 17
+- Scholar: 17
 
 Module
 ~~~~~~~~

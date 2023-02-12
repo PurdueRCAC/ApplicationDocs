@@ -15,6 +15,7 @@ Versions
 - Negishi: 4.9.3
 - Anvil: 4.9.3
 - Workbench: 4.6.7
+- Scholar: 4.6.7
 
 Module
 ~~~~~~~~

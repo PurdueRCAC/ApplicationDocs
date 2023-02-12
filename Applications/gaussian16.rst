@@ -10,6 +10,7 @@ Versions
 - Gilbreth: A.03, B.01-gpu
 - Negishi: B.01
 - Workbench: A.03, B.01
+- Scholar: A.03, B.01
 
 Module
 ~~~~~~~~

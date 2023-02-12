@@ -15,6 +15,7 @@ Versions
 - Negishi: 1.2.13
 - Anvil: 1.2.11
 - Workbench: 1.2.11-generic
+- Scholar: 1.2.11-generic, 1.2.11
 
 Module
 ~~~~~~~~

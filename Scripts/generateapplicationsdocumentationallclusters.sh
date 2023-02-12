@@ -10,7 +10,7 @@ cd $current_dir # cd back to current directory
 # Assign shortcuts for all cluster paths
 export bell="$repo_path/Clusters/xCAT-Bell-Configuration/puppet/modules/common/files/opt/spack/modulefiles"
 export brown="$repo_path/Clusters/xCAT-Brown-Configuration/puppet/modules/common/files/opt/spack/modulefiles"
-export scholar="$repo_path/Clusters/Scholar-Modulefiles/opt/modulefiles"
+export scholar="$repo_path/Clusters/Scholar-Modulefiles/opt/spack/modulefiles"
 export gilbreth="$repo_path/Clusters/xCAT-Gilbreth-Configuration/puppet/modules/common/files/opt/spack/modulefiles"
 export negishi="$repo_path/Clusters/Negishi-Modulefiles/cpu-20221214"
 export anvil1="$repo_path/Clusters/Anvil-Modulefiles/cpu-20211007"
@@ -342,53 +342,57 @@ done
 clustername=Scholar
 
 # Generate Lua files from gcc
-luasource="$scholar/compiler/gcc/4.8.5"
+luasource="$scholar/gcc/4.8.5"
 generateListOfMissingFiles
 generateLuaFilesIfNew
 
-luasource="$scholar/compiler/gcc/5.2.0"
+luasource="$scholar/gcc/5.2.0"
 generateListOfMissingFiles
 generateLuaFilesIfNew
 
-luasource="$scholar/compiler/gcc/6.3.0"
+luasource="$scholar/gcc/6.3.0"
 generateListOfMissingFiles
 generateLuaFilesIfNew
 
-luasource="$scholar/compiler/gcc/7.3.0"
+luasource="$scholar/gcc/7.3.0"
+generateListOfMissingFiles
+generateLuaFilesIfNew
+
+luasource="$scholar/gcc/8.3.0"
 generateListOfMissingFiles
 generateLuaFilesIfNew
 
 # Generate Lua files from intel
-luasource="$scholar/compiler/intel/16.0.1.150"
+luasource="$scholar/intel/16.0.1"
 generateListOfMissingFiles
 generateLuaFilesIfNew
 
-luasource="$scholar/compiler/intel/17.0.1.132"
+luasource="$scholar/intel/17.0.1"
 generateListOfMissingFiles
 generateLuaFilesIfNew
 
-luasource="$scholar/compiler/intel/18.0.1.163"
+luasource="$scholar/intel/18.0.1"
 generateListOfMissingFiles
 generateLuaFilesIfNew
 
-luasource="$scholar/compiler/intel/19.0.3.199"
+luasource="$scholar/intel/19.0.3"
 generateListOfMissingFiles
 generateLuaFilesIfNew
 
-# Generate Lua files from mpi
-ls "$scholar/mpi/intel/" > openmpifolders.txt
-readarray -t openmpifolders < openmpifolders.txt
-rm openmpifolders.txt
+# Generate Lua files from intel-mpi
+ls "$scholar/intel-mpi" > intelmpifolders.txt
+readarray -t intelmpifolders < intelmpifolders.txt
+rm intelmpifolders.txt
 
-for foldername in ${openmpifolders[@]}; do
+for foldername in ${intelmpifolders[@]}; do
     workingdirectory=$PWD
-    cd $scholar/mpi/intel/$foldername
+    cd $scholar/intel-mpi/$foldername
     innerfoldername=`ls`
     cd $innerfoldername
     innermostfoldername=`ls`
     corefiles=$PWD
     cd "$workingdirectory"
-    luasource="$scholar/mpi/intel/$foldername/$innerfoldername/$innermostfoldername"
+    luasource="$scholar/intel-mpi/$foldername/$innerfoldername/$innermostfoldername"
     generateListOfMissingFiles
     generateLuaFilesIfNew
 done

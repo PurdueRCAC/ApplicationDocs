@@ -12,6 +12,7 @@ Versions
 - Bell: 2.0.0
 - Brown: 2.0.0
 - Gilbreth: 2.0.0
+- Scholar: 2.0.0
 
 Module
 ~~~~~~~~

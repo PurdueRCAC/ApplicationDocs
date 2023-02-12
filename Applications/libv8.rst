@@ -13,6 +13,7 @@ Versions
 - Brown: 3.14
 - Anvil: 6.7.17
 - Workbench: 3.14
+- Scholar: 3.14
 
 Module
 ~~~~~~~~

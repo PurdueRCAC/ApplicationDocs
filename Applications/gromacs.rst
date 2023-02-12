@@ -11,7 +11,7 @@ Versions
 ~~~~~~~~
 - Bell: 2018.4, 2019.2
 - Brown: 2018.4, 2019.2
-- Scholar: 2018.4
+- Scholar: 2018.4, 2019.2
 - Gilbreth: 2018.4
 - Negishi: 2022.3
 - Anvil: 2021.2

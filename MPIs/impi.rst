@@ -14,6 +14,7 @@ Versions
 - Gilbreth: 2019.5.281
 - Negishi: 2019.9.304
 - Anvil: 2019.5.281
+- Scholar: 2019.3.199
 
 Module
 ~~~~~~~~

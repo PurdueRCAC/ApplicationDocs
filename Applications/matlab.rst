@@ -15,6 +15,7 @@ Versions
 - Negishi: R2021b, R2022a
 - Anvil: R2020b, R2021b, R2022a
 - Workbench: R2017a, R2018a, R2019a, R2020a, R2022a
+- Scholar: R2017a, R2018a, R2019a, R2020a, R2022a
 
 Module
 ~~~~~~~~

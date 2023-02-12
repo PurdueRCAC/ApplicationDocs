@@ -13,6 +13,7 @@ Versions
 - Brown: 9.0.1, 9.5.1
 - Anvil: 9.5.1
 - Workbench: 7.5.2, 9.0.1
+- Scholar: 9.0.1
 
 Module
 ~~~~~~~~

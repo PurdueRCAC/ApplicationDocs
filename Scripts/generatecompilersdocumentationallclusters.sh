@@ -16,7 +16,7 @@ cd $current_dir # cd back to current directory
 
 export bell="$repo_path/Clusters/xCAT-Bell-Configuration/puppet/modules/common/files/opt/spack/modulefiles"
 export brown="$repo_path/Clusters/xCAT-Brown-Configuration/puppet/modules/common/files/opt/spack/modulefiles"
-export scholar="$repo_path/Clusters/Scholar-Modulefiles/opt/modulefiles"
+export scholar="$repo_path/Clusters/Scholar-Modulefiles/opt/spack/modulefiles"
 export gilbreth="$repo_path/Clusters/xCAT-Gilbreth-Configuration/puppet/modules/common/files/opt/spack/modulefiles"
 export negishi="$repo_path/Clusters/Negishi-Modulefiles/cpu-20221214"
 export anvil1="$repo_path/Clusters/Anvil-Modulefiles/cpu-20211007"

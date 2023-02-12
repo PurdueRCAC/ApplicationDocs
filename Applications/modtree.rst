@@ -11,6 +11,7 @@ Versions
 - Negishi: cpu
 - Anvil: cpu, gpu
 - Workbench: deprecated, new
+- Scholar: deprecated, recent
 
 Module
 ~~~~~~~~
