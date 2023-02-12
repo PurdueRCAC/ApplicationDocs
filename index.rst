@@ -227,10 +227,3 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    MPIs/mvapich2
    MPIs/openmpi
 
-.. toctree::
-   :caption: usages
-   :titlesonly:
-   
-   usages/gromacs
-   usages/lammps
-
