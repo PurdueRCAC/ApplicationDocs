@@ -11,11 +11,11 @@ Versions
 ~~~~~~~~
 - Bell: 20200406
 - Brown: 20200406
+- Scholar: 20200406
 - Gilbreth: 20200406
 - Negishi: 20220321
 - Anvil: 20200406
 - Workbench: 20200406
-- Scholar: 20200406
 
 Module
 ~~~~~~~~

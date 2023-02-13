@@ -11,10 +11,10 @@ Versions
 ~~~~~~~~
 - Bell: 6.4.0
 - Brown: 6.4.0
+- Scholar: 6.4.0
 - Gilbreth: 6.4.0
 - Anvil: 6.4.0
 - Workbench: 6.4.0
-- Scholar: 6.4.0
 
 Module
 ~~~~~~~~

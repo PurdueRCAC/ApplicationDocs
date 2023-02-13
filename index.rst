@@ -61,7 +61,6 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    Applications/ansys
    Applications/aocl
    Applications/arpack-ng
-   Applications/autodock
    Applications/aws-cli
    Applications/bamtools
    Applications/bbftp
@@ -75,7 +74,6 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    Applications/bwa
    Applications/caffe
    Applications/cdo
-   Applications/chroma
    Applications/cmake
    Applications/cntk
    Applications/comsol
@@ -145,7 +143,6 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    Applications/mathematica
    Applications/matlab
    Applications/meep
-   Applications/milc
    Applications/modtree
    Applications/monitor
    Applications/mpc
@@ -157,7 +154,6 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    Applications/ncl
    Applications/nco
    Applications/ncview
-   Applications/netcdf4
    Applications/netcdf-c
    Applications/netcdf-cxx4
    Applications/netcdf-fortran
@@ -173,7 +169,6 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    Applications/openjdk
    Applications/panoply
    Applications/papi
-   Applications/parabricks
    Applications/parafly
    Applications/parallel-netcdf
    Applications/parallel
@@ -181,20 +176,15 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    Applications/perl-bioperl
    Applications/petsc
    Applications/picard
-   Applications/pnetcdf
    Applications/proj
    Applications/protobuf
    Applications/py-mpi4py
    Applications/python
    Applications/pytorch
    Applications/qemu
-   Applications/qmcpack
    Applications/qt
    Applications/quantumatk
-   Applications/quantum_espresso
    Applications/quantum-espresso
-   Applications/rapidsai
-   Applications/relion
    Applications/rocm
    Applications/r
    Applications/rstudio
@@ -218,7 +208,6 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    Applications/thermocalc
    Applications/tk
    Applications/tophat
-   Applications/torchani
    Applications/totalview
    Applications/trimmomatic
    Applications/ucx

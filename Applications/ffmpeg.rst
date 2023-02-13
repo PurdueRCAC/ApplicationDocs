@@ -11,11 +11,11 @@ Versions
 ~~~~~~~~
 - Bell: 4.2.2
 - Brown: 4.2.1
+- Scholar: 4.2.1
 - Gilbreth: 4.2.1
 - Negishi: 4.4.1
 - Anvil: 4.2.2
 - Workbench: 4.2.1
-- Scholar: 4.2.1
 
 Module
 ~~~~~~~~

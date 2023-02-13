@@ -11,9 +11,9 @@ Versions
 ~~~~~~~~
 - Bell: 2.2.24
 - Brown: 2.2.24
+- Scholar: 2.2.24
 - Gilbreth: 2.2.24
 - Workbench: 2.2.24
-- Scholar: 2.2.24
 
 Module
 ~~~~~~~~

@@ -11,9 +11,9 @@ Versions
 ~~~~~~~~
 - Bell: 8.7
 - Brown: 8.7
+- Scholar: 8.7
 - Gilbreth: 8.7
 - Workbench: 8.7
-- Scholar: 8.7
 
 Module
 ~~~~~~~~

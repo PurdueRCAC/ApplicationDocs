@@ -11,11 +11,11 @@ Versions
 ~~~~~~~~
 - Bell: 3.8.0
 - Brown: 3.6.0
+- Scholar: 3.6.0
 - Gilbreth: 3.6.0
 - Negishi: 3.8.0
 - Anvil: 3.8.0
 - Workbench: 3.6.0
-- Scholar: 3.6.0
 
 Module
 ~~~~~~~~

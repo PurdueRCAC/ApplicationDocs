@@ -9,7 +9,7 @@ NAMDis a parallel molecular dynamics code designed for high-performance simulati
 
 Versions
 ~~~~~~~~
-- Gilbreth: 2.13-multinode, 2.13-singlenode, 3.0-alpha3-singlenode
+- Gilbreth: 2.13
 - Negishi: 2.14
 - Anvil: 2.14
 

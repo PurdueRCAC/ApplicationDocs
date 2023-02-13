@@ -7,11 +7,11 @@ Versions
 ~~~~~~~~
 - Bell: deprecated, new
 - Brown: deprecated, new
+- Scholar: deprecated, recent
 - Gilbreth: deprecated, new
 - Negishi: cpu
 - Anvil: cpu, gpu
 - Workbench: deprecated, new
-- Scholar: deprecated, recent
 
 Module
 ~~~~~~~~

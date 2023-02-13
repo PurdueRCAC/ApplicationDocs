@@ -123,7 +123,7 @@ function generateLuaFilesIfNew() {
 
             echo "Versions" >> $outputfile
             echo "~~~~~~~~" >> $outputfile
-            echo -n "$clustername: " >> $outputfile
+            echo -n "- $clustername: " >> $outputfile
             for eachfile in $filenamesarray 
             do
                 # echo -n "- " >> $outputfile
@@ -492,11 +492,6 @@ generateListOfMissingFiles
 generateLuaFilesIfNew
 
 luasource="$gilbreth/ml-toolkit/conda-2020.11-py38/cpu/modules/ml-toolkit-cpu"
-generateListOfMissingFiles
-generateLuaFilesIfNew
-
-# Generate Lua files from ngc
-luasource="$gilbreth/ngc"
 generateListOfMissingFiles
 generateLuaFilesIfNew
 

@@ -11,7 +11,6 @@ Versions
 ~~~~~~~~
 - Bell: 5.6.2
 - Brown: 5.9.1
-- Gilbreth: 5.9.0
 - Anvil: 5.9.1
 
 Module

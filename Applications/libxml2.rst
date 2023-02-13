@@ -11,10 +11,10 @@ Versions
 ~~~~~~~~
 - Bell: 2.9.9
 - Brown: 2.9.9
+- Scholar: 2.9.9
 - Gilbreth: 2.9.9
 - Negishi: 2.10.1
 - Anvil: 2.9.10
-- Scholar: 2.9.9
 
 Module
 ~~~~~~~~
