@@ -181,13 +181,21 @@ generateLuaFilesIfNew
 indexfile="/$repo_path/index.rst"
 cd $repo_path
 
-subfoldersarray=`ls -d */`
+# subfoldersarray=`ls -d */`
+declare -a subfoldersarray=(
+[0]=FAQs/
+[1]=Compilers/
+[2]=MPIs/
+[3]=Applications/
+[4]=NGC/
+[5]=ROCm/
+)
 
 sed -i '/.. toctree::/,$d' $indexfile
 
 SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
-for eachfolder in $subfoldersarray
+for eachfolder in ${subfoldersarray[@]}
 do
     if [ "$eachfolder" != "Scripts/" ] && [ "$eachfolder" != "images/" ] && [ "$eachfolder" != "Clusters/" ]; then
         echo "each folder : $eachfolder"

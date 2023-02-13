@@ -21,6 +21,30 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
 .. _Biocontainers: https://biocontainer-doc.readthedocs.io/en/latest/
 
 .. toctree::
+   :caption: FAQs
+   :titlesonly:
+   
+   FAQs/R
+
+.. toctree::
+   :caption: Compilers
+   :titlesonly:
+   
+   Compilers/aocc
+   Compilers/gcc
+   Compilers/intel-oneapi-compilers
+   Compilers/intel
+
+.. toctree::
+   :caption: MPIs
+   :titlesonly:
+   
+   MPIs/impi
+   MPIs/intel-oneapi-mpi
+   MPIs/mvapich2
+   MPIs/openmpi
+
+.. toctree::
    :caption: Applications
    :titlesonly:
    
@@ -214,26 +238,42 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    Applications/zstd
 
 .. toctree::
-   :caption: Compilers
+   :caption: NGC
    :titlesonly:
    
-   Compilers/aocc
-   Compilers/gcc
-   Compilers/intel-oneapi-compilers
-   Compilers/intel
+   NGC/autodock
+   NGC/chroma
+   NGC/gamess
+   NGC/gromacs
+   NGC/julia
+   NGC/lammps
+   NGC/milc
+   NGC/namd
+   NGC/nvhpc
+   NGC/parabricks
+   NGC/paraview
+   NGC/pytorch
+   NGC/qmcpack
+   NGC/quantum_espresso
+   NGC/rapidsai
+   NGC/relion
+   NGC/tensorflow
+   NGC/torchani
 
 .. toctree::
-   :caption: FAQs
+   :caption: ROCm
    :titlesonly:
    
-   FAQs/R
-
-.. toctree::
-   :caption: MPIs
-   :titlesonly:
-   
-   MPIs/impi
-   MPIs/intel-oneapi-mpi
-   MPIs/mvapich2
-   MPIs/openmpi
+   ROCm/cp2k
+   ROCm/deepspeed
+   ROCm/gromacs
+   ROCm/lammps
+   ROCm/namd
+   ROCm/openmm
+   ROCm/pytorch
+   ROCm/rochpcg
+   ROCm/rochpl
+   ROCm/specfem3d_globe
+   ROCm/specfem3d
+   ROCm/tensorflow
 

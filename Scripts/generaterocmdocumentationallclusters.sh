@@ -1,13 +1,6 @@
 #! /bin/bash
-# This script generates documentation files for impi, openmpi, intel-oneapi-mpi, and mvapich2 from the latest version from intel from all the clusters under the MPIs folder and then updates index.rst
-# Example Usage: ./generatempisdocumentationallclusters.sh
-
-declare -a listofmissingfiles=(
-[0]=impi
-[1]=openmpi
-[2]=intel-oneapi-mpi
-[3]=mvapich2
-)
+# This script generates documentation files for rocmcontainers files of all the clusters under the ROCm folder and then updates index.rst
+# Example Usage: ./generaterocmdocumentationallclusters.sh
 
 current_dir="$PWD" # save current directory 
 cd ../ # go up one directory
@@ -15,21 +8,23 @@ repo_path="$PWD" # assign path to repo_path
 cd $current_dir # cd back to current directory
 
 export bell="$repo_path/Clusters/xCAT-Bell-Configuration/puppet/modules/common/files/opt/spack/modulefiles"
-export brown="$repo_path/Clusters/xCAT-Brown-Configuration/puppet/modules/common/files/opt/spack/modulefiles"
-export scholar="$repo_path/Clusters/Scholar-Modulefiles/opt/spack/modulefiles"
-export gilbreth="$repo_path/Clusters/xCAT-Gilbreth-Configuration/puppet/modules/common/files/opt/spack/modulefiles"
-export negishi="$repo_path/Clusters/Negishi-Modulefiles/cpu-20221214"
-export anvil1="$repo_path/Clusters/Anvil-Modulefiles/cpu-20211007"
-export anvil2="$repo_path/Clusters/Anvil-Modulefiles/gpu-20211014"
-export workbench="$repo_path/Clusters/xCAT-Workbench-Configuration/puppet/modules/common/files/opt/spack/modulefiles"
+export negishi="$repo_path/Clusters/Negishi-Modulefiles"
 
-clusternames=("$bell" "$brown" "$scholar" "$gilbreth" "$negishi" "$anvil1" "$anvil2" "$workbench")
+clusternames=("$bell" "$negishi")
 
 # Git pull on all clusters. Uncomment to pull every time the script is run
 # for name in ${clusternames[@]}; do
 #     cd $name
 #     git pull
 # done
+
+function generateListOfMissingFiles() {
+    diff -x '*.lua' -q $applicationsfolder $luasource | grep "Only in $repo_path/Clusters/" > tempfile.txt
+    awk 'NF{ print $NF }' tempfile.txt > listofmissingfiles.txt
+    rm tempfile.txt
+    readarray -t listofmissingfiles < listofmissingfiles.txt
+    rm listofmissingfiles.txt
+}
 
 function generateLuaFilesIfNew() {
     for filename in ${listofmissingfiles[@]}; do 
@@ -41,7 +36,7 @@ function generateLuaFilesIfNew() {
         if [ ! -d "$inputfolder" ] 
         then
             echo "File does not exist, skipping"
-            continue; # Skip if one of the mpis does not exist
+            continue; # Skip if one of the ROCm files does not exist
         fi
 
         filenamesarray=`ls $inputfolder*.lua`
@@ -53,7 +48,7 @@ function generateLuaFilesIfNew() {
 
         containername=$(echo $inputpath | awk -F/ '{print $(NF-1)}')
 
-        outputfile="$repo_path/MPIs/$containername.rst"
+        outputfile="$repo_path/ROCm/$containername.rst"
         echo "output file: "$outputfile
 
         if test -f "$outputfile"; then
@@ -144,37 +139,16 @@ function generateLuaFilesIfNew() {
     done
 }
 
+applicationsfolder="$repo_path/ROCm/"
 
 clustername=Bell
-luasource=$bell/intel/19.0.5
-generateLuaFilesIfNew
-
-clustername=Brown
-luasource=$brown/intel/19.0.3
-generateLuaFilesIfNew
-
-clustername=Scholar
-luasource=$scholar/intel/19.0.3
-generateLuaFilesIfNew
-
-clustername=Gilbreth
-luasource=$gilbreth/intel/19.0.5
+luasource=$bell/rocmcontainers
+generateListOfMissingFiles
 generateLuaFilesIfNew
 
 clustername=Negishi
-luasource=$negishi/intel/19.1.3
-generateLuaFilesIfNew
-luasource=$negishi/oneapi/2023.0.0
-generateLuaFilesIfNew
-
-clustername=Anvil
-luasource=$anvil1/intel/19.0.5
-generateLuaFilesIfNew
-luasource=$anvil2/intel/19.0.5
-generateLuaFilesIfNew
-
-clustername=Workbench
-luasource=$workbench/intel/19.0.3
+luasource=$negishi/rocmcontainers
+generateListOfMissingFiles
 generateLuaFilesIfNew
 
 
@@ -183,21 +157,13 @@ generateLuaFilesIfNew
 indexfile="/$repo_path/index.rst"
 cd $repo_path
 
-# subfoldersarray=`ls -d */`
-declare -a subfoldersarray=(
-[0]=FAQs/
-[1]=Compilers/
-[2]=MPIs/
-[3]=Applications/
-[4]=NGC/
-[5]=ROCm/
-)
+subfoldersarray=`ls -d */`
 
 sed -i '/.. toctree::/,$d' $indexfile
 
 SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
-for eachfolder in ${subfoldersarray[@]}
+for eachfolder in $subfoldersarray
 do
     if [ "$eachfolder" != "Scripts/" ] && [ "$eachfolder" != "images/" ] && [ "$eachfolder" != "Clusters/" ]; then
         echo "each folder : $eachfolder"
