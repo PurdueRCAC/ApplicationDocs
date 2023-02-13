@@ -9,7 +9,7 @@ The free and opensource java implementation
 
 Versions
 ~~~~~~~~
-- Negishi: 11.0.17_8, 1.8.0_265-b01
+- Negishi: 1.8.0_265-b01, 11.0.17_8
 - Anvil: 11.0.8_10
 
 Module

@@ -40,7 +40,7 @@ function generateLuaFilesIfNew() {
             continue; # Skip if one of the ngc files does not exist
         fi
 
-        filenamesarray=`ls $inputfolder*.lua`
+        filenamesarray=`ls -v $inputfolder*.lua`
         for eachfile in $filenamesarray
         do
             inputpath=$eachfile #This assumes last file name in alphabetical order is the file to parse

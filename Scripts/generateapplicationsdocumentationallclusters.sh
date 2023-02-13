@@ -45,7 +45,7 @@ function generateLuaFilesIfNew() {
         inputfolder="$luasource/$filename/"
         # echo "input folder: "$inputfolder
 
-        filenamesarray=`ls $inputfolder*.lua`
+        filenamesarray=`ls -v $inputfolder*.lua`
         for eachfile in $filenamesarray
         do
             inputpath=$eachfile #This assumes last file name in alphabetical order is the file to parse

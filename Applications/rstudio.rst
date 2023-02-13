@@ -9,7 +9,7 @@ This package installs Rstudio desktop from pre-compiled binaries available in th
 
 Versions
 ~~~~~~~~
-- Bell: 1.3.1073, 1.3.959, 2021.09, 2022.07
+- Bell: 1.3.959, 1.3.1073, 2021.09, 2022.07
 - Brown: 1.2.1335, 1.3.959, 2021.09, 2022.07
 - Scholar: 1.2.1335, 1.3.959, 2021.09, 2022.07
 - Gilbreth: 1.2.1335, 1.3.959, 2021.09, 2022.07

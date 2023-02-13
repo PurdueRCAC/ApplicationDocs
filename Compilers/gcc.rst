@@ -9,11 +9,11 @@ The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran
 
 Versions
 ~~~~~~~~
-- Bell: 10.2.0, 4.8.5, 6.3.0, 9.3.0
+- Bell: 4.8.5, 6.3.0, 9.3.0, 10.2.0
 - Brown: 4.8.5, 5.2.0, 6.3.0, 7.3.0, 8.3.0
 - Gilbreth: 4.8.5, 6.3.0, 9.3.0
-- Negishi: 11.2.0, 12.2.0, 8.5.0
-- Anvil: 11.2.0, 11.2.0-openacc, 8.4.1
+- Negishi: 8.5.0, 11.2.0, 12.2.0
+- Anvil: 8.4.1, 11.2.0, 11.2.0-openacc
 - Workbench: 4.8.5, 5.2.0, 6.3.0, 7.3.0, 8.3.0
 - Scholar: 4.8.5, 5.2.0, 6.3.0, 7.3.0, 8.3.0
 

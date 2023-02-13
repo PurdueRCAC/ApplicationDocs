@@ -9,13 +9,13 @@ HDF5 is a data model, library, and file format for storing and managing data. It
 
 Versions
 ~~~~~~~~
-- Bell: 1.10.6, 1.8.21
-- Brown: 1.10.5, 1.8.16
-- Scholar: 1.10.5, 1.8.16
-- Gilbreth: 1.10.5, 1.8.16
+- Bell: 1.8.21, 1.10.6
+- Brown: 1.8.16, 1.10.5
+- Scholar: 1.8.16, 1.10.5
+- Gilbreth: 1.8.16, 1.10.5
 - Negishi: 1.13.2
 - Anvil: 1.10.7
-- Workbench: 1.10.5, 1.8.16
+- Workbench: 1.8.16, 1.10.5
 
 Module
 ~~~~~~~~

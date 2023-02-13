@@ -10,7 +10,7 @@ Mathematica Wolfram Language and other tools provide
 Versions
 ~~~~~~~~
 - Bell: 11.3, 12.1, 12.3, 13.1
-- Brown: 11.3, 12.1, 12.3, 13.1, 9.0
+- Brown: 9.0, 11.3, 12.1, 12.3, 13.1
 - Scholar: 12.3, 13.1
 - Gilbreth: 11.3, 12.1, 12.3, 13.1
 - Negishi: 13.1
