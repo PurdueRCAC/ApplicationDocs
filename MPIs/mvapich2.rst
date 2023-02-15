@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Mvapich2
+mvapich2
 ==============================
 
 Description

@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Intel-oneapi-compilers
+intel-oneapi-compilers
 ==============================
 
 Description

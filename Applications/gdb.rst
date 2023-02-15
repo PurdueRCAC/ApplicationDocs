@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Gdb
+gdb
 ==============================
 
 Description

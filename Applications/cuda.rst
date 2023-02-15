@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Cuda
+cuda
 ==============================
 
 Versions

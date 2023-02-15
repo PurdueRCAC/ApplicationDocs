@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Bowtie2
+bowtie2
 ==============================
 
 Description

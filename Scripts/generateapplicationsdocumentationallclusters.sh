@@ -106,7 +106,7 @@ function generateLuaFilesIfNew() {
 
             echo ".. _backbone-label:" > $outputfile
             echo "" >> $outputfile
-            echo "${containername^}" >> $outputfile
+            echo "$containername" >> $outputfile
             echo "==============================" >> $outputfile
             echo "" >> $outputfile
 

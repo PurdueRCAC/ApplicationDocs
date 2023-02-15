@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Cue-login-env
+cue-login-env
 ==============================
 
 Description

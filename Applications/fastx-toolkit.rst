@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Fastx-toolkit
+fastx-toolkit
 ==============================
 
 Description

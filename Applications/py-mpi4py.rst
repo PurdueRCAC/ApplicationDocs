@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Py-mpi4py
+py-mpi4py
 ==============================
 
 Versions

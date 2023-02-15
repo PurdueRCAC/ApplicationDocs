@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Qt
+qt
 ==============================
 
 Description

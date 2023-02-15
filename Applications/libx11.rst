@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Libx11
+libx11
 ==============================
 
 Description

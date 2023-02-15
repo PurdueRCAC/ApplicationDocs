@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Udunits2
+udunits2
 ==============================
 
 Description

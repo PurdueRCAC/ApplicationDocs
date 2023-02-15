@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Parallel-netcdf
+parallel-netcdf
 ==============================
 
 Description

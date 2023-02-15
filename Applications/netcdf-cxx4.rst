@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Netcdf-cxx4
+netcdf-cxx4
 ==============================
 
 Description

@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Aws-cli
+aws-cli
 ==============================
 
 Description

@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Netcdf-fortran
+netcdf-fortran
 ==============================
 
 Description

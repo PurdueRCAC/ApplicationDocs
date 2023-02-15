@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Intel-oneapi-mkl
+intel-oneapi-mkl
 ==============================
 
 Description

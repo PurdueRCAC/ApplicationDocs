@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Libxml2
+libxml2
 ==============================
 
 Description

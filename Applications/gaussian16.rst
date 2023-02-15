@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Gaussian16
+gaussian16
 ==============================
 
 Versions

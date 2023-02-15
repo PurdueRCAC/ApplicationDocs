@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Libv8
+libv8
 ==============================
 
 Description

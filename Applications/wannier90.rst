@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Wannier90
+wannier90
 ==============================
 
 Description

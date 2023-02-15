@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Modtree
+modtree
 ==============================
 
 Versions

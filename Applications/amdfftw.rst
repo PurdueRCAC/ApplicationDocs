@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Amdfftw
+amdfftw
 ==============================
 
 Description

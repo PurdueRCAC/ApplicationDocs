@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Libtiff
+libtiff
 ==============================
 
 Description

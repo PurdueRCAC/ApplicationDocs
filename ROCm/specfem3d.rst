@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Specfem3d
+specfem3d
 ==============================
 
 Description

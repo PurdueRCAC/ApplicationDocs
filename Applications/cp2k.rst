@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Cp2k
+cp2k
 ==============================
 
 Description

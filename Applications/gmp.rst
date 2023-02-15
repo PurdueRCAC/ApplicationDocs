@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Gmp
+gmp
 ==============================
 
 Description

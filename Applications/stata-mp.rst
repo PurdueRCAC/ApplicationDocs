@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Stata-mp
+stata-mp
 ==============================
 
 Versions

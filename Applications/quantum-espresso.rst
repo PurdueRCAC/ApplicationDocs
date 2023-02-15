@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Quantum-espresso
+quantum-espresso
 ==============================
 
 Description

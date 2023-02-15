@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Petsc
+petsc
 ==============================
 
 Description

@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Gurobi
+gurobi
 ==============================
 
 Description

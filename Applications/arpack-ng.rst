@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Arpack-ng
+arpack-ng
 ==============================
 
 Description

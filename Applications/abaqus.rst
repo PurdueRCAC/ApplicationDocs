@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Abaqus
+abaqus
 ==============================
 
 Versions

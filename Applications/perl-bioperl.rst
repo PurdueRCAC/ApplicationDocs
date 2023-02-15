@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Perl-bioperl
+perl-bioperl
 ==============================
 
 Description

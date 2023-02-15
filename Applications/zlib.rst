@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Zlib
+zlib
 ==============================
 
 Description

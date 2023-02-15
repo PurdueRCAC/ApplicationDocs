@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Hyper-shell
+hyper-shell
 ==============================
 
 Description

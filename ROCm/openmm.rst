@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Openmm
+openmm
 ==============================
 
 Description

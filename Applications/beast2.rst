@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Beast2
+beast2
 ==============================
 
 Description

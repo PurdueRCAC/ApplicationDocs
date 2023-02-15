@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Jupyter
+jupyter
 ==============================
 
 Description

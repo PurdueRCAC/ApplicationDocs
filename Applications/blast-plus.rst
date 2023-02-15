@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Blast-plus
+blast-plus
 ==============================
 
 Description

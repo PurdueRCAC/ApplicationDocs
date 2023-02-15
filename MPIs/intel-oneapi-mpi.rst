@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Intel-oneapi-mpi
+intel-oneapi-mpi
 ==============================
 
 Description

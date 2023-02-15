@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Hdf5
+hdf5
 ==============================
 
 Description

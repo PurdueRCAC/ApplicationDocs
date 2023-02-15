@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Thermocalc
+thermocalc
 ==============================
 
 Versions

@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Intel-oneapi-tbb
+intel-oneapi-tbb
 ==============================
 
 Description

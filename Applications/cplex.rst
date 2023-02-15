@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Cplex
+cplex
 ==============================
 
 Versions

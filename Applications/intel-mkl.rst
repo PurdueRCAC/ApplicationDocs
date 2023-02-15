@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Intel-mkl
+intel-mkl
 ==============================
 
 Description

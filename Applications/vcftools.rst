@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Vcftools
+vcftools
 ==============================
 
 Description

@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Chroma
+chroma
 ==============================
 
 Description

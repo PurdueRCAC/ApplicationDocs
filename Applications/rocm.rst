@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Rocm
+rocm
 ==============================
 
 Versions

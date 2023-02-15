@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Netlib-lapack
+netlib-lapack
 ==============================
 
 Description

@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Specfem3d_globe
+specfem3d_globe
 ==============================
 
 Description

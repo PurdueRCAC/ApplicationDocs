@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Gnuplot
+gnuplot
 ==============================
 
 Description
@@ -13,9 +13,9 @@ Versions
 - Brown: 5.2.7
 - Scholar: 5.2.7
 - Gilbreth: 5.2.7
+- Negishi: 5.4.2
 - Anvil: 5.4.2
 - Workbench: 5.2.7
-- Negishi: 5.4.2
 
 Module
 ~~~~~~~~

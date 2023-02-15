@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Parabricks
+parabricks
 ==============================
 
 Description

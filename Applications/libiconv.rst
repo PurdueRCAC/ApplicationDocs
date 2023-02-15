@@ -1,6 +1,6 @@
 .. _backbone-label:
 
-Libiconv
+libiconv
 ==============================
 
 Description
