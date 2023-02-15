@@ -27,10 +27,12 @@ Example job
 To run namd on our clusters::
 
     #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name
+    #SBATCH -A gpu
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
+    #SBATCH -c 8
+    #SBATCH --gpus-per-node=1
     #SBATCH --job-name=namd
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err

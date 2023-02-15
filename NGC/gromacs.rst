@@ -32,6 +32,8 @@ To run gromacs on our clusters::
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
+    #SBATCH -c 8
+    #SBATCH --gpus-per-node=1
     #SBATCH --job-name=gromacs
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err

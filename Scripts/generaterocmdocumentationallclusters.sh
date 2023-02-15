@@ -141,7 +141,7 @@ function generateLuaFilesIfNew() {
             echo "" >> $outputfile
             echo "To run $containername on our clusters::" >> $outputfile
             echo "" >> $outputfile
-            echo -e "    #!/bin/bash\n    #SBATCH -A myallocation     # Allocation name\n    #SBATCH -t 1:00:00\n    #SBATCH -N 1\n    #SBATCH -n 1\n    #SBATCH --job-name=$containername\n    #SBATCH --mail-type=FAIL,BEGIN,END\n    #SBATCH --error=%x-%J-%u.err\n    #SBATCH --output=%x-%J-%u.out" >> $outputfile
+            echo -e "    #!/bin/bash\n    #SBATCH -A gpu\n    #SBATCH -t 1:00:00\n    #SBATCH -N 1\n    #SBATCH -n 1\n    #SBATCH -c 8\n    #SBATCH --gpus-per-node=1\n    #SBATCH --job-name=$containername\n    #SBATCH --mail-type=FAIL,BEGIN,END\n    #SBATCH --error=%x-%J-%u.err\n    #SBATCH --output=%x-%J-%u.out" >> $outputfile
             echo "" >> $outputfile
             echo "    module --force purge" >> $outputfile
             echo "    ml rocmcontainers $containername" >> $outputfile
