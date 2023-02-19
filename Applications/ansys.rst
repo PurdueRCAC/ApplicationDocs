@@ -5,7 +5,7 @@ ansys
 
 Description
 ~~~~~~~~
-This module loads the ANSYS software suite.
+This module loads the ANSYS software suite which consists of programs that can be used to numerically simulate a large variety of structural and fluid dynamics problems found in many engineering, physics, medical, aeronautics and automotive industry applications.
 
 Versions
 ~~~~~~~~

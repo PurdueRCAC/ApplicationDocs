@@ -3,6 +3,10 @@
 cuda
 ==============================
 
+Description
+~~~~~~~~
+CUDA is a parallel computing platform and programming model invented by NVIDIA. It enables dramatic increases in computing performance by harnessing the power of the graphics processing unit (GPU).
+
 Versions
 ~~~~~~~~
 - Scholar: 9.0.176, 10.2.89, 11.2.2, 11.8.0

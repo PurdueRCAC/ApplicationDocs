@@ -5,7 +5,7 @@ anaconda
 
 Description
 ~~~~~~~~
-Python distribution, virtual environments, and package manager.
+Anaconda is a free and open-source distribution of the Python and R programming languages for scientific computing, that aims to simplify package management and deployment.
 
 Versions
 ~~~~~~~~

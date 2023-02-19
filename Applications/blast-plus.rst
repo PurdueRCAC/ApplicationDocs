@@ -5,7 +5,7 @@ blast-plus
 
 Description
 ~~~~~~~~
-Basic Local Alignment Search Tool.
+Basic Local Alignment Search Tool. BLAST finds regions of similarity between biological sequences. The program compares nucleotide or protein sequences to sequence databases and calculates the statistical significance.
 
 Versions
 ~~~~~~~~

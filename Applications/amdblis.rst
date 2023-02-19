@@ -5,7 +5,7 @@ amdblis
 
 Description
 ~~~~~~~~
-AMD Optimized BLIS.
+AMD Optimized BLIS. BLIS is a portable software framework for instantiating high-performance BLAS-like dense linear algebra libraries.
 
 Versions
 ~~~~~~~~

@@ -5,7 +5,7 @@ amber
 
 Description
 ~~~~~~~~
-//spack.readthedocs.io/en/latest/mirrors.html
+AMBER (Assisted Model Building with Energy Refinement) is a package of molecular simulation programs.
 
 Versions
 ~~~~~~~~

@@ -3,6 +3,10 @@
 caffe
 ==============================
 
+Description
+~~~~~~~~
+Caffe is a deep learning framework made with expression, speed, and modularity in mind.
+
 Versions
 ~~~~~~~~
 - Bell: 1.0

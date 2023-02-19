@@ -3,6 +3,10 @@
 ansysem
 ==============================
 
+Description
+~~~~~~~~
+This module enables the use of ANSYSEM, a popular Electromechanical application.
+
 Versions
 ~~~~~~~~
 - Bell: 2020r1, 2021r2

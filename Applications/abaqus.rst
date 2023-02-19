@@ -3,6 +3,10 @@
 abaqus
 ==============================
 
+Description
+~~~~~~~~
+Abaqus is a software suite for Finite Element Analysis (FEA) developed by Dassault Systèmes.
+
 Versions
 ~~~~~~~~
 - Bell: 2019, 2020, 2021, 2022

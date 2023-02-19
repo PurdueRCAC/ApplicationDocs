@@ -5,7 +5,7 @@ envi
 
 Description
 ~~~~~~~~
-envi @5.5.2
+ENVI is the premier software solution for processing and analyzing geospatial imagery used by scientists, researchers, image analysts, and GIS professionals around the world.
 
 Versions
 ~~~~~~~~

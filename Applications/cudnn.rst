@@ -3,6 +3,10 @@
 cudnn
 ==============================
 
+Description
+~~~~~~~~
+cuDNN is a deep neural network library from Nvidia that provides a highly tuned implementation of many functions commonly used in deep machine learning applications.
+
 Versions
 ~~~~~~~~
 - Scholar: cuda-9.0_7.4, cuda-10.2_8.0, cuda-11.2_8.1.1, cuda-11.8_8.6.0
