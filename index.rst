@@ -193,6 +193,7 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    Applications/sentaurus
    Applications/spark
    Applications/spss
+   Applications/sqlite
    Applications/sratoolkit
    Applications/stata-mp
    Applications/stata

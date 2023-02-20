@@ -10,6 +10,7 @@ Complete Jupyter Hub/Lab/Notebook environment.
 Versions
 ~~~~~~~~
 - Anvil: 2.0.0
+- Negishi: 3.1.1
 
 Module
 ~~~~~~~~

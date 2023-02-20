@@ -6,7 +6,7 @@ openfoam
 Versions
 ~~~~~~~~
 - Bell: 5.x
-- Brown: 5.0, 6.0, 7.0
+- Brown: 9-20211122
 - Anvil: 8-20210316
 
 Module
