@@ -15,5 +15,6 @@ Module
 ~~~~~~~~
 You can load the modules by::
 
+    module load modtree/gpu
     module load nccl
 
