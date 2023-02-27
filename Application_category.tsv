@@ -1,0 +1,178 @@
+abaqus	Fluid dynamics
+amber	Computational chemistry
+amdblis	AMD
+amdfftw	AMD
+amdlibflame	AMD
+amdlibm	AMD
+amdscalapack	AMD
+anaconda	Data science
+ansysem	Physics
+ansys	Fluid dynamics
+aocl	AMD
+arpack-ng	Libraries
+aws-cli	Tools
+bamtools	Bioinformatics
+bbftp	Tools
+beagle	Bioinformatics
+beast2	Bioinformatics
+bismark	Bioinformatics
+blast-plus	Bioinformatics
+blis	Libraries
+boost	Libraries
+bowtie2	Bioinformatics
+bwa	Bioinformatics
+caffe	Bioinformatics
+cdo	Climate
+cmake	Tools
+cntk	Data science
+comsol	Mathematical/Statistics
+cp2k	Computational chemistry
+cplex	Climate
+cuda	NVIDIA
+cudnn	NVIDIA
+cue-login-env	System
+cufflinks	Bioinformatics
+curl	Tools
+cutadapt	Bioinformatics
+eigen	Libraries
+emacs	Text Editors
+envi	Geospatial tools
+fastqc	Bioinformatics
+fasttree	Bioinformatics
+fastx-toolkit	Bioinformatics
+ffmpeg	Audio/Visualization
+fftw	Libraries
+gamess	Computational chemistry
+gams	Mathematical/Statistics
+gatk	Bioinformatics
+gaussian09	Computational chemistry
+gaussian16	Computational chemistry
+gaussview	Computational chemistry
+gdal	Geospatial tools
+gdb	Tools
+geos	Geospatial tools
+gmp	Libraries
+gmt	Audio/Visualization
+gnuplot	Audio/Visualization
+gpaw	Tools
+grads	Geospatial tools
+gromacs	Computational chemistry
+gsl	Libraries
+gurobi	Mathematical/Statistics
+gym	Tools
+hadoop	Tools
+hdf5	Libraries
+hdf	Libraries
+hpctoolkit	Tools
+hspice	Tools
+htseq	Bioinformatics
+hwloc	Tools
+hyper-shell	Workflow automation
+hypre	Mathematical/Statistics
+idl	Programming languages
+intel-mkl	Libraries
+intel-oneapi-mkl	Libraries
+intel-oneapi-tbb	Libraries
+julia	Programming languages
+jupyterhub	Data science
+jupyter	Data science
+keras	Data science
+lammps	Computational chemistry
+launcher	Tools
+learning	Data science
+libfabric	Libraries
+libflame	Libraries
+libiconv	Libraries
+libmesh	Libraries
+libszip	Libraries
+libtiff	Libraries
+libv8	Libraries
+libx11	Libraries
+libxml2	Libraries
+mathematica	Mathematical/Statistics
+matlab	Mathematical/Statistics
+meep	Mathematical/Statistics
+modtree	System
+monitor	Tools
+mpc	Tools
+mpfr	Libraries
+mrbayes	Bioinformatics
+mxnet	NVIDIA
+namd	Computational chemistry
+nccl	NVIDIA
+ncl	Climate
+nco	Data science
+ncview	Tools
+netcdf-c	Libraries
+netcdf-cxx4	Libraries
+netcdf-fortran	Libraries
+netcdf	Libraries
+netlib-lapack	Libraries
+numactl	Tools
+nvhpc	NVIDIA
+nwchem	Computational chemistry
+octave	Mathematical/Statistics
+openblas	Libraries
+opencv	Libraries
+openfoam	Fluid dynamics
+openjdk	Tools
+panoply	Tools
+papi	Tools
+parafly	Tools
+parallel-netcdf	Libraries
+parallel	Workflow automation
+paraview	Audio/Visualization
+perl-bioperl	Bioinformatics
+petsc	Libraries
+picard	Bioinformatics
+proj	Geospatial tools
+protobuf	Tools
+py-mpi4py	Data science
+python	Data science
+pytorch	Data science
+qemu	Tools
+qt	Tools
+quantumatk	Material science
+quantum-espresso	Computational chemistry
+rocm	Libraries
+r	Mathematical/Statistics
+rstudio	Mathematical/Statistics
+samtools	Bioinformatics
+sas	Mathematical/Statistics
+sentaurus	Electrical engineering
+spark	Data science
+spss	Mathematical/Statistics
+sqlite	Libraries
+sratoolkit	Bioinformatics
+stata-mp	stata-mp
+stata	Data science
+subversion	Tools
+swig	Libraries
+tcl	Programming languages
+tecplot	Audio/Visualization
+tensorflow	Data science
+texinfo	Tools
+texlive	Tools
+tflearn	Data science
+theano	Libraries
+thermocalc	Material science
+tk	Tools
+tophat	Bioinformatics
+totalview	Tools
+trimmomatic	Bioinformatics
+ucx	Libraries
+udunits2	Libraries
+udunits	Libraries
+valgrind	Tools
+vasp	Computational chemistry
+vcftools	Bioinformatics
+vim	Text Editors
+visit	Audio/Visualization
+vlc	Audio/Visualization
+vmd	Computational chemistry
+vscode	Text Editors
+vtk	Audio/Visualization
+wannier90	Computational chemistry
+xalt	System
+zlib	Libraries
+zstd	Libraries
