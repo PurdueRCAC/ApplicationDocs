@@ -18,4 +18,27 @@ The above installation step needs to be done only once on each of the clusters y
         [1] "/home/zhan4429/R/bell/4.2.2-gcc-9.3.0-xxbnk6s"                 
         [2] "/apps/spack/bell/apps/r/4.2.2-gcc-9.3.0-xxbnk6s/rlib/R/library"
 
+Challenging packages
+~~~~~~
+Below are packages users may have difficulty in installation.
+
+nloptr
+~~~~~
+~~~~~
+In Bell, the installation may fail due to the default `cmake` version is too old. The solution is easy, users just need to load the newer versions of `cmake`::
+
+        module load cmake/3.20.6
+        module load r
+        Rscript -e 'install.packages("nloptr")'
+
+In Brown or other older clusters, because our system's `cmake` and `gcc` compilers are old, we may not be able to install the latest version of `nloptr`. The walkaround is that users can install the older versions of `nloptr`:: 
+      
+       module load r
+       R
+        > myrepos = c("https://cran.case.edu")
+        > install.packages("devtools", repos = myrepos)
+        > library(devtools)
+        > install_version("nloptr", version = "> 1.2.2, < 2.0.0", repos = myrepos)
+
+
 .. _.Rprofile: https://www.rcac.purdue.edu/files/knowledge/run/examples/apps/r/Rprofile_example 
