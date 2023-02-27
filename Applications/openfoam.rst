@@ -3,6 +3,10 @@
 openfoam
 ==============================
 
+Description
+~~~~~~~~
+OpenFOAM is leading software for computational fluid dynamics (CFD).
+
 Versions
 ~~~~~~~~
 - Bell: 5.x

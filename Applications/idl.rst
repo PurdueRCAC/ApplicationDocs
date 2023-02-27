@@ -5,7 +5,7 @@ idl
 
 Description
 ~~~~~~~~
-envi @5.5.2
+IDL is a data analysis language that provides powerful, core visualization and analysis functionality, and capabilities that allow data analysts and developers to leverage IDL's power in multiple software environments.
 
 Versions
 ~~~~~~~~

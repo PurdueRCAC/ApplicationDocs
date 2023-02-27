@@ -5,7 +5,7 @@ numactl
 
 Description
 ~~~~~~~~
-NUMA support for Linux
+Simple NUMA policy support. It consists of a numactl program to run other programs with a specific NUMA policy and a libnuma shared library ("NUMA API") to set NUMA policy in applications.
 
 Versions
 ~~~~~~~~

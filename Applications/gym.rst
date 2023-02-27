@@ -3,6 +3,10 @@
 gym
 ==============================
 
+Description
+~~~~~~~~
+The OpenAI Gym: A toolkit for developing and comparing your reinforcement learning agents.
+
 Versions
 ~~~~~~~~
 - Bell: 0.17.3

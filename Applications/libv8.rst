@@ -5,7 +5,7 @@ libv8
 
 Description
 ~~~~~~~~
-Put a proper description of your package here.
+Distributes the V8 JavaScript engine in binary and source forms in order to support fast builds of The Ruby Racer
 
 Versions
 ~~~~~~~~

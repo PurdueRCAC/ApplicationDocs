@@ -5,7 +5,7 @@ torchani
 
 Description
 ~~~~~~~~
-Description
+TorchANI is a PyTorch-based program for training/inference of ANI (ANAKIN-ME) deep learning models to obtain potential energy surfaces and other physical properties of molecular systems.
 
 Versions
 ~~~~~~~~

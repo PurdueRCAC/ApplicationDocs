@@ -3,6 +3,10 @@
 stata
 ==============================
 
+Description
+~~~~~~~~
+Stata is a complete, integrated software package that provides all your data science needs—data manipulation, visualization, statistics, and automated reporting.
+
 Versions
 ~~~~~~~~
 - Bell: 17

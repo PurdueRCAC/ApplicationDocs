@@ -5,7 +5,7 @@ sas
 
 Description
 ~~~~~~~~
-Statistical Analysis Software
+SAS is a commercial integrated system for statistical analysis, data mining, and graphics as well as many enterprise oriented additional features.
 
 Versions
 ~~~~~~~~

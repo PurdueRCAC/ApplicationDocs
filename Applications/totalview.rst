@@ -5,7 +5,7 @@ totalview
 
 Description
 ~~~~~~~~
-RogueWave Totalview software
+TotalView is a GUI-based source code defect analysis tool that gives you unprecedented control over processes and thread execution and visibility into program state and variables.
 
 Versions
 ~~~~~~~~

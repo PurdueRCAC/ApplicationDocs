@@ -3,6 +3,10 @@
 gamess
 ==============================
 
+Description
+~~~~~~~~
+The General Atomic and Molecular Electronic Structure System (GAMESS) is a general ab initio quantum chemistry package.
+
 Versions
 ~~~~~~~~
 - Bell: 18.Aug.2016.R1, 30.Jun.2019.R1

@@ -3,6 +3,10 @@
 tecplot
 ==============================
 
+Description
+~~~~~~~~
+Tecplot 360 is a Computational Fluid Dynamics (CFD) and numerical simulation software package used in post-processing simulation results. It is also used in chemistry applications to visualize molecule structure by post-processing charge density data.
+
 Versions
 ~~~~~~~~
 - Bell: 360-2017-R3, 360-2021-R1

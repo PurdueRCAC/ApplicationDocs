@@ -5,7 +5,7 @@ monitor
 
 Description
 ~~~~~~~~
-system resource monitoring tool.
+System resource monitoring tool.
 
 Versions
 ~~~~~~~~

@@ -5,7 +5,7 @@ mathematica
 
 Description
 ~~~~~~~~
-Mathematica Wolfram Language and other tools provide
+Mathematica is a technical computing environment and programming language with strong symbolic and numerical abilities.
 
 Versions
 ~~~~~~~~

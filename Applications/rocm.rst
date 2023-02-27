@@ -3,6 +3,10 @@
 rocm
 ==============================
 
+Description
+~~~~~~~~
+ROCm Application for Reporting System Info
+
 Versions
 ~~~~~~~~
 - Bell: 5.2.0

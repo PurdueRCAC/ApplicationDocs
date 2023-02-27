@@ -3,6 +3,10 @@
 thermocalc
 ==============================
 
+Description
+~~~~~~~~
+Thermo-Calc allows you to calculate the state for a given thermodynamic system to obtain insight.
+
 Versions
 ~~~~~~~~
 - Bell: 2019b, 2020a, 2021b

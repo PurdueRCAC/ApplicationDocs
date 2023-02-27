@@ -3,6 +3,10 @@
 opencv
 ==============================
 
+Description
+~~~~~~~~
+OpenCV, Open source Computer Vision, is an open-source BSD-licensed library that includes several hundreds of computer vision algorithms. Written in optimized C/C++, the library can take advantage of multi-core processing.
+
 Versions
 ~~~~~~~~
 - Bell: 4.4.0

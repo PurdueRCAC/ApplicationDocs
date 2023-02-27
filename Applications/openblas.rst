@@ -5,7 +5,7 @@ openblas
 
 Description
 ~~~~~~~~
-An optimized BLAS library
+OpenBLAS is an open source implementation of the BLAS API with many hand-crafted optimizations for specific processor types
 
 Versions
 ~~~~~~~~

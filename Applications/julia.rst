@@ -5,7 +5,7 @@ julia
 
 Description
 ~~~~~~~~
-A fresh approach to technical computing
+Julia is a flexible dynamic language, appropriate for scientific and numerical computing, with performance comparable to traditional statically-typed languages. One can write code in Julia that is nearly as fast as C. Julia features optional typing, multiple dispatch, and good performance, achieved using type inference and just-in-time (JIT) compilation, implemented using LLVM. It is multi-paradigm, combining features of imperative, functional, and object-oriented programming.
 
 Versions
 ~~~~~~~~

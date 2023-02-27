@@ -3,6 +3,10 @@
 pytorch
 ==============================
 
+Description
+~~~~~~~~
+PyTorch is a machine learning library with strong support for neural networks and deep learning. PyTorch also has a large user base and software ecosystem.
+
 Versions
 ~~~~~~~~
 - Bell: 1.6.0
