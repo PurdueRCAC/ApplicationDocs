@@ -16,5 +16,6 @@ Module
 ~~~~~~~~
 You can load the modules by::
 
+    module load learning
     module load tensorflow
 
