@@ -5,14 +5,14 @@ amdfftw	AMD
 amdlibflame	AMD
 amdlibm	AMD
 amdscalapack	AMD
-anaconda	Data science
+anaconda	Tools/Utilities
 ansysem	Physics
 ansys	Fluid dynamics
 aocl	AMD
 arpack-ng	Libraries
-aws-cli	Tools
+aws-cli	Tools/Utilities
 bamtools	Bioinformatics
-bbftp	Tools
+bbftp	Tools/Utilities
 beagle	Bioinformatics
 beast2	Bioinformatics
 bismark	Bioinformatics
@@ -21,10 +21,10 @@ blis	Libraries
 boost	Libraries
 bowtie2	Bioinformatics
 bwa	Bioinformatics
-caffe	Bioinformatics
+caffe	ML toolkit
 cdo	Climate
-cmake	Tools
-cntk	Data science
+cmake	Tools/Utilities
+cntk	ML toolkit
 comsol	Mathematical/Statistics
 cp2k	Computational chemistry
 cplex	Climate
@@ -32,10 +32,10 @@ cuda	NVIDIA
 cudnn	NVIDIA
 cue-login-env	System
 cufflinks	Bioinformatics
-curl	Tools
+curl	Tools/Utilities
 cutadapt	Bioinformatics
 eigen	Libraries
-emacs	Text Editors
+emacs	Tools/Utilities
 envi	Geospatial tools
 fastqc	Bioinformatics
 fasttree	Bioinformatics
@@ -49,24 +49,24 @@ gaussian09	Computational chemistry
 gaussian16	Computational chemistry
 gaussview	Computational chemistry
 gdal	Geospatial tools
-gdb	Tools
+gdb	Tools/Utilities
 geos	Geospatial tools
 gmp	Libraries
 gmt	Audio/Visualization
 gnuplot	Audio/Visualization
-gpaw	Tools
+gpaw	Tools/Utilities
 grads	Geospatial tools
 gromacs	Computational chemistry
 gsl	Libraries
 gurobi	Mathematical/Statistics
-gym	Tools
-hadoop	Tools
+gym	ML toolkit
+hadoop	Tools/Utilities
 hdf5	Libraries
 hdf	Libraries
-hpctoolkit	Tools
-hspice	Tools
+hpctoolkit	Tools/Utilities
+hspice	Tools/Utilities
 htseq	Bioinformatics
-hwloc	Tools
+hwloc	Tools/Utilities
 hyper-shell	Workflow automation
 hypre	Mathematical/Statistics
 idl	Programming languages
@@ -74,12 +74,12 @@ intel-mkl	Libraries
 intel-oneapi-mkl	Libraries
 intel-oneapi-tbb	Libraries
 julia	Programming languages
-jupyterhub	Data science
-jupyter	Data science
-keras	Data science
+jupyterhub	Tools/Utilities
+jupyter	Tools/Utilities
+keras	ML toolkit
 lammps	Computational chemistry
-launcher	Tools
-learning	Data science
+launcher	Tools/Utilities
+learning	ML toolkit
 libfabric	Libraries
 libflame	Libraries
 libiconv	Libraries
@@ -93,32 +93,32 @@ mathematica	Mathematical/Statistics
 matlab	Mathematical/Statistics
 meep	Mathematical/Statistics
 modtree	System
-monitor	Tools
-mpc	Tools
+monitor	Tools/Utilities
+mpc	Tools/Utilities
 mpfr	Libraries
 mrbayes	Bioinformatics
 mxnet	NVIDIA
 namd	Computational chemistry
 nccl	NVIDIA
 ncl	Climate
-nco	Data science
-ncview	Tools
+nco	ML toolkit
+ncview	Tools/Utilities
 netcdf-c	Libraries
 netcdf-cxx4	Libraries
 netcdf-fortran	Libraries
 netcdf	Libraries
 netlib-lapack	Libraries
-numactl	Tools
+numactl	Tools/Utilities
 nvhpc	NVIDIA
 nwchem	Computational chemistry
 octave	Mathematical/Statistics
 openblas	Libraries
-opencv	Libraries
+opencv	ML toolkit
 openfoam	Fluid dynamics
-openjdk	Tools
-panoply	Tools
-papi	Tools
-parafly	Tools
+openjdk	Tools/Utilities
+panoply	Tools/Utilities
+papi	Tools/Utilities
+parafly	Tools/Utilities
 parallel-netcdf	Libraries
 parallel	Workflow automation
 paraview	Audio/Visualization
@@ -126,12 +126,12 @@ perl-bioperl	Bioinformatics
 petsc	Libraries
 picard	Bioinformatics
 proj	Geospatial tools
-protobuf	Tools
-py-mpi4py	Data science
-python	Data science
-pytorch	Data science
-qemu	Tools
-qt	Tools
+protobuf	Tools/Utilities
+py-mpi4py	ML toolkit
+python	ML toolkit
+pytorch	ML toolkit
+qemu	Tools/Utilities
+qt	Tools/Utilities
 quantumatk	Material science
 quantum-espresso	Computational chemistry
 rocm	Libraries
@@ -140,30 +140,30 @@ rstudio	Mathematical/Statistics
 samtools	Bioinformatics
 sas	Mathematical/Statistics
 sentaurus	Electrical engineering
-spark	Data science
+spark	ML toolkit
 spss	Mathematical/Statistics
 sqlite	Libraries
 sratoolkit	Bioinformatics
-stata-mp	stata-mp
-stata	Data science
-subversion	Tools
+stata-mp	Mathematical/Statistics
+stata	Mathematical/Statistics
+subversion	Tools/Utilities
 swig	Libraries
 tcl	Programming languages
 tecplot	Audio/Visualization
-tensorflow	Data science
-texinfo	Tools
-texlive	Tools
-tflearn	Data science
-theano	Libraries
+tensorflow	ML toolkit
+texinfo	Tools/Utilities
+texlive	Tools/Utilities
+tflearn	ML toolkit
+theano	ML toolkit
 thermocalc	Material science
-tk	Tools
+tk	Tools/Utilities
 tophat	Bioinformatics
-totalview	Tools
+totalview	Tools/Utilities
 trimmomatic	Bioinformatics
 ucx	Libraries
 udunits2	Libraries
 udunits	Libraries
-valgrind	Tools
+valgrind	Tools/Utilities
 vasp	Computational chemistry
 vcftools	Bioinformatics
 vim	Text Editors
