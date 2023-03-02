@@ -40,5 +40,20 @@ In Brown or other older clusters, because our system's `cmake` and `gcc` compile
         > library(devtools)
         > install_version("nloptr", version = "> 1.2.2, < 2.0.0", repos = myrepos)
 
+Error: C++17 standard requested but CXX17 is not defined
+########################################################
+
+When users want to install some packages, such as ``colourvalues``, the installation may fail due to ``Error: C++17 standard requested but CXX17 is not defined``. Please follow the below command to fix it::
+
+       module load r
+       module spider gcc
+       module load gcc/xxx  ## the lateste gcc is recommended
+       mkdir -p ~/.R
+       echo 'CXX17 = g++ -std=gnu++17 -fPIC' > ~/.R/Makevars
+       R
+       > install.packages("xxxx")
+
+
+
 
 .. _.Rprofile: https://www.rcac.purdue.edu/files/knowledge/run/examples/apps/r/Rprofile_example 
