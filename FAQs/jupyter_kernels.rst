@@ -33,9 +33,9 @@ Now you can install custom packages in the environment using either ``conda inst
         conda install Package1
         pip install Package2
 
-Step 5: Run python codes on Open OnDemand Jupyter with the newly created kernel
+Step 5: Open OnDemand Jupyter
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-In Jupyter Lab or Jupter Notebook, you can create a new notebook with the newly created kernel.
+In Jupyter Lab or Jupter Notebook of Open OnDemand, you can create a new notebook with the newly created kernel.
 
 Example: CellRank
 ~~~~~~~~~~~~~~~~~~
@@ -59,6 +59,7 @@ Select the newly created kernel ``Python(My cellrank Kernel)`` in Jupyter Notboo
       :align: center
 
 Now we can use ``Python(My cellrank Kernel)`` to run scRNAseq analysis. 
+
 .. image:: ../images/cellrank.png
       :width: 500px
       :align: center
