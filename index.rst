@@ -25,6 +25,7 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    :titlesonly:
    
    FAQs/AMDgpu
+   FAQs/jupyter_kernels
    FAQs/MPI
    FAQs/R
 
@@ -73,6 +74,7 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    Applications/boost
    Applications/bowtie2
    Applications/bwa
+   Applications/bzip2
    Applications/caffe
    Applications/cdo
    Applications/cmake
