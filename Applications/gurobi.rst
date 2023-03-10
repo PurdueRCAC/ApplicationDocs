@@ -14,6 +14,7 @@ Versions
 - Scholar: 9.0.1, 10.0.1
 - Anvil: 9.5.1
 - Workbench: 7.5.2, 9.0.1, 10.0.1
+- Negishi: 10.0.1
 
 Module
 ~~~~~~~~
