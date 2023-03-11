@@ -27,6 +27,7 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    FAQs/AMDgpu
    FAQs/GPUconstraints
    FAQs/hypershell
+   FAQs/julia_package
    FAQs/jupyter_kernels
    FAQs/MPI
    FAQs/R

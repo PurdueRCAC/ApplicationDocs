@@ -1,4 +1,4 @@
-Create kernels for Jupyter
+Jupyter kernel creation
 ==============================
 JupyterLab is the latest web-based interactive development environment for notebooks, code, and data. Its flexible interface allows users to configure and arrange workflows in data science, scientific computing, computational journalism, and machine learning. The Jupyter Notebook is the original web application for creating and sharing computational documents.
 
