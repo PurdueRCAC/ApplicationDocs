@@ -1,17 +1,19 @@
 #! /bin/bash
-# This script generates documentation files for ngc files of all the clusters under the NGC folder and then updates index.rst
-# Example Usage: ./generatengcdocumentationallclusters.sh
+# This script generates documentation files for utilities files of all the clusters under the Utilities folder and then updates index.rst
+# Example Usage: ./generateutilitiesdocumentationallclusters.sh
 
 current_dir="$PWD" # save current directory 
 cd ../ # go up one directory
 repo_path="$PWD" # assign path to repo_path
 cd $current_dir # cd back to current directory
 
+# Assign shortcuts for cluster paths
+export bell="$repo_path/Clusters/xCAT-Bell-Configuration/puppet/modules/common/files/opt/spack/modulefiles"
+export brown="$repo_path/Clusters/xCAT-Brown-Configuration/puppet/modules/common/files/opt/spack/modulefiles"
 export scholar="$repo_path/Clusters/Scholar-Modulefiles/opt/spack/modulefiles"
 export gilbreth="$repo_path/Clusters/xCAT-Gilbreth-Configuration/puppet/modules/common/files/opt/spack/modulefiles"
-export anvil="$repo_path/Clusters/Anvil-Modulefiles/"
 
-clusternames=("$scholar" "$gilbreth" "$anvil")
+clusternames=("$bell" "$brown" "$scholar" "$gilbreth")
 
 # Git pull on all clusters. Uncomment to pull every time the script is run
 # for name in ${clusternames[@]}; do
@@ -19,15 +21,24 @@ clusternames=("$scholar" "$gilbreth" "$anvil")
 #     git pull
 # done
 
-function generateListOfMissingFiles() {
-    diff -x '*.lua' -q $applicationsfolder $luasource | grep "Only in $repo_path/Clusters/" > tempfile.txt
+function generateListOfMissingFilesWithoutSubfolders() {
+    diff -X scannedfiles.txt -q $applicationsfolder $luasource | grep "Only in $repo_path/Clusters/" > tempfile.txt
     awk 'NF{ print $NF }' tempfile.txt > listofmissingfiles.txt
+    rm scannedfiles.txt
     rm tempfile.txt
     readarray -t listofmissingfiles < listofmissingfiles.txt
     rm listofmissingfiles.txt
 }
 
-function generateLuaFilesIfNew() {
+function generateListOfMissingFilesFromSubfolders() {
+    diff -x '*.lua' -q $applicationsfolder $luasource | grep "Only in $repo_path/Clusters/" > tempfile.txt
+    awk 'NF{ print $NF }' tempfile.txt > listofmissingfiles.txt
+    awk 'NF{ print $NF }' tempfile.txt > scannedfiles.txt
+    rm tempfile.txt
+    readarray -t listofmissingfiles < listofmissingfiles.txt
+}
+
+function generateLuaFilesFromSubfolders() {
     for filename in ${listofmissingfiles[@]}; do 
         echo ""
         echo $filename
@@ -37,7 +48,7 @@ function generateLuaFilesIfNew() {
         if [ ! -d "$inputfolder" ] 
         then
             echo "File does not exist, skipping"
-            continue; # Skip if one of the ngc files does not exist
+            continue; # Skip if one of the Utilities files does not exist
         fi
 
         filenamesarray=`ls -v $inputfolder*.lua`
@@ -49,7 +60,7 @@ function generateLuaFilesIfNew() {
 
         containername=$(echo $inputpath | awk -F/ '{print $(NF-1)}')
 
-        outputfile="$repo_path/NGC/$containername.rst"
+        outputfile="$repo_path/Utilities/$containername.rst"
         echo "output file: "$outputfile
 
         if test -f "$outputfile"; then
@@ -132,20 +143,8 @@ function generateLuaFilesIfNew() {
             echo "~~~~~~~~" >> $outputfile
             echo "You can load the modules by::" >> $outputfile
             echo "" >> $outputfile
-            echo "    module load ngc" >> $outputfile
+            echo "    module load utilities" >> $outputfile
             echo "    module load $containername" >> $outputfile
-            echo "" >> $outputfile
-            echo "Example job" >> $outputfile
-            echo "~~~~~" >> $outputfile
-            echo ".. warning::" >> $outputfile
-            echo "    Using \`\`#!/bin/sh -l\`\` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use \`\`#!/bin/bash\`\` instead." >> $outputfile
-            echo "" >> $outputfile
-            echo "To run $containername on our clusters::" >> $outputfile
-            echo "" >> $outputfile
-            echo -e "    #!/bin/bash\n    #SBATCH -A myallocation     # Allocation name\n    #SBATCH -t 1:00:00\n    #SBATCH -N 1\n    #SBATCH -n 1\n    #SBATCH -c 8\n    #SBATCH --gpus-per-node=1\n    #SBATCH --job-name=$containername\n    #SBATCH --mail-type=FAIL,BEGIN,END\n    #SBATCH --error=%x-%J-%u.err\n    #SBATCH --output=%x-%J-%u.out" >> $outputfile
-            echo "" >> $outputfile
-            echo "    module --force purge" >> $outputfile
-            echo "    ml ngc $containername" >> $outputfile
             echo "" >> $outputfile
         fi
         
@@ -153,22 +152,122 @@ function generateLuaFilesIfNew() {
     done
 }
 
-applicationsfolder="$repo_path/Applications/"
+function generateLuaFilesWithoutSubfolders() {
+    for filename in ${listofmissingfiles[@]}; do 
+        echo ""
+        echo $filename
+
+        inputpath="$luasource/$filename"
+        echo "input path: "$inputpath
+
+        if [ ! "$inputpath" ] 
+        then
+            echo "File does not exist, skipping"
+            continue; # Skip if one of the Utilities files does not exist
+        fi
+
+        containername=$(echo $inputpath | awk -F/ '{print $(NF)}')
+        containername=${containername::-4}
+        outputfile="$repo_path/Utilities/$containername.rst"
+        echo "output file: "$outputfile
+
+        if test -f "$outputfile"; then
+            echo "$outputfile exists from previous clusters, updating versions"
+
+            # Check if a line from the cluster exists in the versions section
+            if grep -Fq "$clustername" "$outputfile"
+            then
+                # code if found
+                echo "$clustername found in versions, replacing line"
+                echo -n "$clustername" > tempfile.rst
+                tempfilecontent=$(<tempfile.rst)
+                # echo $tempfilecontent
+                linenumbermatchingclustername=`grep -n -m 1 "$clustername" $outputfile | cut -f1 -d ":"` #prints the line number of the matched first occurrence
+                # echo $linenumbermatchingclustername
+                sed -i "$linenumbermatchingclustername"d $outputfile # Delete line at particular number
+                sed -i "$linenumbermatchingclustername i - $tempfilecontent" $outputfile # Insert line at particular number
+            else
+                # code if not found
+                echo "$clustername not found in versions, adding new line"
+                
+                echo -n "$clustername" > tempfile.rst
+                tempfilecontent=$(<tempfile.rst)
+
+                linenumbermatchingclustername=`grep -n -m 1 "Module" $outputfile | cut -f1 -d ":"` #prints the line number of the matched first occurrence
+                linenumbermatchingclustername=$((linenumbermatchingclustername-1))
+                # echo $linenumbermatchingclustername
+                
+                sed -i "$linenumbermatchingclustername i - $tempfilecontent" $outputfile # Insert line at particular number
+            fi
+
+            rm tempfile.rst
+        else
+            inputpathcontent=$(<$inputpath)
+            echo ".. _backbone-label:" > $outputfile
+            echo "" >> $outputfile
+            echo "$containername" >> $outputfile
+            echo "==============================" >> $outputfile
+            echo "" >> $outputfile
+
+            if grep -q -i description "$inputpath"; then
+                echo "Description was found" # Description was found
+                echo "Description" >> $outputfile
+                echo "~~~~~~~~" >> $outputfile
+                description=$(cat $inputpath | grep -i "description")
+                echo "${description##*:}" | sed -e 's/)//g' -e 's/(//g' -e 's/"//g' -e "s/'//g" -e 's/]//g' -e 's/^[ \t]*//;s/[ \t]*$//' >> $outputfile
+                echo "" >> $outputfile
+            else
+                echo "description not found"   
+            fi
+
+            echo "Availibility" >> $outputfile
+            echo "~~~~~~~~" >> $outputfile
+            echo -n "- $clustername" >> $outputfile
+            echo "" >> $outputfile
+            echo "" >> $outputfile
+            echo "Module" >> $outputfile
+            echo "~~~~~~~~" >> $outputfile
+            echo "You can load the modules by::" >> $outputfile
+            echo "" >> $outputfile
+            echo "    module load utilities" >> $outputfile
+            echo "    module load $containername" >> $outputfile
+            echo "" >> $outputfile
+        fi
+        
+
+    done
+}
+
+
+applicationsfolder="$repo_path/Utilities/"
+
+clustername=Bell
+luasource=$bell/utilities
+generateListOfMissingFilesFromSubfolders
+generateLuaFilesFromSubfolders
+generateListOfMissingFilesWithoutSubfolders
+generateLuaFilesWithoutSubfolders
+
+clustername=Brown
+luasource=$brown/utilities
+generateListOfMissingFilesFromSubfolders
+generateLuaFilesFromSubfolders
+generateListOfMissingFilesWithoutSubfolders
+generateLuaFilesWithoutSubfolders
 
 clustername=Scholar
-luasource=$scholar/ngc
-generateListOfMissingFiles
-generateLuaFilesIfNew
+luasource=$scholar/utilities
+generateListOfMissingFilesFromSubfolders
+generateLuaFilesFromSubfolders
+generateListOfMissingFilesWithoutSubfolders
+generateLuaFilesWithoutSubfolders
 
 clustername=Gilbreth
-luasource=$gilbreth/ngc
-generateListOfMissingFiles
-generateLuaFilesIfNew
-
-clustername=Anvil
-luasource=$anvil/ngc
-generateListOfMissingFiles
-generateLuaFilesIfNew
+luasource=$gilbreth/utilities
+generateListOfMissingFilesFromSubfolders
+generateLuaFilesFromSubfolders
+generateListOfMissingFilesWithoutSubfolders
+generateLuaFilesWithoutSubfolders
 
 
 # Update index.rst

@@ -274,3 +274,17 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    ROCm/specfem3d
    ROCm/tensorflow
 
+.. toctree::
+   :caption: Utilities
+   :titlesonly:
+   
+   Utilities/archivemount
+   Utilities/git
+   Utilities/grace
+   Utilities/monitor
+   Utilities/parafly
+   Utilities/subversion
+   Utilities/vim
+   Utilities/visit
+   Utilities/vlc
+

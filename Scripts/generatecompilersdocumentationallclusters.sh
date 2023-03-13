@@ -189,6 +189,7 @@ declare -a subfoldersarray=(
 [3]=Applications/
 [4]=NGC/
 [5]=ROCm/
+[6]=Utilities/
 )
 
 sed -i '/.. toctree::/,$d' $indexfile
