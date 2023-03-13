@@ -21,6 +21,7 @@ blis	Libraries
 boost	Libraries
 bowtie2	Bioinformatics
 bwa	Bioinformatics
+bzip2	Tools/Utilities
 caffe	ML toolkit
 cdo	Climate
 cmake	Tools/Utilities
