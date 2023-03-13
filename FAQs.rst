@@ -1,8 +1,8 @@
 FAQs
 ==============================================
 .. toctree::
-   :maxdepth: 1
-
+   :titlesonly:
+ 
    FAQs/AMDgpu
    FAQs/GPUconstraints
    FAQs/hypershell

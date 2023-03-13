@@ -4,7 +4,7 @@ Applications
 Audio
 ---------------------------------
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Applications/ffmpeg
    Applications/gmt
@@ -18,7 +18,7 @@ Audio
 Bioinformatics
 ---------------------------------
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Applications/bamtools
    Applications/beagle
@@ -46,7 +46,7 @@ Bioinformatics
 Climate
 ---------------------------------
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
    
    Applications/cdo
    Applications/cplex
@@ -55,7 +55,7 @@ Climate
 Computational chemistry
 ---------------------------------
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Applications/amber
    Applications/cp2k
@@ -75,14 +75,14 @@ Computational chemistry
 Electrical engineering
 ---------------------------------
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Applications/sentaurus
 
 Fluid dynamics
 ---------------------------------
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Applications/abaqus
    Applications/ansys
@@ -91,7 +91,7 @@ Fluid dynamics
 Geospatial tools
 ---------------------------------
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Applications/envi
    Applications/gdal
@@ -102,7 +102,7 @@ Geospatial tools
 Libraries
 ---------------------------------
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Applications/arpack-ng
    Applications/blis
@@ -146,7 +146,7 @@ Libraries
 Material science
 ---------------------------------
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Applications/quantumatk
    Applications/thermocalc
@@ -154,7 +154,7 @@ Material science
 Mathematical/Statistics
 ---------------------------------
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Applications/comsol
    Applications/gams
@@ -174,7 +174,7 @@ Mathematical/Statistics
 ML toolkit
 ---------------------------------
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Applications/caffe
    Applications/cntk
@@ -194,7 +194,7 @@ ML toolkit
 NVIDIA
 ---------------------------------
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Applications/cuda
    Applications/cudnn
@@ -205,14 +205,14 @@ NVIDIA
 Physics
 ---------------------------------
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Applications/ansysem
 
 Programming languages
 ---------------------------------
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Applications/idl
    Applications/julia
@@ -221,7 +221,7 @@ Programming languages
 System
 ---------------------------------
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Applications/cue-login-env
    Applications/modtree
@@ -230,7 +230,7 @@ System
 Text Editors
 ---------------------------------
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Applications/vim
    Applications/vscode
@@ -238,7 +238,7 @@ Text Editors
 Tools/Utilities
 ---------------------------------
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Applications/anaconda
    Applications/aws-cli
@@ -277,7 +277,7 @@ Tools/Utilities
 Workflow automation
 ---------------------------------
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Applications/hyper-shell
    Applications/parallel
