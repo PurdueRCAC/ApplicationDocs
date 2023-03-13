@@ -1,7 +1,7 @@
 MPIs
 ==============================================
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
  
    MPIs/impi
    MPIs/intel-oneapi-mpi
