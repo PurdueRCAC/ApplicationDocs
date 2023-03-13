@@ -4,7 +4,7 @@ Applications
 Audio
 ---------------------------------
 .. toctree::
-   :maxdepth: 2
+   :titlesonly:
 
    Applications/ffmpeg
    Applications/gmt
