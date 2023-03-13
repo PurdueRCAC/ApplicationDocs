@@ -21,7 +21,7 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
 .. _Biocontainers: https://biocontainer-doc.readthedocs.io/en/latest/
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    FAQs
    Compilers
