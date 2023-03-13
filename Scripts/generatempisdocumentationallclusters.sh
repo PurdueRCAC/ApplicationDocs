@@ -200,7 +200,7 @@ SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
 for eachfolder in ${subfoldersarray[@]}
 do
-    if [ "$eachfolder" != "Scripts/" ] && [ "$eachfolder" != "images/" ] && [ "$eachfolder" != "Clusters/" ]; then
+    if [ "$eachfolder" != "Scripts/" ] && [ "$eachfolder" != "images/" ] && [ "$eachfolder" != "Clusters/" ] && [ "$eachfolder" != "Applications/" ]; then
         echo "each folder : $eachfolder"
         echo ".. toctree::" >> $indexfile
         eachfolderwithspaces="${eachfolder//_/ }"
@@ -217,6 +217,75 @@ do
             echo "   $eachfolder""$eachfile" >> $indexfile
         done
         echo "" >> $indexfile 
+    fi
+    if [ "$eachfolder" == "Applications/" ]; then
+        echo "each folder : $eachfolder"
+        echo ".. toctree::" >> $indexfile
+        eachfolderwithspaces="${eachfolder//_/ }"
+        echo "   :caption: "${eachfolderwithspaces::-1}"" >> $indexfile
+        echo "   :titlesonly:" >> $indexfile
+        echo "   " >> $indexfile
+        sourcefolder="$repo_path/$eachfolder"
+
+        echo "source folder : $sourcefolder"
+
+        # Application_category.tsv processing
+        cut -f 2 Application_category.tsv > listofcategories.txt
+        sort listofcategories.txt > listofcategories2.txt
+        uniq listofcategories2.txt > listofcategories.txt
+        rm listofcategories2.txt
+        
+        readarray -t listofcategories < listofcategories.txt # Get the sorted list of all categories
+        rm listofcategories.txt
+        sort -t$'\t' -k2 Application_category.tsv > sortedentries.txt
+        
+        readarray -t sortedentries < sortedentries.txt # Get the sorted list of all entries in tsv
+        rm sortedentries.txt
+        
+        for eachcategory in ${listofcategories[@]} # Loop through each category
+        do
+            # echo "each category : $eachcategory"
+            echo -n "   $eachcategory" >> $indexfile
+            truncate -s -1 $indexfile
+            echo : >> $indexfile
+            for eachsortedentry in ${sortedentries[@]} # Loop through each entry
+            do
+                # echo "each sorted entry : $eachsortedentry"
+                firstentry=$(echo $eachsortedentry | awk '{print $1}')
+                secondentry=$(echo $eachsortedentry | awk '{print $2}')
+
+                if [[ $eachcategory == $secondentry* ]]; then # Check if entry belongs to this category
+                    echo "      $eachfolder""$firstentry" >> $indexfile
+                    echo "      $eachfolder""$firstentry" >> finishedfiles.txt
+                fi
+                
+            done
+            echo "" >> $indexfile
+        done
+        filenamesarray=`ls "$sourcefolder"` # Get the list of all files in source folder
+        for eachfile in $filenamesarray
+        do
+            eachfile=${eachfile::-4}
+            echo "      $eachfolder""$eachfile" >> filesinsourcefolder.txt
+        done
+
+        # Processing to find all files that are in source folder but not in Application_category.tsv
+        sort filesinsourcefolder.txt > sortedfilesinsourcefolder.txt
+        rm filesinsourcefolder.txt
+        sort finishedfiles.txt > sortedfinishedfiles.txt
+        rm finishedfiles.txt
+        diff sortedfinishedfiles.txt sortedfilesinsourcefolder.txt | grep ">" > tempfile.txt
+        awk 'NF{ print $NF }' tempfile.txt > listofmissingapplications.txt
+        readarray -t listofmissingapplications < listofmissingapplications.txt # List all files that are in source folder but not in Application_category.tsv
+        rm tempfile.txt
+        rm sortedfinishedfiles.txt
+        rm sortedfilesinsourcefolder.txt
+        rm listofmissingapplications.txt
+        
+        for filename in ${listofmissingapplications[@]}; do # Adding missing files to index
+            echo "   $filename" >> $indexfile
+        done
+        echo "" >> $indexfile
     fi
 done
 IFS=$SAVEIFS
