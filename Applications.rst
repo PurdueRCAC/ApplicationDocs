@@ -1,7 +1,18 @@
 Applications
 ==============================================
+AMD
+---------------------------------
+.. toctree::
+   :titlesonly:
 
-Audio
+   Applications/amdblis
+   Applications/amdfftw
+   Applications/amdlibflame
+   Applications/amdlibm
+   Applications/amdscalapack
+   Applications/aocl
+
+Audio/Visualization
 ---------------------------------
 .. toctree::
    :titlesonly:
@@ -47,7 +58,7 @@ Climate
 ---------------------------------
 .. toctree::
    :titlesonly:
-   
+
    Applications/cdo
    Applications/cplex
    Applications/ncl
@@ -281,4 +292,5 @@ Workflow automation
 
    Applications/hyper-shell
    Applications/parallel
+
 

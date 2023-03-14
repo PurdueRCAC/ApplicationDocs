@@ -2,7 +2,7 @@ AMD ROCm containers
 ==============================================
 .. toctree::
    :titlesonly:
-   
+
    ROCm/cp2k
    ROCm/deepspeed
    ROCm/gromacs

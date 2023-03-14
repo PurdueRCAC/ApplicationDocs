@@ -2,7 +2,7 @@ FAQs
 ==============================================
 .. toctree::
    :titlesonly:
- 
+
    FAQs/AMDgpu
    FAQs/GPUconstraints
    FAQs/hypershell
