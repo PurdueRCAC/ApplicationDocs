@@ -198,15 +198,29 @@ sed -i '/.. toctree::/,$d' $indexfile
 
 SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
+
+echo ".. toctree::" >> $indexfile
+echo "   :maxdepth: 2" >> $indexfile
+echo "" >> $indexfile
+
 for eachfolder in ${subfoldersarray[@]}
 do
     if [ "$eachfolder" != "Scripts/" ] && [ "$eachfolder" != "images/" ] && [ "$eachfolder" != "Clusters/" ] && [ "$eachfolder" != "Applications/" ]; then
         echo "each folder : $eachfolder"
-        echo ".. toctree::" >> $indexfile
         eachfolderwithspaces="${eachfolder//_/ }"
-        echo "   :caption: "${eachfolderwithspaces::-1}"" >> $indexfile
-        echo "   :titlesonly:" >> $indexfile
-        echo "   " >> $indexfile
+        echo "   "${eachfolderwithspaces::-1} >> $indexfile
+        subindexfile=${eachfolderwithspaces::-1}.rst
+        if [ "$eachfolder" == "NGC/" ]; then
+            echo "NVIDIA NGC containers" > $subindexfile
+        elif [ "$eachfolder" == "ROCm/" ]; then
+            echo "AMD ROCm containers" > $subindexfile
+        else
+            echo ${eachfolderwithspaces::-1} > $subindexfile
+        fi
+        echo "==============================================" >> $subindexfile
+        echo ".. toctree::" >> $subindexfile
+        echo "   :titlesonly:" >> $subindexfile
+        echo "" >> $subindexfile
         sourcefolder="$repo_path/$eachfolder"
 
         echo "source folder : $sourcefolder"
@@ -214,21 +228,21 @@ do
         for eachfile in $filenamesarray
         do
             eachfile=${eachfile::-4}
-            echo "   $eachfolder""$eachfile" >> $indexfile
-        done
-        echo "" >> $indexfile 
+            echo "   $eachfolder""$eachfile" >> $subindexfile
+        done 
     fi
     if [ "$eachfolder" == "Applications/" ]; then
         echo "each folder : $eachfolder"
-        echo ".. toctree::" >> $indexfile
         eachfolderwithspaces="${eachfolder//_/ }"
-        echo "   :caption: "${eachfolderwithspaces::-1}"" >> $indexfile
-        echo "   :titlesonly:" >> $indexfile
-        echo "   " >> $indexfile
+        echo "   "${eachfolderwithspaces::-1} >> $indexfile
+        subindexfile=${eachfolderwithspaces::-1}.rst
+        echo ${eachfolderwithspaces::-1} > $subindexfile
+        echo "==============================================" >> $subindexfile
+
         sourcefolder="$repo_path/$eachfolder"
 
         echo "source folder : $sourcefolder"
-
+        
         # Application_category.tsv processing
         cut -f 2 Application_category.tsv > listofcategories.txt
         sort listofcategories.txt > listofcategories2.txt
@@ -245,9 +259,11 @@ do
         for eachcategory in ${listofcategories[@]} # Loop through each category
         do
             # echo "each category : $eachcategory"
-            echo -n "   $eachcategory" >> $indexfile
-            truncate -s -1 $indexfile
-            echo : >> $indexfile
+            echo $eachcategory >> $subindexfile
+            echo "---------------------------------" >> $subindexfile
+            echo ".. toctree::" >> $subindexfile
+            echo "   :titlesonly:" >> $subindexfile
+            echo "" >> $subindexfile
             for eachsortedentry in ${sortedentries[@]} # Loop through each entry
             do
                 # echo "each sorted entry : $eachsortedentry"
@@ -255,12 +271,12 @@ do
                 secondentry=$(echo $eachsortedentry | awk '{print $2}')
 
                 if [[ $eachcategory == $secondentry* ]]; then # Check if entry belongs to this category
-                    echo "      $eachfolder""$firstentry" >> $indexfile
+                    echo "   $eachfolder""$firstentry" >> $subindexfile
                     echo "      $eachfolder""$firstentry" >> finishedfiles.txt
                 fi
                 
             done
-            echo "" >> $indexfile
+            echo "" >> $subindexfile
         done
         filenamesarray=`ls "$sourcefolder"` # Get the list of all files in source folder
         for eachfile in $filenamesarray
@@ -282,10 +298,10 @@ do
         rm sortedfilesinsourcefolder.txt
         rm listofmissingapplications.txt
         
+        echo "" >> $subindexfile
         for filename in ${listofmissingapplications[@]}; do # Adding missing files to index
-            echo "   $filename" >> $indexfile
+            echo "$filename" >> $subindexfile
         done
-        echo "" >> $indexfile
     fi
 done
 IFS=$SAVEIFS
