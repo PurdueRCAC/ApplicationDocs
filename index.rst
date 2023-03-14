@@ -27,6 +27,7 @@ This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AM
    Compilers
    MPIs
    Applications
+   Utilities
    NGC
    ROCm
-   Utilities
+   
