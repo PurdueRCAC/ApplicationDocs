@@ -8,8 +8,7 @@ Scientific Applications on Purdue RCAC Clusters and ACCESS Anvil
 |Anvil| |Negishi|
 
 
-This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AMD ROCm containers deployed on Rosen Center for Advanced Computing (`RCAC`_) clusters (`Negishi`_, `Bell`_, `Gilbreth`_, `Brown`_, `Scholar`_, and `Workbench`_) and ACCESS `Anvil`_. If you want to know what bioinformatics applications are deployed on clusters, please check our `Biocontainers`_ documentation. 
-
+This is the list of Applications, Compilers, MPIs, NVIDIA NGC containers, and AMD ROCm containers deployed on Rosen Center for Advanced Computing (`RCAC`_) clusters (`Negishi`_, `Bell`_, `Gilbreth`_, `Brown`_, `Scholar`_, and `Workbench`_) and ACCESS `Anvil`_.
 .. _Negishi: https://www.rcac.purdue.edu/compute/negishi
 .. _Bell: https://www.rcac.purdue.edu/compute/bell
 .. _Brown: https://www.rcac.purdue.edu/compute/brown
