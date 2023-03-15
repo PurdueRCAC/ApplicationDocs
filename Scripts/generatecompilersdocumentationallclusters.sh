@@ -187,9 +187,10 @@ declare -a subfoldersarray=(
 [1]=Compilers/
 [2]=MPIs/
 [3]=Applications/
-[4]=NGC/
-[5]=ROCm/
-[6]=Utilities/
+[4]=Utilities/
+[5]=Biocontainers/
+[6]=NGC/
+[7]=ROCm/
 )
 
 sed -i '/.. toctree::/,$d' $indexfile
@@ -203,7 +204,7 @@ echo "" >> $indexfile
 
 for eachfolder in ${subfoldersarray[@]}
 do
-    if [ "$eachfolder" != "Scripts/" ] && [ "$eachfolder" != "images/" ] && [ "$eachfolder" != "Clusters/" ] && [ "$eachfolder" != "Applications/" ]; then
+    if [ "$eachfolder" != "Scripts/" ] && [ "$eachfolder" != "images/" ] && [ "$eachfolder" != "Clusters/" ] && [ "$eachfolder" != "Applications/" ] && [ "$eachfolder" != "Biocontainers/" ]; then
         echo "each folder : $eachfolder"
         eachfolderwithspaces="${eachfolder//_/ }"
         echo "   "${eachfolderwithspaces::-1} >> $indexfile
@@ -229,6 +230,29 @@ do
             echo "   $eachfolder""$eachfile" >> $subindexfile
         done 
     fi
+
+    if [ "$eachfolder" == "Biocontainers/" ]; then
+        svn --force -q export https://github.com/PurdueRCAC/Biocontainers/trunk/docs/source
+        rm -r Biocontainers
+        mv -f source Biocontainers
+        echo "each folder : $eachfolder"
+        eachfolderwithspaces="${eachfolder//_/ }"
+        echo "   "${eachfolderwithspaces::-1} >> $indexfile
+        subindexfile=${eachfolderwithspaces::-1}.rst
+        echo ${eachfolderwithspaces::-1} > $subindexfile
+        echo "==============================================" >> $subindexfile
+        echo ".. toctree::" >> $subindexfile
+        echo "   :titlesonly:" >> $subindexfile
+        echo "" >> $subindexfile
+        sourcefolder="$repo_path/$eachfolder"
+        echo "source folder : $sourcefolder"
+        foldernamesarray=`ls "$sourcefolder"`
+        for eachfile in $foldernamesarray
+        do
+            echo "   $eachfolder""$eachfile"/"$eachfile" >> $subindexfile
+        done
+    fi
+    
     if [ "$eachfolder" == "Applications/" ]; then
         echo "each folder : $eachfolder"
         eachfolderwithspaces="${eachfolder//_/ }"
