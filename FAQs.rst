@@ -9,4 +9,5 @@ FAQs
    FAQs/julia_package
    FAQs/jupyter_kernels
    FAQs/MPI
+   FAQs/ncdu
    FAQs/R
