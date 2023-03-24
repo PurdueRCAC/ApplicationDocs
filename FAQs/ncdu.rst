@@ -1,6 +1,8 @@
 Disk quota exhausted
 ============================================
-On RCAC clusters, each user's ``$HOME`` only has a quota of 25GB. ``$HOME`` is the ideal place to store important scripts, exectuables, but it should not be used to run jobs and store data of large size. If the quota of ``$HOME`` is exhausted, it will have a big affect and users can even not submit or run jobs. 
+On RCAC clusters, each user's ``$HOME`` only has a quota of 25GB. ``$HOME`` is the ideal place to store important scripts, exectuables, but it should not be used to run jobs and store data of large size. If the quota of ``$HOME`` is exhausted, it will have a big affect and users even cannot submit or run jobs. 
+
+
 ncdu
 ~~~~~
 RCAC has deployed a nice and easy tool called ``ncdu`` to help users check sizes of files and subdirectories in a specific directory. For example, if users want to check which files/folders occpuy how much disk quota of ``$HOME``, you can easily run ``ncdu`` like this::
