@@ -3,7 +3,7 @@
 git
 ==============================
 
-Availibility
+Availability
 ~~~~~~~~
 - Brown
 - Scholar

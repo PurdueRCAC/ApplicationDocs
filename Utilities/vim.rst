@@ -3,7 +3,7 @@
 vim
 ==============================
 
-Availibility
+Availability
 ~~~~~~~~
 - Brown
 - Scholar

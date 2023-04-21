@@ -5,7 +5,7 @@ MAKER
 
 Introduction
 ~~~~~~~
-``MAKER`` is a popular genome annotation pipeline for both prokaryotic and eukaryotic genomes. This guide describes best practices for running MAKER on RCAC clusters. For detailed information about MAKER, see its offical website (http://weatherby.genetics.utah.edu/MAKER/wiki/index.php/MAKER_Tutorial_for_WGS_Assembly_and_Annotation_Winter_School_2018).
+``MAKER`` is a popular genome annotation pipeline for both prokaryotic and eukaryotic genomes. This guide describes best practices for running MAKER on RCAC clusters. For detailed information about MAKER, see its official website (http://weatherby.genetics.utah.edu/MAKER/wiki/index.php/MAKER_Tutorial_for_WGS_Assembly_and_Annotation_Winter_School_2018).
 
 Versions
 ~~~~~~~~
@@ -54,7 +54,7 @@ You can load the modules by::
 
 Prerequisites
 ~~~~~~
-1. After loading MAKER modules, users can create MAKER control files by the folowing comand::
+1. After loading MAKER modules, users can create MAKER control files by the following comand::
 
     maker -CTL
     
