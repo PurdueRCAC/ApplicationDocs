@@ -31,7 +31,7 @@ You can load the modules by::
 Download database
 ~~~~~~~  
 .. note::
-    There is a known bug in ``rsync_from_ncbi.pl`` (https://github.com/DerrickWood/kraken2/issues/292). When users want to download and build databases by ``kraken2-build --download-library``, there will an error ``rsync_from_ncbi.pl: unexpected FTP path(new server?)``. We modifed ``rsync_from_ncbi.pl`` to fix the bug, and created a new module ending with the suffix ``_fixftp``. Please use this corrected module to download the library.
+    There is a known bug in ``rsync_from_ncbi.pl`` (https://github.com/DerrickWood/kraken2/issues/292). When users want to download and build databases by ``kraken2-build --download-library``, there will an error ``rsync_from_ncbi.pl: unexpected FTP path(new server?)``. We modified ``rsync_from_ncbi.pl`` to fix the bug, and created a new module ending with the suffix ``_fixftp``. Please use this corrected module to download the library.
  
 To download databases, please use the below command::
 
