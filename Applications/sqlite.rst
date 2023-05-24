@@ -14,6 +14,7 @@ Versions
 - Scholar: 3.30.1
 - Gilbreth: 3.30.1
 - Workbench: 3.30.1
+- Negishi: 3.39.4
 
 Module
 ~~~~~~~~

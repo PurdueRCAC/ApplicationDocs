@@ -9,7 +9,7 @@ Abaqus is a software suite for Finite Element Analysis (FEA) developed by Dassau
 
 Versions
 ~~~~~~~~
-- Bell: 2019, 2020, 2021, 2022
+- Bell: 2019, 2020, 2021, 2022, 2023
 - Brown: 6.14-6, 2017, 2018, 2019, 2020, 2021, 2022
 - Scholar: 6.14-6, 2017, 2018, 2019, 2020, 2021, 2022
 - Gilbreth: 2017, 2018, 2019, 2020, 2021, 2022

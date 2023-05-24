@@ -11,6 +11,7 @@ Description
 Versions
 ~~~~~~~~
 - Anvil: 3.1.4
+- Negishi: 3.3.3
 
 Module
 ~~~~~~~~

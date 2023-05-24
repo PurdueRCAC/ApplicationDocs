@@ -10,6 +10,7 @@ The Vienna Ab initio Simulation Package VASP is a computer program for atomic sc
 Versions
 ~~~~~~~~
 - Anvil: 5.4.4.pl2, 6.3.0
+- Negishi: 5.4.4.pl2, 6.4.1
 
 Module
 ~~~~~~~~

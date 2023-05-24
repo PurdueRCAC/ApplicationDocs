@@ -11,6 +11,7 @@ Versions
 ~~~~~~~~
 - Negishi: 20220522
 - Anvil: 20200822
+- Bell: 20220522
 
 Module
 ~~~~~~~~

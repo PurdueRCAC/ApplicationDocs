@@ -14,7 +14,7 @@ Versions
 - Scholar: 18.2, 2019R3, 2020R1, 2021R2, 2022R1
 - Gilbreth: 19.2, 2019R3, 2020R1, 2021R2, 2022R1
 - Workbench: 18.2, 2019R3, 2020R1, 2021R2, 2022R1
-- Negishi: 2022R2
+- Negishi: 2022R2, 2023R1
 
 Module
 ~~~~~~~~

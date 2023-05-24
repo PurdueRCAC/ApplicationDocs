@@ -14,6 +14,7 @@ Versions
 - Scholar: 360-2017-R3
 - Gilbreth: 360-2017-R3
 - Workbench: 360-2017-R3
+- Negishi: 360-2022-R2
 
 Module
 ~~~~~~~~

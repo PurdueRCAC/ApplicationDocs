@@ -9,11 +9,11 @@ Stata is a complete, integrated software package that provides all your data sci
 
 Versions
 ~~~~~~~~
-- Bell: 17
+- Bell: 18
 - Brown: 17
 - Scholar: 17
 - Gilbreth: 17
-- Workbench: 16, 17
+- Workbench: 18
 
 Module
 ~~~~~~~~

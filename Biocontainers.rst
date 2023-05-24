@@ -30,6 +30,7 @@ Biocontainers
    Biocontainers/anvio/anvio
    Biocontainers/any2fasta/any2fasta
    Biocontainers/arcs/arcs
+   Biocontainers/ascatngs/ascatngs
    Biocontainers/asgal/asgal
    Biocontainers/assembly-stats/assembly-stats
    Biocontainers/atac-seq-pipeline/atac-seq-pipeline
@@ -120,12 +121,14 @@ Biocontainers
    Biocontainers/control-freec/control-freec
    Biocontainers/cooler/cooler
    Biocontainers/coverm/coverm
+   Biocontainers/covgen/covgen
    Biocontainers/cramino/cramino
    Biocontainers/crisprcasfinder/crisprcasfinder
    Biocontainers/crispresso2/crispresso2
    Biocontainers/crispritz/crispritz
    Biocontainers/crossmap/crossmap
    Biocontainers/cross_match/cross_match
+   Biocontainers/csvkit/csvkit
    Biocontainers/csvtk/csvtk
    Biocontainers/cufflinks/cufflinks
    Biocontainers/cutadapt/cutadapt
@@ -169,6 +172,7 @@ Biocontainers
    Biocontainers/fastx_toolkit/fastx_toolkit
    Biocontainers/filtlong/filtlong
    Biocontainers/flye/flye
+   Biocontainers/fq/fq
    Biocontainers/fraggenescan/fraggenescan
    Biocontainers/fraggenescanrs/fraggenescanrs
    Biocontainers/freebayes/freebayes
@@ -181,6 +185,7 @@ Biocontainers
    Biocontainers/gamma/gamma
    Biocontainers/gangstr/gangstr
    Biocontainers/gapfiller/gapfiller
+   Biocontainers/gapit/gapit
    Biocontainers/gatk/gatk
    Biocontainers/gatk4/gatk4
    Biocontainers/gemma/gemma
@@ -193,6 +198,7 @@ Biocontainers
    Biocontainers/genomescope2/genomescope2
    Biocontainers/genomicconsensus/genomicconsensus
    Biocontainers/genrich/genrich
+   Biocontainers/getorganelle/getorganelle
    Biocontainers/gfaffix/gfaffix
    Biocontainers/gfastats/gfastats
    Biocontainers/gfatools/gfatools
@@ -221,6 +227,7 @@ Biocontainers
    Biocontainers/hisat2/hisat2
    Biocontainers/hmmer/hmmer
    Biocontainers/homer/homer
+   Biocontainers/homopolish/homopolish
    Biocontainers/how_are_we_stranded_here/how_are_we_stranded_here
    Biocontainers/htseq/htseq
    Biocontainers/htslib/htslib
@@ -235,6 +242,7 @@ Biocontainers
    Biocontainers/intarna/intarna
    Biocontainers/interproscan/interproscan
    Biocontainers/iqtree/iqtree
+   Biocontainers/ismapper/ismapper
    Biocontainers/isoquant/isoquant
    Biocontainers/isoseq3/isoseq3
    Biocontainers/ivar/ivar
@@ -342,7 +350,9 @@ Biocontainers
    Biocontainers/neusomatic/neusomatic
    Biocontainers/nextalign/nextalign
    Biocontainers/nextclade/nextclade
+   Biocontainers/nextdenovo/nextdenovo
    Biocontainers/nextflow/nextflow
+   Biocontainers/nextpolish/nextpolish
    Biocontainers/ngs-bits/ngs-bits
    Biocontainers/ngsld/ngsld
    Biocontainers/ngsutils/ngsutils
@@ -358,7 +368,9 @@ Biocontainers
    Biocontainers/parallel-fastq-dump/parallel-fastq-dump
    Biocontainers/parliament2/parliament2
    Biocontainers/parsnp/parsnp
+   Biocontainers/pasapipeline/pasapipeline
    Biocontainers/pasta/pasta
+   Biocontainers/pblat/pblat
    Biocontainers/pbmm2/pbmm2
    Biocontainers/pbptyper/pbptyper
    Biocontainers/pcangsd/pcangsd
@@ -371,6 +383,7 @@ Biocontainers
    Biocontainers/phipack/phipack
    Biocontainers/phrap/phrap
    Biocontainers/phred/phred
+   Biocontainers/phylofisher/phylofisher
    Biocontainers/phylosuite/phylosuite
    Biocontainers/picard/picard
    Biocontainers/picrust2/picrust2
@@ -466,6 +479,7 @@ Biocontainers
    Biocontainers/seqkit/seqkit
    Biocontainers/seqyclean/seqyclean
    Biocontainers/shapeit4/shapeit4
+   Biocontainers/shapeit5/shapeit5
    Biocontainers/shasta/shasta
    Biocontainers/shigeifinder/shigeifinder
    Biocontainers/shorah/shorah
@@ -547,6 +561,7 @@ Biocontainers
    Biocontainers/trust4/trust4
    Biocontainers/trycycler/trycycler
    Biocontainers/ucsc_genome_toolkit/ucsc_genome_toolkit
+   Biocontainers/umi_tools/umi_tools
    Biocontainers/unicycler/unicycler
    Biocontainers/usefulaf/usefulaf
    Biocontainers/vadr/vadr

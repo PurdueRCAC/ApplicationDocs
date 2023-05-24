@@ -15,6 +15,7 @@ Versions
 - Gilbreth: 5.12.5
 - Anvil: 5.15.2
 - Workbench: 5.12.5
+- Negishi: 5.15.2
 
 Module
 ~~~~~~~~

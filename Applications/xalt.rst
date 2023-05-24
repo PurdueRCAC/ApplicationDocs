@@ -9,6 +9,7 @@ Versions
 - Brown: 1.1.2
 - Scholar: 1.1.2, 2.7.1
 - Gilbreth: 1.1.2
+- Anvil: 2.10.45
 
 Module
 ~~~~~~~~

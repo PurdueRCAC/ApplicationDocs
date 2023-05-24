@@ -11,6 +11,7 @@ Versions
 ~~~~~~~~
 - Bell: 2019b, 2020a, 2021b
 - Brown: 2019b, 2020a, 2021a, 2021b
+- Negishi: 2022b
 
 Module
 ~~~~~~~~

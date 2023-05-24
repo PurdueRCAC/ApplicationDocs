@@ -294,3 +294,16 @@ Workflow automation
    Applications/parallel
 
 
+Applications/grace
+Applications/imagemagick
+Applications/libxp
+Applications/libxscrnsaver
+Applications/libxslt
+Applications/mesa-glu
+Applications/motif
+Applications/nextflow
+Applications/nf-core
+Applications/xcb-util-image
+Applications/xcb-util-keysyms
+Applications/xcb-util-renderutil
+Applications/xcb-util-wm
