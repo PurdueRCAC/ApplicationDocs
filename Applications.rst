@@ -46,6 +46,7 @@ Bioinformatics
    Applications/gatk
    Applications/htseq
    Applications/mrbayes
+   Applications/nf-core
    Applications/perl-bioperl
    Applications/picard
    Applications/samtools
@@ -136,6 +137,10 @@ Libraries
    Applications/libv8
    Applications/libx11
    Applications/libxml2
+   Applications/libxp
+   Applications/libxscrnsaver
+   Applications/libxslt
+   Applications/mesa-glu
    Applications/mpfr
    Applications/netcdf-c
    Applications/netcdf-cxx4
@@ -151,6 +156,10 @@ Libraries
    Applications/ucx
    Applications/udunits2
    Applications/udunits
+   Applications/xcb-util-image
+   Applications/xcb-util-keysyms
+   Applications/xcb-util-renderutil
+   Applications/xcb-util-wm
    Applications/zlib
    Applications/zstd
 
@@ -260,14 +269,17 @@ Tools/Utilities
    Applications/emacs
    Applications/gdb
    Applications/gpaw
+   Applications/grace
    Applications/hadoop
    Applications/hpctoolkit
    Applications/hspice
    Applications/hwloc
+   Applications/imagemagick
    Applications/jupyterhub
    Applications/jupyter
    Applications/launcher
    Applications/monitor
+   Applications/motif
    Applications/mpc
    Applications/ncview
    Applications/numactl
@@ -291,19 +303,7 @@ Workflow automation
    :titlesonly:
 
    Applications/hyper-shell
+   Applications/nextflow
    Applications/parallel
 
 
-Applications/grace
-Applications/imagemagick
-Applications/libxp
-Applications/libxscrnsaver
-Applications/libxslt
-Applications/mesa-glu
-Applications/motif
-Applications/nextflow
-Applications/nf-core
-Applications/xcb-util-image
-Applications/xcb-util-keysyms
-Applications/xcb-util-renderutil
-Applications/xcb-util-wm

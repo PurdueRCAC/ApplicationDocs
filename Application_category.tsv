@@ -56,6 +56,7 @@ gmp	Libraries
 gmt	Audio/Visualization
 gnuplot	Audio/Visualization
 gpaw	Tools/Utilities
+grace	Tools/Utilities
 grads	Geospatial tools
 gromacs	Computational chemistry
 gsl	Libraries
@@ -71,6 +72,7 @@ hwloc	Tools/Utilities
 hyper-shell	Workflow automation
 hypre	Mathematical/Statistics
 idl	Programming languages
+imagemagick	Tools/Utilities
 intel-mkl	Libraries
 intel-oneapi-mkl	Libraries
 intel-oneapi-tbb	Libraries
@@ -90,11 +92,16 @@ libtiff	Libraries
 libv8	Libraries
 libx11	Libraries
 libxml2	Libraries
+libxp	Libraries
+libxscrnsaver	Libraries
+libxslt	Libraries
 mathematica	Mathematical/Statistics
 matlab	Mathematical/Statistics
 meep	Mathematical/Statistics
+mesa-glu	Libraries
 modtree	System
 monitor	Tools/Utilities
+motif	Tools/Utilities
 mpc	Tools/Utilities
 mpfr	Libraries
 mrbayes	Bioinformatics
@@ -109,6 +116,8 @@ netcdf-cxx4	Libraries
 netcdf-fortran	Libraries
 netcdf	Libraries
 netlib-lapack	Libraries
+nextflow	Workflow automation
+nf-core	Bioinformatics
 numactl	Tools/Utilities
 nvhpc	NVIDIA
 nwchem	Computational chemistry
@@ -175,5 +184,9 @@ vscode	Text Editors
 vtk	Audio/Visualization
 wannier90	Computational chemistry
 xalt	System
+xcb-util-image	Libraries
+xcb-util-keysyms	Libraries
+xcb-util-renderutil	Libraries
+xcb-util-wm	Libraries
 zlib	Libraries
 zstd	Libraries
