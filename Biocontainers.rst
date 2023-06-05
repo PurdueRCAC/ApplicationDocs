@@ -49,6 +49,7 @@ Biocontainers
    Biocontainers/bamutil/bamutil
    Biocontainers/barrnap/barrnap
    Biocontainers/basenji/basenji
+   Biocontainers/bayescan/bayescan
    Biocontainers/bazam/bazam
    Biocontainers/bbmap/bbmap
    Biocontainers/bbtools/bbtools
