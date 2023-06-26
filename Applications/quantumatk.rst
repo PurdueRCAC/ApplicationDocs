@@ -7,6 +7,7 @@ Versions
 ~~~~~~~~
 - Bell: 2020.09
 - Brown: 2020.09
+- Negishi: 2020.09
 
 Module
 ~~~~~~~~

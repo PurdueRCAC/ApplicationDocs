@@ -146,6 +146,7 @@ Biocontainers
    Biocontainers/delly/delly
    Biocontainers/dendropy/dendropy
    Biocontainers/diamond/diamond
+   Biocontainers/dnaapler/dnaapler
    Biocontainers/dnaio/dnaio
    Biocontainers/dragonflye/dragonflye
    Biocontainers/drep/drep
@@ -235,6 +236,7 @@ Biocontainers
    Biocontainers/htstream/htstream
    Biocontainers/humann/humann
    Biocontainers/hyphy/hyphy
+   Biocontainers/hypo/hypo
    Biocontainers/idba/idba
    Biocontainers/igv/igv
    Biocontainers/impute2/impute2
@@ -437,6 +439,7 @@ Biocontainers
    Biocontainers/raven-assembler/raven-assembler
    Biocontainers/raxml/raxml
    Biocontainers/raxml-ng/raxml-ng
+   Biocontainers/r-cellchat/r-cellchat
    Biocontainers/reapr/reapr
    Biocontainers/rebaler/rebaler
    Biocontainers/reciprocal_smallest_distance/reciprocal_smallest_distance

@@ -307,3 +307,5 @@ Workflow automation
    Applications/parallel
 
 
+Applications/cosmosscope
+Applications/jdk

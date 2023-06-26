@@ -1,20 +1,15 @@
 .. _backbone-label:
 
-parafly
+cosmosscope
 ==============================
-
-Description
-~~~~~~~~
-Run UNIX commands in parallel
 
 Versions
 ~~~~~~~~
-- Negishi: r2013
-- Anvil: r2013
+- Negishi: 2019.06
 
 Module
 ~~~~~~~~
 You can load the modules by::
 
-    module load parafly
+    module load cosmosscope
 

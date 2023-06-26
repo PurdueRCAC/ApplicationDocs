@@ -11,6 +11,7 @@ Versions
 ~~~~~~~~
 - Negishi: 22.10.1
 - Anvil: 22.10.1
+- Bell: 22.10.4
 
 Module
 ~~~~~~~~

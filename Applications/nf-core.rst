@@ -11,6 +11,7 @@ Versions
 ~~~~~~~~
 - Negishi: 2.7.2, 2.8
 - Anvil: 2.7.2, 2.8
+- Bell: 2.8
 
 Module
 ~~~~~~~~

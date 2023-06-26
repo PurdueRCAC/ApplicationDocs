@@ -10,6 +10,7 @@ Framework for running large collections of serial or multi-threaded applications
 Versions
 ~~~~~~~~
 - Negishi: 3.9
+- Anvil: 3.9
 
 Module
 ~~~~~~~~
