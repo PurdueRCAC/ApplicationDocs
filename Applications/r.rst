@@ -9,7 +9,7 @@ linear and nonlinear modelling, statistical tests, time series analysis, classif
 
 Versions
 ~~~~~~~~
-- Bell: 3.6.3, 4.0.0, 4.1.2, 4.2.2
+- Bell: 3.6.3, 4.0.0, 4.1.2, 4.2.2, 4.3.1
 - Brown: 3.6.1, 3.6.3, 4.0.0, 4.1.2, 4.2.2
 - Scholar: 3.6.1, 3.6.3, 4.0.0, 4.0.5, 4.1.2, 4.2.2
 - Gilbreth: 3.6.1, 3.6.3, 4.0.0, 4.1.2, 4.2.2, 4.3.1

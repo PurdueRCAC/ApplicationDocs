@@ -32,6 +32,7 @@ Biocontainers
    Biocontainers/arcs/arcs
    Biocontainers/ascatngs/ascatngs
    Biocontainers/asgal/asgal
+   Biocontainers/aspera-connect/aspera-connect
    Biocontainers/assembly-stats/assembly-stats
    Biocontainers/atac-seq-pipeline/atac-seq-pipeline
    Biocontainers/ataqv/ataqv
@@ -180,6 +181,7 @@ Biocontainers
    Biocontainers/freebayes/freebayes
    Biocontainers/freyja/freyja
    Biocontainers/fseq/fseq
+   Biocontainers/ftp/ftp
    Biocontainers/funannotate/funannotate
    Biocontainers/fwdpy11/fwdpy11
    Biocontainers/gadma/gadma
@@ -245,6 +247,7 @@ Biocontainers
    Biocontainers/intarna/intarna
    Biocontainers/interproscan/interproscan
    Biocontainers/iqtree/iqtree
+   Biocontainers/iqtree2/iqtree2
    Biocontainers/ismapper/ismapper
    Biocontainers/isoquant/isoquant
    Biocontainers/isoseq3/isoseq3
@@ -253,6 +256,7 @@ Biocontainers
    Biocontainers/kaiju/kaiju
    Biocontainers/kakscalculator2/kakscalculator2
    Biocontainers/kallisto/kallisto
+   Biocontainers/kentutils/kentutils
    Biocontainers/khmer/khmer
    Biocontainers/kissde/kissde
    Biocontainers/kissplice/kissplice
@@ -292,6 +296,7 @@ Biocontainers
    Biocontainers/maker/maker
    Biocontainers/manta/manta
    Biocontainers/mapcaller/mapcaller
+   Biocontainers/mapdamage2/mapdamage2
    Biocontainers/marginpolish/marginpolish
    Biocontainers/mash/mash
    Biocontainers/mashmap/mashmap

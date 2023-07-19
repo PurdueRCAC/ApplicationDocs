@@ -11,7 +11,7 @@ Versions
 ~~~~~~~~
 - Bell: 5.6.2
 - Brown: 5.9.1
-- Anvil: 5.9.1
+- Anvil: 5.9.1, 5.10.1
 - Negishi: 5.9.1
 
 Module

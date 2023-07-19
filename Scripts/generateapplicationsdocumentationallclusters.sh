@@ -931,7 +931,7 @@ do
         cut -f 2 Application_category.tsv > listofcategories.txt
         sort listofcategories.txt > listofcategories2.txt
         uniq listofcategories2.txt > listofcategories.txt
-        rm listofcategories2.txt
+#       rm listofcategories2.txt
         
         readarray -t listofcategories < listofcategories.txt # Get the sorted list of all categories
         rm listofcategories.txt

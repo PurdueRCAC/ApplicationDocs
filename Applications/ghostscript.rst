@@ -1,21 +1,19 @@
 .. _backbone-label:
 
-nextflow
+ghostscript
 ==============================
 
 Description
 ~~~~~~~~
-Data-driven computational pipelines.
+An interpreter for the PostScript language and for PDF.
 
 Versions
 ~~~~~~~~
-- Negishi: 22.10.1, 23.04.1
-- Anvil: 22.10.1
-- Bell: 22.10.4
+- Negishi: 9.56.1
 
 Module
 ~~~~~~~~
 You can load the modules by::
 
-    module load nextflow
+    module load ghostscript
 
