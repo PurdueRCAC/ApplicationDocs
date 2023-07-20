@@ -5,7 +5,7 @@ openjdk
 
 Description
 ~~~~~~~~
-The free and opensource java implementation
+The free and open-source java implementation
 
 Versions
 ~~~~~~~~

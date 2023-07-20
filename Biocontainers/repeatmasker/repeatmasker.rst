@@ -19,9 +19,9 @@ Commands
 Database
 ~~~~~  
 .. note::
-    As of May 20, 2019 GIRI has rescinded the working agreement allowing the www.repeatmasker.org website to offer a repeatmasking service utilizing the RepBase RepeatMasker Edition library. As a result, repeatmasker can only offer masking using the open database Dfam, which starting in 3.0 includes consensus sequences in addition to profile hidden Markov models for many transposable element families. Users requiring RepBase will need to purchase a commercial or academic license from GIRI and run RepeatMasker localy.   
+    As of May 20, 2019 GIRI has rescinded the working agreement allowing the www.repeatmasker.org website to offer a repeatmasking service utilizing the RepBase RepeatMasker Edition library. As a result, repeatmasker can only offer masking using the open database Dfam, which starting in 3.0 includes consensus sequences in addition to profile hidden Markov models for many transposable element families. Users requiring RepBase will need to purchase a commercial or academic license from GIRI and run RepeatMasker locally.   
     
-    In our cluster, we set up the Dfam relaese 3.5 (October 2021) that include 285,580 repetitive DNA families. 
+    In our cluster, we set up the Dfam release 3.5 (October 2021) that include 285,580 repetitive DNA families. 
 
 Species name
 ~~~~  

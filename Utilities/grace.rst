@@ -3,7 +3,7 @@
 grace
 ==============================
 
-Availibility
+Availability
 ~~~~~~~~
 - Brown
 

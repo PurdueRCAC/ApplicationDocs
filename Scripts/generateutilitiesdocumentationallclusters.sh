@@ -220,7 +220,7 @@ function generateLuaFilesWithoutSubfolders() {
                 echo "description not found"   
             fi
 
-            echo "Availibility" >> $outputfile
+            echo "Availability" >> $outputfile
             echo "~~~~~~~~" >> $outputfile
             echo -n "- $clustername" >> $outputfile
             echo "" >> $outputfile

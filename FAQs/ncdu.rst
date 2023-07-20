@@ -5,7 +5,7 @@ On RCAC clusters, each user's ``$HOME`` only has a quota of 25GB. ``$HOME`` is t
 
 ncdu
 ~~~~~
-RCAC has deployed a nice and easy tool called ``ncdu`` to help users check sizes of files and subdirectories in a specific directory. For example, if users want to check which files/folders occpuy how much disk quota of ``$HOME``, you can easily run ``ncdu`` like this::
+RCAC has deployed a nice and easy tool called ``ncdu`` to help users check sizes of files and subdirectories in a specific directory. For example, if users want to check which files/folders occupy how much disk quota of ``$HOME``, you can easily run ``ncdu`` like this::
 
         $ ncdu $HOME
 

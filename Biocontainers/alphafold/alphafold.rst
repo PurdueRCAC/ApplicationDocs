@@ -12,7 +12,7 @@ It also relies on a huge database. The full database (~2.2TB) has been downloade
 Protein struction prediction by alphafold is performed in the following steps:
 
 * Search the amino acid sequence in uniref90 database by jackhmmer (using CPU)
-* Search the amino acid sequence in  mgnify database by jackhmmer (using CPU)
+* Search the amino acid sequence in mgnify database by jackhmmer (using CPU)
 * Search the amino acid sequence in pdb70 database (for monomers) or pdb_seqres database (for multimers) by hhsearch (using CPU)
 * Search the amino acid sequence in bfd database and uniclust30 (updated to uniref30 since v2.3.0) database by hhblits (using CPU)
 * Search structure templates in pdb_mmcif database (using CPU)
@@ -45,7 +45,7 @@ The usage of Alphafold on our cluster is very straightford, users can create a f
 
    run_alphafold.sh --flagfile=full_db.ff --fasta_paths=XX --output_dir=XX ...
 
-Users can check its detaied user guide in its `Github`_. 
+Users can check its detailed user guide in its `Github`_. 
 
 full_db.ff 
 ~~~~~~~~~~~

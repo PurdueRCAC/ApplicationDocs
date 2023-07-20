@@ -5,7 +5,7 @@ Pomoxis
 
 Introduction
 ~~~~~~~~
-Pomoxis comprises a set of basic bioinformatic tools tailored to nanopore sequencing. Notably tools are included for generating and analysing draft assemblies. Many of these tools are used by the research data analysis group at Oxford Nanopore Technologies.
+Pomoxis comprises a set of basic bioinformatic tools tailored to nanopore sequencing. Notably tools are included for generating and analyzing draft assemblies. Many of these tools are used by the research data analysis group at Oxford Nanopore Technologies.
 
 
 | For more information, please check:
