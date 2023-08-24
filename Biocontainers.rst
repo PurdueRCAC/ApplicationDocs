@@ -30,6 +30,7 @@ Biocontainers
    Biocontainers/anvio/anvio
    Biocontainers/any2fasta/any2fasta
    Biocontainers/arcs/arcs
+   Biocontainers/ariba/ariba
    Biocontainers/ascatngs/ascatngs
    Biocontainers/asgal/asgal
    Biocontainers/aspera-connect/aspera-connect
@@ -138,6 +139,7 @@ Biocontainers
    Biocontainers/cyvcf2/cyvcf2
    Biocontainers/das_tool/das_tool
    Biocontainers/dbg2olc/dbg2olc
+   Biocontainers/debreak/debreak
    Biocontainers/deconseq/deconseq
    Biocontainers/deepbgc/deepbgc
    Biocontainers/deepconsensus/deepconsensus
@@ -364,6 +366,7 @@ Biocontainers
    Biocontainers/ngs-bits/ngs-bits
    Biocontainers/ngsld/ngsld
    Biocontainers/ngsutils/ngsutils
+   Biocontainers/odgi/odgi
    Biocontainers/orthofinder/orthofinder
    Biocontainers/paml/paml
    Biocontainers/panacota/panacota
@@ -371,6 +374,7 @@ Biocontainers
    Biocontainers/pandaseq/pandaseq
    Biocontainers/pandora/pandora
    Biocontainers/pangolin/pangolin
+   Biocontainers/pangraph/pangraph
    Biocontainers/panphlan/panphlan
    Biocontainers/parabricks/parabricks
    Biocontainers/parallel-fastq-dump/parallel-fastq-dump
@@ -385,6 +389,7 @@ Biocontainers
    Biocontainers/peakranger/peakranger
    Biocontainers/pepper_deepvariant/pepper_deepvariant
    Biocontainers/perl-bioperl/perl-bioperl
+   Biocontainers/pggb/pggb
    Biocontainers/phast/phast
    Biocontainers/phd2fasta/phd2fasta
    Biocontainers/phg/phg

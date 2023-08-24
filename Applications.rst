@@ -310,3 +310,4 @@ Workflow automation
 Applications/cosmosscope
 Applications/ghostscript
 Applications/jdk
+Applications/xz
