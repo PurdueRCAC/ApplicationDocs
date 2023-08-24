@@ -10,7 +10,7 @@ Introduction
 Detailed usage can be found here: https://github.com/jenniferlu717/Bracken
 
 .. note::
-  Inside the ``bracken`` container image, ``kraken2`` was also installed. As a result, when you load ``bracken/2.6.1-py37``, ``kraken version 2.1.1`` will be automatically loaded. Please do not load ``kraken2`` module together with ``bracken`` module to avaoid conflict. 
+  Inside the ``bracken`` container image, ``kraken2`` was also installed. As a result, when you load ``bracken/2.6.1-py37``, ``kraken version 2.1.1`` will be automatically loaded. Please do not load ``kraken2`` module together with ``bracken`` module to avoid conflict. 
 
 Versions
 ~~~~~~~~

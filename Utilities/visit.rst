@@ -3,7 +3,7 @@
 visit
 ==============================
 
-Availibility
+Availability
 ~~~~~~~~
 - Brown
 

@@ -3,7 +3,7 @@
 archivemount
 ==============================
 
-Availibility
+Availability
 ~~~~~~~~
 - Brown
 - Scholar

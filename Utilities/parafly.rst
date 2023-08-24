@@ -3,7 +3,7 @@
 parafly
 ==============================
 
-Availibility
+Availability
 ~~~~~~~~
 - Bell
 - Brown

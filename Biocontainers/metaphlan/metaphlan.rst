@@ -30,14 +30,14 @@ metaphlan
 
 Database  
 ~~~~~~
-The lastest version of database(mpa_v30) has been downloaded and built in ``/depot/itap/datasets/metaphlan/``.
+The latest version of database(mpa_v30) has been downloaded and built in ``/depot/itap/datasets/metaphlan/``.
 
 Module
 ~~~~~~~
 You can load the modules by::
 
     module load biocontainers
-    module load metaphlan/3.0.14  
+    module load metaphlan/3.0.14
 
 Example job
 ~~~~~~~

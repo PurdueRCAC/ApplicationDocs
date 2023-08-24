@@ -7,7 +7,7 @@ Description
 ~~~~~~~~
 system resource monitoring tool.
 
-Availibility
+Availability
 ~~~~~~~~
 - Bell
 - Brown

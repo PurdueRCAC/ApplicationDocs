@@ -5,7 +5,7 @@ Kissde
 
 Introduction
 ~~~~~~~~
-kissDE is a R package, similar to DEseq, but which works on pairs of variants, and tests if a variant is enriched in one condition. It has been developped to work easily with KisSplice output. It can also work with a simple table of counts obtained by any other means. It requires at least two replicates per condition and at least two conditions.
+kissDE is a R package, similar to DEseq, but which works on pairs of variants, and tests if a variant is enriched in one condition. It has been developed to work easily with KisSplice output. It can also work with a simple table of counts obtained by any other means. It requires at least two replicates per condition and at least two conditions.
 
 
 | For more information, please check:

@@ -3,7 +3,7 @@
 subversion
 ==============================
 
-Availibility
+Availability
 ~~~~~~~~
 - Brown
 - Scholar
